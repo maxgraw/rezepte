@@ -1,5 +1,8 @@
 {
     "title": "Delhi Pulled Pork",
+    "preparation": "30 Min.",
+    "cooking": "4 Std.",
+    "people": 4,
     "ingredients": [
         {
             "name": "Schweineschulter (ohne Knochen)",
@@ -16,20 +19,64 @@
         {
             "name": "Schalotten",
             "amount": "6"
+        },
+        {
+            "name": "Knoblauchzehen",
+            "amount": "2"
+        },
+        {
+            "name": "Ingwer",
+            "amount": "ca. 15g"
+        },
+        {
+            "name": "Tomatenmark",
+            "amount": "2 TL"
+        },
+        {
+            "name": "Zimptpulver",
+            "amount": "1/2 TL"
+        },
+        {
+            "name": "Anispulver",
+            "amount": "1/2 TL"
+        },
+        {
+            "name": "Chilipulver",
+            "amount": "1/2 TL"
+        },
+        {
+            "name": "gemahlener Kreuzkümmel",
+            "amount": "1 TL"
+        },
+        {
+            "name": "Weißweinessig",
+            "amount": "50ml"
+        },
+        {
+            "name": "Kokosmilch",
+            "amount": "100g"
+        },
+        {
+            "name": "Apfelsaft",
+            "amount": "200ml"
+        },
+        {
+            "name": "Pfeffer",
+            "amount": ""
         }
     ],
     "steps": [
         {
-            "content": "Backofen auf 145 Grad Umluft vorheizen"
+            "content": "Backofen auf 145 Grad Umluft vorheizen."
         },
         {
-            "content": "Fleisch abtupfen und mit etwas Salz einreiben"
+            "content": "Fleisch abtupfen und mit etwas Salz einreiben."
         },
         {
-            "content": "Rapsöl in einem ofenfesten Schmortopf erhitzen und Fleisch darin ca. 10 Minuten von allen Seiten braun anbraten"
+            "content": "Rapsöl in einem ofenfesten Schmortopf erhitzen und Fleisch darin ca. 10 Minuten von allen Seiten braun anbraten."
         },
         {
-            "content": "Das Fleisch wieder herausnehmen"
+            "content": "Das Fleisch wieder herausnehmen."
         }
     ]
 }

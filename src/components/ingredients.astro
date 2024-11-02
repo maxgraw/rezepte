@@ -1,0 +1,30 @@
+---
+interface Props {
+	data: {
+		amount?: string;
+		name: string;
+	}[];
+}
+
+const { data } = Astro.props;
+---
+
+<section>
+    <h2>Zutaten</h2>
+      <ul>
+        {data.map(ingredient => <div>
+          <span>{ingredient.amount}</span>
+          <span>{ingredient.name}</span>
+        </div>)}
+      </ul>
+</section>
+
+<style>
+  h2 {
+    font-size: var(--font-size-5);
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+</style>

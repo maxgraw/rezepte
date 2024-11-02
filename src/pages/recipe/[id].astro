@@ -1,7 +1,9 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 
 import BaseLayout from "@layouts/base_layout.astro";
+import Steps from "@components/steps.astro";
+import Ingredients from "@components/ingredients.astro";
 
 export async function getStaticPaths() {
 	const recipes = await getCollection("recipes");
@@ -14,18 +16,48 @@ export async function getStaticPaths() {
 const { recipe } = Astro.props;
 ---
 <BaseLayout title={recipe.data.title}>
-  <h1>{recipe.data.title}</h1>
-
-  <ul>
-    {recipe.data.ingredients.map(ingredient => <div>
-      <span>{ingredient.amount}</span>
-      <span>{ingredient.name}</span>
-    </div>)}
-  </ul>
-
-  <ul>
-    {recipe.data.steps.map(step => <div>
-     {step.content}
-    </div>)}
-  </ul>
+  <article>
+    <header>
+      <h1>{recipe.data.title}</h1>
+      <div class="info">
+        <span>Für {recipe.data.people} Personen</span>
+      </div>
+    </header>
+    <div class="content">
+      <Ingredients data={recipe.data.ingredients}/>
+      <Steps data={recipe.data.steps} />
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  h1 {
+    font-size: var(--font-size-6);
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-5);
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-fluid-5)
+  }
+
+  .content > :global(:first-child)  {
+    flex: 0 0 20rem;
+  }
+
+  .content > :global(:last-child)  {
+    flex: 1 1 30rem;
+  }
+</style>

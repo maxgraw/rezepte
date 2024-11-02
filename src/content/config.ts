@@ -6,6 +6,9 @@ const recipes = defineCollection({
 	loader: glob({ pattern: "**/*.json", base: "./src/data/recipes" }),
 	schema: z.object({
 		title: z.string(),
+		preparation: z.string(),
+		cooking: z.string(),
+		people: z.number(),
 		ingredients: z.array(
 			z.object({
 				name: z.string(),

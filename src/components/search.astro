@@ -1,0 +1,56 @@
+<script src="/pagefind/pagefind-modular-ui.js" is:inline></script>
+
+<form>
+  <div class="search">
+    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="search" />
+  </div>
+  <div id="results" />
+</form>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        // @ts-ignore
+        const instance = new PagefindModularUI.Instance();
+
+        // @ts-ignore
+        instance.add(new PagefindModularUI.Input({
+          inputElement: "#search"
+        }));
+        
+        // @ts-ignore
+        instance.add(new PagefindModularUI.ResultList({
+            containerElement: "#results"
+        }));
+    });
+</script>
+
+<style is:global>
+  form {
+    position: relative;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.35rem;
+    border: solid 1px;
+    padding-inline: 0.3rem;
+    border-radius: 0.25rem;
+  }
+
+  #search {
+    border: none;
+    width: 100%;
+    padding-block: 0.25rem;
+  }
+
+  #search:focus-within {
+    outline: none;
+  }
+
+  #results {
+    position: absolute;
+  }
+</style>

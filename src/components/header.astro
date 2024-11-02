@@ -1,0 +1,25 @@
+---
+import Search from "./search.astro";
+---
+<header>
+    <nav>
+        <Search  />
+    </nav>
+</header>
+
+<style>
+    header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: var(--size-fluid-2);
+        padding-block: var(--size-fluid-1);
+
+        margin-block-end: var(--size-fluid-2);
+    }
+
+    nav {
+        flex: 0.2;
+    }
+</style>

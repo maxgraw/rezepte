@@ -1,15 +1,24 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
-import BaseLayout from '../layouts/base_layout.astro';
+import BaseLayout from "../layouts/base_layout.astro";
+import Card from "@components/card.astro";
 
-const recipes = await getCollection('recipes');
+const recipes = await getCollection("recipes");
 ---
 
 <BaseLayout title="Rezepte">
 	<ul>
 		{recipes.map(recipe => (
-		  <li><a href={`/recipe/${recipe.id}`}>{recipe.data.title}</a></li>
+			<Card href={`/recipe/${recipe.id}`} title={recipe.data.title}/>
 		))}
 	  </ul>
 </BaseLayout>
+
+<style>
+	ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: var(--size-fluid-3);
+	}
+</style>
