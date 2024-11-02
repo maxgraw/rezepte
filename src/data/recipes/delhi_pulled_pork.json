@@ -1,0 +1,35 @@
+{
+    "title": "Delhi Pulled Pork",
+    "ingredients": [
+        {
+            "name": "Schweineschulter (ohne Knochen)",
+            "amount": "1kg"
+        },
+        {
+            "name": "Salz",
+            "amount": ""
+        },
+        {
+            "name": "Rapsöl",
+            "amount": "2 EL"
+        },
+        {
+            "name": "Schalotten",
+            "amount": "6"
+        }
+    ],
+    "steps": [
+        {
+            "content": "Backofen auf 145 Grad Umluft vorheizen"
+        },
+        {
+            "content": "Fleisch abtupfen und mit etwas Salz einreiben"
+        },
+        {
+            "content": "Rapsöl in einem ofenfesten Schmortopf erhitzen und Fleisch darin ca. 10 Minuten von allen Seiten braun anbraten"
+        },
+        {
+            "content": "Das Fleisch wieder herausnehmen"
+        }
+    ]
+}
