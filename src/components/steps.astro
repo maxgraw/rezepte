@@ -24,12 +24,41 @@ const { data } = Astro.props;
   </style>
 
 <style>
-    ol {
-        list-style: decimal;
-        list-style-position: inside;
+  section {
+    padding: var(--size-2);
+  }
 
-        display: flex;
-        flex-direction: column;
-        gap: var(--size-2);
+  ol {
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-2);
+
+      list-style: none;
+      counter-reset: li;
+  }
+
+  ol li {
+    counter-increment: li;
+  }
+
+  @supports (grid-template-columns: subgrid) {
+    ol {
+      display: grid;
+      grid-template-columns: min-content 1fr;
     }
+    ol li {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: subgrid;
+    }
+  }
+
+  ol li::before {
+    content: counter(li) ".";
+    margin-right: 0.2rem;
+  }
+
+  ol li::before {
+    text-align: end;
+  }
 </style>

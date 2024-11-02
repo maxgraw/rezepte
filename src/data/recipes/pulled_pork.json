@@ -1,5 +1,5 @@
 {
-    "title": "Delhi Pulled Pork",
+    "title": "Pulled Pork",
     "preparation": "30 Min.",
     "cooking": "4 Std.",
     "people": 4,
@@ -10,6 +10,10 @@
         },
         {
             "name": "Salz",
+            "amount": ""
+        },
+        {
+            "name": "Pfeffer",
             "amount": ""
         },
         {
@@ -26,7 +30,7 @@
         },
         {
             "name": "Ingwer",
-            "amount": "ca. 15g"
+            "amount": "15g"
         },
         {
             "name": "Tomatenmark",
@@ -59,10 +63,6 @@
         {
             "name": "Apfelsaft",
             "amount": "200ml"
-        },
-        {
-            "name": "Pfeffer",
-            "amount": ""
         }
     ],
     "steps": [
@@ -77,6 +77,30 @@
         },
         {
             "content": "Das Fleisch wieder herausnehmen."
+        },
+        {
+            "content": "Schalloten in grobe Stücke schneiden. Knoblauch und Ingwer fein hacken. Schalloten, Knoblauch und Ingwer im Schmortopf ca. 3 Min. anrösten."
+        },
+        {
+            "content": "Tomatenmark hinzugegen und ca. 1 Min. mit anrösten"
+        },
+        {
+            "content": "Zimtpulver, Anispulver, Chillipulver und Kreuzkümmel dazugeben"
+        },
+        {
+            "content": "Essig, Kokosmilch und Apfelsaft aufgießen"
+        },
+        {
+            "content": "Fleisch in den Topf geben"
+        },
+        {
+            "content": "Topf im Ofen für 3 Stunden mit Deckel garen"
+        },
+        {
+            "content": "Danach eine weitere Stunde ohne Deckel im Ofen garen"
+        },
+        {
+            "content": "Den Topf aus dem Ofen nehmen und das Fleisch mit zwei Gabeln zerteilen"
         }
     ]
 }

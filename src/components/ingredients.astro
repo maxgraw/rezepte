@@ -20,11 +20,21 @@ const { data } = Astro.props;
 </section>
 
 <style>
+
+  section {
+    background-color: var(--gray-1);
+    padding: var(--size-2);
+    border-radius: var(--radius-2);
+  }
+
   h2 {
     font-size: var(--font-size-5);
   }
 
   ul {
     list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-1);
   }
 </style>

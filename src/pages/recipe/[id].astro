@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 const { recipe } = Astro.props;
 ---
 <BaseLayout title={recipe.data.title}>
-  <article>
+  <article data-pagefind-body>
     <header>
       <h1>{recipe.data.title}</h1>
       <div class="info">
@@ -54,7 +54,7 @@ const { recipe } = Astro.props;
   }
 
   .content > :global(:first-child)  {
-    flex: 0 0 20rem;
+    flex: 1;
   }
 
   .content > :global(:last-child)  {
