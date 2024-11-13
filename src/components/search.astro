@@ -9,7 +9,7 @@
 </form>
 
 <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
+    window.addEventListener('DOMContentLoaded', () => {
         // @ts-ignore
         const instance = new PagefindModularUI.Instance({
           debounceTimeoutMs: 500,
@@ -38,15 +38,18 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0.35rem;
-    border: solid 1px;
-    padding-inline: 0.3rem;
+    border: solid 1px var(--gray-3);
+    padding-inline: var(--size-2);
     border-radius: var(--radius-2);
+    background-color: white;
   }
 
   #search {
     border: none;
     width: 100%;
     padding-block: 0.25rem;
+    font-size: var(--font-size-2);
+   
   }
 
   #search:focus-within {
@@ -64,6 +67,7 @@
     display: none;
     flex-direction: column;
     gap: var(--size-2);
+    z-index: 10;
   }
 
   #results:has(li) {
@@ -72,6 +76,7 @@
 
   li {
     list-style: none;
+    position: relative;
   }
 
   #results .pagefind-modular-list-title {
@@ -81,5 +86,11 @@
   #results .pagefind-modular-list-excerpt {
     font-size: var(--size-3);
     color: var(--gray-6);
+  }
+
+  #results .pagefind-modular-list-link::before {
+    content: "";
+    inset: 0;
+    position: absolute;
   }
 </style>

@@ -18,7 +18,7 @@ const { recipe } = Astro.props;
 <BaseLayout title={recipe.data.title}>
   <article data-pagefind-body>
     <header>
-      <h1>{recipe.data.title}</h1>
+      <h1 data-pagefind-meta="title">{recipe.data.title}</h1>
       <div class="info">
         <span>Für {recipe.data.people} Personen</span>
       </div>
@@ -54,7 +54,7 @@ const { recipe } = Astro.props;
   }
 
   .content > :global(:first-child)  {
-    flex: 1;
+    flex: 1 0 15rem;
   }
 
   .content > :global(:last-child)  {
