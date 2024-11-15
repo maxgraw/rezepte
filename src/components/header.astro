@@ -16,10 +16,6 @@ import Search from "./search.astro";
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-block: var(--size-fluid-1);
-        padding-inline: var(--size-fluid-1);
-
-        margin-block-end: var(--size-fluid-2);
-
         align-items: center;
 
         background-color: var(--gray-1);
@@ -40,12 +36,14 @@ import Search from "./search.astro";
 
     h1:hover {
         color: var(--blue-5);
+        text-decoration: underline;
     }
 
     @media only screen and (max-width: 1200px) {
         header {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 </style>

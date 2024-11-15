@@ -1,11 +1,31 @@
 <script src="/pagefind/pagefind-modular-ui.js" is:inline></script>
 
-<form>
-  <div class="search">
-    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="search" />
+<button id="mobile_toogle" class="mobile_toogle">
+  <svg xmlns="http://www.w3.org/2000/svg" 
+    width="17" 
+    height="17" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    stroke-width="2" 
+    stroke-linecap="round" 
+    stroke-linejoin="round" 
+    id="mobile_toogle_open_icon"
+    class="mobile_toogle_open_icon visible"
+    >
+    <circle cx="11" cy="11" r="8"/>
+    <path d="m21 21-4.3-4.3"/>
+  </svg>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="mobile_toogle_close_icon" class="mobile_toogle_close_icon"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+</button>
+
+<form id="search" class="search">
+  <div class="search_input">
+    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="pagefind_search" />
   </div>
-  <div id="results" />
+  <div class="results" id="pagefind_results" />
 </form>
 
 <script>
@@ -18,59 +38,105 @@
 
         // @ts-ignore
         instance.add(new PagefindModularUI.Input({
-          inputElement: "#search"
+          inputElement: "#pagefind_search"
         }));
         
         // @ts-ignore
         instance.add(new PagefindModularUI.ResultList({
-            containerElement: "#results"
+            containerElement: "#pagefind_results"
         }));
     });
+
+    const mobile_toogle = document.getElementById("mobile_toogle")
+    const search = document.getElementById("search")
+
+    const mobile_toogle_close_icon = document.getElementById("mobile_toogle_close_icon")
+    const mobile_toogle_open_icon = document.getElementById("mobile_toogle_open_icon")
+
+    const pagefind_search = document.getElementById("pagefind_search")
+    
+
+    mobile_toogle?.addEventListener("click", () => {
+      search?.classList.toggle("visible");
+      mobile_toogle_open_icon?.classList.toggle("visible");
+      mobile_toogle_close_icon?.classList.toggle("visible");
+      document.body.classList.toggle("overflow");
+      //pagefind_search.value = "";
+    })
 </script>
 
 <style is:global>
-  form {
-    position: relative;
+  .mobile_toogle {
+    padding: var(--size-2);
   }
 
   .search {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: var(--gray-1);
+
+    height: 100vh;
+
+    flex-direction: column;
+
+    padding-inline: max((100% - 70rem) /2, 2rem);
+
+    padding-block-start: var(--size-5);
+  }
+
+  .search_input {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
     gap: 0.35rem;
     border: solid 1px var(--gray-3);
     padding-inline: var(--size-2);
+    padding-block: var(--size-1);
     border-radius: var(--radius-2);
+
     background-color: white;
   }
 
-  #search {
+  #pagefind_search {
+    flex: 1;
     border: none;
-    width: 100%;
-    padding-block: 0.25rem;
-    font-size: var(--font-size-2);
-   
+    font-size: var(--font-size-3);
   }
 
-  #search:focus-within {
+  #pagefind_search:focus-within {
     outline: none;
   }
 
-  #results {
-    position: absolute;
-    background-color: white;
-    border: solid 1px;
+  .mobile_toogle_open_icon {
+    display: none;
+  }
+
+  .mobile_toogle_close_icon {
+    display: none;
+  }
+
+  .visible {
+    display: flex;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .results {
     padding: var(--size-2);
     border-radius: var(--radius-2);
     margin-block-start: var(--size-2);
 
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: var(--size-2);
     z-index: 10;
   }
 
-  #results:has(li) {
+  .results:has(li) {
     display: flex;
   }
 
@@ -79,18 +145,57 @@
     position: relative;
   }
 
-  #results .pagefind-modular-list-title {
+  .results .pagefind-modular-list-title {
     font-size: var(--size-4);
   }
 
-  #results .pagefind-modular-list-excerpt {
+  .results .pagefind-modular-list-excerpt {
     font-size: var(--size-3);
     color: var(--gray-6);
   }
 
-  #results .pagefind-modular-list-link::before {
+  .results .pagefind-modular-list-link::before {
     content: "";
     inset: 0;
     position: absolute;
+  }
+
+  .results .pagefind-modular-list-result:hover {
+    text-decoration: underline;
+    color: var(--blue-5);
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .mobile_toogle {
+      display: none;
+    }
+
+    .search {
+      display: flex;
+      position: relative;
+      height: max-content;
+      padding: 0;
+    }
+
+    .results {
+      position: absolute;
+      background-color: white;
+      border: solid 1px;
+      padding: var(--size-2);
+      border-radius: var(--radius-2);
+
+      display: none;
+      flex-direction: column;
+      gap: var(--size-2);
+      z-index: 10;
+
+      bottom: 0;
+
+      transform: translateY(110%);
+    }
+
+    .results:has(li) {
+      display: flex;
+    }
   }
 </style>

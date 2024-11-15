@@ -1,11 +1,11 @@
-// @ts-check
-import { defineConfig } from 'astro/config';
 import pagefind from "astro-pagefind";
+// @ts-check
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-    build: {
-        format: "file",
-    },
-    integrations: [pagefind()],
+	build: {
+		format: "file",
+	},
+	integrations: [pagefind()],
 });

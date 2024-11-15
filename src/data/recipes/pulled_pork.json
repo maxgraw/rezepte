@@ -1,106 +1,103 @@
 {
-    "title": "Pulled Pork",
-    "preparation": "30 Min.",
-    "cooking": "4 Std.",
-    "people": 4,
-    "ingredients": [
-        {
-            "name": "Schweineschulter (ohne Knochen)",
-            "amount": "1kg"
-        },
-        {
-            "name": "Salz",
-            "amount": ""
-        },
-        {
-            "name": "Pfeffer",
-            "amount": ""
-        },
-        {
-            "name": "Rapsöl",
-            "amount": "2 EL"
-        },
-        {
-            "name": "Schalotten",
-            "amount": "6"
-        },
-        {
-            "name": "Knoblauchzehen",
-            "amount": "2"
-        },
-        {
-            "name": "Ingwer",
-            "amount": "15g"
-        },
-        {
-            "name": "Tomatenmark",
-            "amount": "2 TL"
-        },
-        {
-            "name": "Zimptpulver",
-            "amount": "1/2 TL"
-        },
-        {
-            "name": "Anispulver",
-            "amount": "1/2 TL"
-        },
-        {
-            "name": "Chilipulver",
-            "amount": "1/2 TL"
-        },
-        {
-            "name": "gemahlener Kreuzkümmel",
-            "amount": "1 TL"
-        },
-        {
-            "name": "Weißweinessig",
-            "amount": "50ml"
-        },
-        {
-            "name": "Kokosmilch",
-            "amount": "100g"
-        },
-        {
-            "name": "Apfelsaft",
-            "amount": "200ml"
-        }
-    ],
-    "steps": [
-        {
-            "content": "Backofen auf 145 Grad Umluft vorheizen."
-        },
-        {
-            "content": "Fleisch abtupfen und mit etwas Salz einreiben."
-        },
-        {
-            "content": "Rapsöl in einem ofenfesten Schmortopf erhitzen und Fleisch darin ca. 10 Minuten von allen Seiten braun anbraten."
-        },
-        {
-            "content": "Das Fleisch wieder herausnehmen."
-        },
-        {
-            "content": "Schalloten in grobe Stücke schneiden. Knoblauch und Ingwer fein hacken. Schalloten, Knoblauch und Ingwer im Schmortopf ca. 3 Min. anrösten."
-        },
-        {
-            "content": "Tomatenmark hinzugegen und ca. 1 Min. mit anrösten"
-        },
-        {
-            "content": "Zimtpulver, Anispulver, Chillipulver und Kreuzkümmel dazugeben"
-        },
-        {
-            "content": "Essig, Kokosmilch und Apfelsaft aufgießen"
-        },
-        {
-            "content": "Fleisch in den Topf geben"
-        },
-        {
-            "content": "Topf im Ofen für 3 Stunden mit Deckel garen"
-        },
-        {
-            "content": "Danach eine weitere Stunde ohne Deckel im Ofen garen"
-        },
-        {
-            "content": "Den Topf aus dem Ofen nehmen und das Fleisch mit zwei Gabeln zerteilen"
-        }
-    ]
+	"title": "Pulled Pork",
+	"preparation": "30 Min.",
+	"cooking": "4 Std.",
+	"people": 4,
+	"ingredients": [
+		{
+			"name": "Schweineschulter (ohne Knochen)",
+			"amount": "1kg"
+		},
+		{
+			"name": "Salz",
+			"amount": ""
+		},
+		{
+			"name": "Pfeffer",
+			"amount": ""
+		},
+		{
+			"name": "Rapsöl",
+			"amount": "2 EL"
+		},
+		{
+			"name": "Schalotten",
+			"amount": "6"
+		},
+		{
+			"name": "Knoblauchzehen",
+			"amount": "2"
+		},
+		{
+			"name": "Ingwer",
+			"amount": "15g"
+		},
+		{
+			"name": "Tomatenmark",
+			"amount": "2 TL"
+		},
+		{
+			"name": "Zimptpulver",
+			"amount": "1/2 TL"
+		},
+		{
+			"name": "Anispulver",
+			"amount": "1/2 TL"
+		},
+		{
+			"name": "Chilipulver",
+			"amount": "1/2 TL"
+		},
+		{
+			"name": "gemahlener Kreuzkümmel",
+			"amount": "1 TL"
+		},
+		{
+			"name": "Weißweinessig",
+			"amount": "50ml"
+		},
+		{
+			"name": "Kokosmilch",
+			"amount": "100g"
+		},
+		{
+			"name": "Apfelsaft",
+			"amount": "200ml"
+		}
+	],
+	"steps": [
+		{
+			"content": "Backofen auf 145 Grad Umluft vorheizen."
+		},
+		{
+			"content": "Fleisch trocken tupfen und mit etwas Salz einreiben."
+		},
+		{
+			"content": "Rapsöl in einem ofenfesten Schmortopf erhitzen. Das Fleisch darin etwa 10 Minuten von allen Seiten scharf anbraten, bis es braun ist. Anschließend das Fleisch herausnehmen und beiseitestellen."
+		},
+		{
+			"content": "Schalotten grob schneiden. Knoblauch und Ingwer fein hacken. Schalotten, Knoblauch und Ingwer im Schmortopf etwa 3 Minuten anrösten."
+		},
+		{
+			"content": "Tomatenmark hinzufügen und etwa 1 Minute mitrösten."
+		},
+		{
+			"content": "Zimtpulver, Anispulver, Chilpulver und Kreuzkümmel einrühren."
+		},
+		{
+			"content": "Essig, Kokosmilch und Apfelsaft angießen."
+		},
+		{
+			"content": "Das Fleisch zurück in den Topf geben."
+		},
+		{
+			"content": "Den Schmortopf mit Deckel in den Ofen stellen und das Gericht 3 Stunden garen."
+		},
+		{
+			"content": "Anschließend den Deckel entfernen und das Gericht für weitere 1 Stunde im Ofen schmoren lassen."
+		},
+		{
+			"content": "Den Topf aus dem Ofen nehmen und das Fleisch mit zwei Gabeln zerteilen."
+		}
+	]
 }

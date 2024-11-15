@@ -1,39 +1,39 @@
 {
-    "title": "Raclette",
-    "preparation": "",
-    "cooking": "",
-    "people": 4,
-    "ingredients": [
-        {
-            "name": "Hackfleisch",
-            "amount": ""
-        },
-        {
-            "name": "Mett",
-            "amount": ""
-        },
-        {
-            "name": "Pilze",
-            "amount": ""
-        },
-        {
-            "name": "Zwiebeln",
-            "amount": ""
-        },
-        {
-            "name": "Mais",
-            "amount": ""
-        }
-    ],
-    "steps": [
-        {
-            "content": "Hackfleisch und Mett anbraten"
-        },
-        {
-            "content": "Kartoffeln kochen und schälen"
-        },
-        {
-            "content": "Zutaten verarbeiten"
-        }
-    ]
+	"title": "Raclette",
+	"preparation": "",
+	"cooking": "",
+	"people": 4,
+	"ingredients": [
+		{
+			"name": "Hackfleisch",
+			"amount": ""
+		},
+		{
+			"name": "Mett",
+			"amount": ""
+		},
+		{
+			"name": "Pilze",
+			"amount": ""
+		},
+		{
+			"name": "Zwiebeln",
+			"amount": ""
+		},
+		{
+			"name": "Mais",
+			"amount": ""
+		}
+	],
+	"steps": [
+		{
+			"content": "Hackfleisch und Mett anbraten"
+		},
+		{
+			"content": "Kartoffeln kochen und schälen"
+		},
+		{
+			"content": "Zutaten verarbeiten"
+		}
+	]
 }

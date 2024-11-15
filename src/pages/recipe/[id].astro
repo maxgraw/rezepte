@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 
-import BaseLayout from "@layouts/base_layout.astro";
-import Steps from "@components/steps.astro";
 import Ingredients from "@components/ingredients.astro";
+import Steps from "@components/steps.astro";
+import BaseLayout from "@layouts/base_layout.astro";
 
 export async function getStaticPaths() {
 	const recipes = await getCollection("recipes");
@@ -39,6 +39,8 @@ const { recipe } = Astro.props;
     display: flex;
     flex-direction: column;
     gap: var(--size-5);
+
+    padding-block-start: var(--size-4);
   }
 
   .info {
