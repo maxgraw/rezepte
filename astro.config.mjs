@@ -1,5 +1,4 @@
-import pagefind from "astro-pagefind";
-// @ts-check
+import pagefind from "./src/integration/pagefind";
 import { defineConfig } from "astro/config";
 
 // https://astro.build/config
