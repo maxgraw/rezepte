@@ -19,6 +19,5 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4"
-	},
-	"packageManager": "bun@1.1.34"
+	}
 }
