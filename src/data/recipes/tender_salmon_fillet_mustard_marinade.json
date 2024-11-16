@@ -1,0 +1,72 @@
+{
+    "title": "Zartes Lachsfilet mit Senfmarinda",
+    "preparation": "",
+    "cooking": "",
+    "people": 4,
+    "ingredients": [
+        {
+            "name": "kleine Kartoffeln (Drillinge)",
+            "amount": "1kg"
+        },
+        {
+            "name": "Honig",
+            "amount": "2 TL"
+        },
+        {
+            "name": "grober Senf",
+            "amount": "2 TL"
+        },
+        {
+            "name": "mittelscharf Senf",
+            "amount": "1 TL"
+        },
+        {
+            "name": "Kreuzkümmel",
+            "amount": "1 TL"
+        },
+        {
+            "name": "Edelsüßpaprika",
+            "amount": "1 TL"
+        },
+        {
+            "name": "Salz",
+            "amount": ""
+        },
+        {
+            "name": "Pfeffer",
+            "amount": ""
+        },
+        {
+            "name": "Öl",
+            "amount": ""
+        },
+        {
+            "name": "Lachsfilet",
+            "amount": "1kg"
+        },
+        {
+            "name": "Zitronensaft",
+            "amount": ""
+        }
+    ],
+    "steps": [
+        {
+            "content": "Backofen auf 230 Grad Umluft vorheizen."
+        },
+        {
+            "content": "Kartoffeln waschen und halbieren."
+        },
+        {
+            "content": "Honig, Senf, Kreuzkümmel, Paprikapulver, Öl sowie etwas Salz und Pfeffer zu einer Marinade verrühren."
+        },
+        {
+            "content": "Lachs abspülen, trocken tupfen und auf ein Backblech legen. Mit Zitronensaft und der Hälfte der Marinade einreiben."
+        },
+        {
+            "content": "Die restliche Marinade mit den Kartoffeln vermengen und diese ebenfalls auf das Backblech geben."
+        },
+        {
+            "content": "Das Blech in den Ofen schieben und alles etwa 30 Minuten backen."
+        }
+    ]
+}

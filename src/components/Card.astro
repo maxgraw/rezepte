@@ -16,11 +16,13 @@ const { title, href } = Astro.props;
 <style>
     .img {
         background-color: var(--gray-2);
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 16 / 8;
+        border-radius: var(--radius-2);
+        
     }
 
     article {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 16 / 8;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -34,11 +36,10 @@ const { title, href } = Astro.props;
     }
 
     h2 {
-        font-size: var(--font-size-4);
+        font-size: var(--font-size-3);
     }
 
     article:hover {
-        color: var(--blue-4);
         text-decoration: underline;
     }
 </style>

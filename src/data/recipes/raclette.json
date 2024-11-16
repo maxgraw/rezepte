@@ -23,6 +23,42 @@
 		{
 			"name": "Mais",
 			"amount": ""
+		},
+		{
+			"name": "Kidneybohne",
+			"amount": ""
+		},
+		{
+			"name": "Schafskäse",
+			"amount": ""
+		},
+		{
+			"name": "Oliven",
+			"amount": ""
+		},
+		{
+			"name": "Gambas",
+			"amount": ""
+		},
+		{
+			"name": "Bacon",
+			"amount": ""
+		},
+		{
+			"name": "Speck",
+			"amount": ""
+		},
+		{
+			"name": "Kochschinken",
+			"amount": ""
+		},
+		{
+			"name": "Zuchini",
+			"amount": ""
+		},
+		{
+			"name": "Aubergine",
+			"amount": ""
 		}
 	],
 	"steps": [
