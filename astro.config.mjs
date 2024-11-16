@@ -7,4 +7,9 @@ export default defineConfig({
 		format: "file",
 	},
 	integrations: [pagefind()],
+	resolve: {
+		alias: {
+			"@": path.resolve(__dirname, "./src"),
+		}
+	}
 });
