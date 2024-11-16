@@ -1,0 +1,5 @@
+**/node_modules
+**/dist
+**/vitest.config.mjs
+**/README.md
+**/.astro
