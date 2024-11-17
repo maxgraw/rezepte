@@ -111,7 +111,9 @@
             const li = document.createElement("li");
             const link = document.createElement("a");
 
-            link.setAttribute("href", data.url);
+            const url = data.url.replace(".html", "")
+
+            link.setAttribute("href", url);
             link.innerHTML = data.meta.title;
 
             li.appendChild(link);

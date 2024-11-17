@@ -10,7 +10,7 @@ const recipes = await getCollection("recipes");
 <BaseLayout title="Rezepte">
 	<ul>
 		{recipes.map(recipe => (
-			<Card href={`/recipe/${recipe.id}`} title={recipe.data.title}/>
+			<Card href={`/${recipe.id}`} title={recipe.data.title}/>
 		))}
 	  </ul>
 </BaseLayout>

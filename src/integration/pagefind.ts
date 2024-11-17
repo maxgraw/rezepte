@@ -53,21 +53,24 @@ export default function pagefind(): AstroIntegration {
 				});
 				if (addErrors.length) {
 					logger.error("Pagefind failed to index files");
-					addErrors.forEach((e) => logger.error(e));
+					for (const error of addErrors) {
+						logger.error(error);
+					}
 					return;
-				} else {
-					logger.info(`Pagefind indexed ${page_count} pages`);
 				}
+				logger.info(`Pagefind indexed ${page_count} pages`);
+
 				const { outputPath, errors: writeErrors } = await index.writeFiles({
 					outputPath: path.join(outDir, "pagefind"),
 				});
 				if (writeErrors.length) {
 					logger.error("Pagefind failed to write index");
-					writeErrors.forEach((e) => logger.error(e));
+					for (const error of writeErrors) {
+						logger.error(error);
+					}
 					return;
-				} else {
-					logger.info(`Pagefind wrote index to ${outputPath}`);
 				}
+				logger.info(`Pagefind wrote index to ${outputPath}`);
 			},
 		},
 	};
