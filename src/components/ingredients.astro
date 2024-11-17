@@ -10,35 +10,39 @@ const { data } = Astro.props;
 ---
 
 <section>
-    <h2>Zutaten</h2>
-      <ul>
-        {data.map(ingredient => <div>
+  <h2>Zutaten</h2>
+  <ul>
+    {
+      data.map((ingredient) => (
+        <li>
           <span>{ingredient.amount}</span>
           <span>{ingredient.name}</span>
-        </div>)}
-      </ul>
+        </li>
+      ))
+    }
+  </ul>
 </section>
 
 <style>
-
   section {
-    background-color: var(--gray-1);
     padding: var(--size-2);
-    border-radius: var(--radius-2);
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-2);
 
-    border: solid 1px var(--gray-2);
-
+    background-color: var(--accent);
+    border-radius: var(--radius);
     height: max-content;
   }
 
   h2 {
-    font-size: var(--font-size-5);
+    font-size: 2rem;
   }
 
   ul {
     list-style-position: inside;
     display: flex;
     flex-direction: column;
-    gap: var(--size-1);
+    gap: var(--size-2);
   }
 </style>

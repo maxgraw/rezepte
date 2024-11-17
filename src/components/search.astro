@@ -42,7 +42,7 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search"
+            class="search_icon"
             ><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"
             ></path></svg
         >
@@ -159,7 +159,7 @@
     }
 
     .search_container {
-        border: solid 1px var(--gray-5);
+        border: solid 1px var(--border);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -167,20 +167,28 @@
         gap: var(--size-2);
 
         background-color: white;
-        border-radius: var(--radius-2);
+        border-radius: var(--radius);
 
         padding-inline: var(--size-2);
         padding-block: var(--size-1);
     }
 
-    .search_container #search {
+    #search {
         border: none;
         flex: 1;
         outline: none;
-        font-size: var(--font-size-2);
+        font-size: 1rem;
     }
 
-    .search_container #reset[data-visible="false"] {
+    .search_icon {
+        opacity: 0.5;
+    }
+
+    #reset:hover {
+        color: blue;
+    }
+
+    #reset[data-visible="false"] {
         opacity: 0;
     }
 
@@ -188,12 +196,12 @@
         display: none;
         position: absolute;
         background-color: white;
-        border-radius: var(--radius-2);
+        border-radius: var(--radius);
 
         padding-inline: var(--size-2);
-        padding-block: var(--size-1);
+        padding-block: var(--size-2);
 
-        border: solid 1px var(--gray-5);
+        border: solid 1px var(--border);
 
         width: 100%;
 
@@ -201,15 +209,25 @@
 
         gap: var(--size-2);
 
-        margin-block-start: var(--size-2);
+        margin-block-start: var(--size-1);
     }
 
     #result:has(li) {
         display: flex;
     }
 
+    #result :global(li) {
+        position: relative;
+    }
+
     #result :global(li:hover) {
         text-decoration: underline;
+    }
+
+    #result :global(a::before) {
+        content: "";
+        position: absolute;
+        inset: 0;
     }
 
     #mobile_button {
@@ -232,7 +250,7 @@
             position: absolute;
             left: 0;
             width: 100%;
-            background-color: var(--gray-1);
+            background-color: var(--accent);
             bottom: 0;
             transform: translateY(100%);
             height: 100vh;
@@ -241,8 +259,8 @@
             padding-block-start: var(--size-2);
         }
 
-        .search_container #search {
-            font-size: var(--font-size-3);
+        #search {
+            font-size: 1.25rem;
         }
 
         #result {

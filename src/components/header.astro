@@ -1,13 +1,10 @@
 ---
 import Search from "./search.astro";
 ---
+
 <header>
-    <a href="/">
-        <h1>Rezepte</h1>
-    </a>
-    <nav>
-        <Search  />
-    </nav>
+    <a href="/">Rezepte</a>
+    <Search />
 </header>
 
 <style>
@@ -15,26 +12,26 @@ import Search from "./search.astro";
         position: relative;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding-block: var(--size-fluid-1);
+        padding-block: var(--size-2);
         align-items: center;
-
-        background-color: var(--gray-1);
 
         position: sticky;
         top: 0;
 
+        background-color: var(--accent);
+
         z-index: 5;
 
-        border-bottom: solid 1px var(--gray-3);
-
         padding-inline: max((100% - 70rem) /2, 2rem);
+
+        border-block-end: solid 1px var(--border);
     }
 
-    h1 {
-        font-size: var(--font-size-4);
+    a {
+        font-size: 1.5rem;
     }
 
-    h1:hover {
+    a:hover {
         text-decoration: underline;
     }
 
