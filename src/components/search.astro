@@ -111,7 +111,7 @@
             const li = document.createElement("li");
             const link = document.createElement("a");
 
-            const url = data.url.replace(".html", "")
+            const url = data.url.replace(".html", "");
 
             link.setAttribute("href", url);
             link.innerHTML = data.meta.title;
@@ -239,6 +239,10 @@
             padding-inline: max((100% - 70rem) /2, 2rem);
 
             padding-block-start: var(--size-2);
+        }
+
+        .search_container #search {
+            font-size: var(--font-size-3);
         }
 
         #result {

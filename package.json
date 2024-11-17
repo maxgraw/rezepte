@@ -11,8 +11,6 @@
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "3.2.1",
-		"@fontsource-variable/eb-garamond": "5.1.1",
-		"@fontsource/dm-serif-display": "5.1.0",
 		"astro": "5.0.0-beta.8",
 		"pagefind": "1.2.0",
 		"sirv": "3.0.0",
