@@ -1,0 +1,46 @@
+{
+    "title": "Aufstrich vom Räucherlachs",
+    "preparation": "",
+    "cooking": "",
+    "people": 4,
+    "ingredients": [
+        {
+            "name": "Räucherlachs",
+            "amount": "200g"
+        },
+        {
+            "name": "Frühlingszwiebeln",
+            "amount": "2"
+        },
+        {
+            "name": "Doppel Rahm Frischkäse",
+            "amount": "200g"
+        },
+        {
+            "name": "flüssiger Honig",
+            "amount": "1 EL"
+        },
+        {
+            "name": "mittelscharfer Senf",
+            "amount": "1 EL"
+        },
+        {
+            "name": "Pfeffer",
+            "amount": ""
+        }
+    ],
+    "steps": [
+        {
+            "content": "Räucherlachs in kleine Würfel schneiden."
+        },
+        {
+            "content": "Frühlingszwiebeln putzen, waschen, abtropfen lassen und in feine Ringe schneiden."
+        },
+        {
+            "content": "Frischkäse mit Honig und Senf verrühren."
+        },
+        {
+            "content": "Räucherlachswürfel und Frühlingszwiebeln mit der Frischkäsemasse verrühren und mit Pfeffer abschmecken."
+        }
+    ]
+}
