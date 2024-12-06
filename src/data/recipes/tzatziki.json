@@ -1,0 +1,47 @@
+{
+    "title": "Tzatziki",
+    "people": 4,
+    "ingredients": [
+        {
+            "name": "Salatgurke",
+            "amount": "1"
+        },
+        {
+            "name": "Griechischer Joghurt",
+            "amount": "300-500 g"
+        },
+        {
+            "name": "Sahnequark (40%)",
+            "amount": "150-200 g"
+        },
+        {
+            "name": "Olivenöl",
+            "amount": "wenig"
+        },
+        {
+            "name": "Salz",
+            "amount": "nach Geschmack"
+        },
+        {
+            "name": "Knoblauchzehen",
+            "amount": "3"
+        }
+    ],
+    "steps": [
+        {
+            "content": "Salatgurke schälen, längs aufschneiden und das Fruchtfleisch entfernen."
+        },
+        {
+            "content": "Die Gurke fein raspeln und überschüssige Flüssigkeit ausdrücken."
+        },
+        {
+            "content": "Griechischen Joghurt, Sahnequark und etwas Olivenöl in eine Schüssel geben und vermengen."
+        },
+        {
+            "content": "Knoblauch schälen und fein hacken oder pressen, dann hinzufügen."
+        },
+        {
+            "content": "Die geraspelte Gurke und Salz nach Geschmack unterrühren."
+        }
+    ]
+}

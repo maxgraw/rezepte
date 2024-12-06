@@ -1,17 +1,22 @@
-FROM node:20-slim AS base
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
-RUN corepack enable
-COPY . /app
-WORKDIR /app
+FROM oven/bun:1 AS base
+WORKDIR /usr/src/app
 
-FROM base AS prod-deps
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
+FROM base AS install
+RUN mkdir -p /temp/dev
+COPY package.json bun.lockb /temp/dev/
+RUN cd /temp/dev && bun install --frozen-lockfile
 
-FROM base AS build
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
-RUN pnpm run build
+RUN mkdir -p /temp/prod
+COPY package.json bun.lockb /temp/prod/
+RUN cd /temp/prod && bun install --frozen-lockfile --production
+
+FROM base AS prerelease
+COPY --from=install /temp/dev/node_modules node_modules
+COPY . .
+
+ENV NODE_ENV=production
+RUN bun run build
 
 FROM ghcr.io/static-web-server/static-web-server:2
-COPY --from=build /app/dist ./dist
+COPY --from=prerelease /usr/src/app/dist ./dist
 ENV SERVER_ROOT="./dist"

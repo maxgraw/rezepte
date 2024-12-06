@@ -1,0 +1,72 @@
+{
+    "title": "Mediterraner Bulgursalat mit getrockneten Tomaten",
+    "people": 4,
+    "ingredients": [
+        {
+            "name": "Bulgur",
+            "amount": "300 g"
+        },
+        {
+            "name": "Gemüsebrühe",
+            "amount": "nach Packungsanleitung"
+        },
+        {
+            "name": "Zwiebel",
+            "amount": "1"
+        },
+        {
+            "name": "Pinienkerne",
+            "amount": "50 g"
+        },
+        {
+            "name": "Getrocknete Tomaten in Öl",
+            "amount": "50 g"
+        },
+        {
+            "name": "Basilikum oder Schnittlauch",
+            "amount": "1 Bund"
+        },
+        {
+            "name": "Rucola",
+            "amount": "50 ml"
+        },
+        {
+            "name": "Olivenöl",
+            "amount": "5 EL"
+        },
+        {
+            "name": "Balsamicoessig",
+            "amount": "nach Geschmack"
+        },
+        {
+            "name": "Salz, Pfeffer, Thymian",
+            "amount": "nach Geschmack"
+        }
+    ],
+    "steps": [
+        {
+            "content": "Den Bulgur nach Packungsanleitung mit der Gemüsebrühe kochen und anschließend abkühlen lassen."
+        },
+        {
+            "content": "Die Pinienkerne in einer Pfanne ohne Öl gleichmäßig anrösten."
+        },
+        {
+            "content": "Die Zwiebel kleinschneiden und dünsten."
+        },
+        {
+            "content": "Die großen Basilikumblätter und die getrockneten Tomaten in Streifen schneiden."
+        },
+        {
+            "content": "Den Rucola waschen und kleiner schneiden."
+        },
+        {
+            "content": "Den Bulgur mit einer Gabel auflockern und die Tomaten, Pinienkerne sowie Basilikum oder Schnittlauch untermischen."
+        },
+        {
+            "content": "Mit Olivenöl, Balsamicoessig, Salz, Pfeffer und etwas Thymian abschmecken."
+        },
+        {
+            "content": "Zum Schluss den Rucola unter den Salat mischen und mit feinen Basilikumblättern garnieren."
+        }
+    ]
+}

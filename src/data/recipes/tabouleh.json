@@ -1,0 +1,73 @@
+{
+    "title": "Tabouleh",
+    "people": 4,
+    "ingredients": [
+        {
+            "name": "Bulgur",
+            "amount": "200 g"
+        },
+        {
+            "name": "Glatte Petersilie",
+            "amount": "1 Bund"
+        },
+        {
+            "name": "Minze",
+            "amount": "1 Handvoll Blätter"
+        },
+        {
+            "name": "Kirschtomaten",
+            "amount": "250 g"
+        },
+        {
+            "name": "Salatgurke",
+            "amount": "200 g"
+        },
+        {
+            "name": "Rote Paprika",
+            "amount": "1"
+        },
+        {
+            "name": "Kichererbsen",
+            "amount": "1 kleine Dose"
+        },
+        {
+            "name": "Zitronensaft",
+            "amount": "4-5 EL"
+        },
+        {
+            "name": "Salz und Pfeffer",
+            "amount": "nach Geschmack"
+        },
+        {
+            "name": "Kreuzkümmel",
+            "amount": "1 Prise"
+        },
+        {
+            "name": "Olivenöl",
+            "amount": "6-8 EL"
+        }
+    ],
+    "steps": [
+        {
+            "content": "Bulgur nach Packungsanweisung zubereiten und abkühlen lassen."
+        },
+        {
+            "content": "Petersilie und Minze waschen, trocken tupfen und fein hacken."
+        },
+        {
+            "content": "Kirschtomaten, Gurke und Paprika klein würfeln."
+        },
+        {
+            "content": "Kichererbsen abgießen und abspülen."
+        },
+        {
+            "content": "Alle Zutaten in einer großen Schüssel vermengen."
+        },
+        {
+            "content": "Zitronensaft, Olivenöl, Salz, Pfeffer und Kreuzkümmel hinzufügen und gut vermischen."
+        },
+        {
+            "content": "Das Tabouleh vor dem Servieren kurz durchziehen lassen."
+        }
+    ]
+}
