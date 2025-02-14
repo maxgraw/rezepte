@@ -2,38 +2,6 @@
 const { class: className, ...rest } = Astro.props;
 ---
 
-<button id="mobile_button">
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="17"
-        height="17"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        id="mobile_search_open"
-        ><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"
-        ></path></svg
-    >
-    <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="17"
-            height="17"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            id="mobile_search_close"
-            data-visible="false"
-            ><circle cx="12" cy="12" r="10"></circle><path d="m15 9-6 6"
-            ></path><path d="m9 9 6 6"></path></svg
-        >
-</button>
-
 <div id="search_container" class={`search ${className}`} {...rest}>
     <form action="">
         <svg
@@ -77,10 +45,6 @@ const { class: className, ...rest } = Astro.props;
     const search_input = document.getElementById("search");
     const result_output = document.getElementById("result");
     const clear_button = document.getElementById("clear");
-    const mobile_button = document.getElementById("mobile_button");
-
-    const mobile_search_open_icon = document.getElementById("mobile_search_open");
-    const mobile_search_close_icon = document.getElementById("mobile_search_close");
 
     search_input.addEventListener("focus", async (e) => {
         if (!pagefind) {
@@ -244,37 +208,17 @@ const { class: className, ...rest } = Astro.props;
         padding: var(--size-1);
     }
 
-    @media only screen and (max-width: 1200px) {
-        #mobile_button {
-            display: flex;
-            padding: var(--size-2);
-        }
-
-        #mobile_search_close {
-            display: none;
-        }
-
-        .search {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            left: 0;
-            width: 100%;
-            background-color: var(--accent);
-            bottom: 0;
-            transform: translateY(100%);
-            height: 100vh;
-            padding-inline: max((100% - 70rem) /2, 2rem);
-
-            padding-block-start: var(--size-2);
-        }
-
+    @media only screen and (max-width: 500px) {
         .result {
             position: relative;
             background-color: transparent;
+            border-radius: var(--radius);
+            padding-inline: var(--size-2);
+            padding-block: var(--size-2);
             border: none;
-            overflow: scroll;
+            width: 100%;
+            flex-direction: column;
+            gap: var(--size-3);
         }
-
     }
 </style>

@@ -19,7 +19,8 @@ const { active } = Astro.props;
 <header>
 <div class="nav">
 <a class="logo" href="/">
-Rezepte
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-album"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><polyline points="11 3 11 11 14 8 17 11 17 3"/></svg>
+<span>Rezepte</span>
 </a>
 <Search class="search" />
 </div>
@@ -42,6 +43,7 @@ Rezepte
     .nav {
         display: grid;
         place-items: start;
+        align-items: center;
         grid-template-columns: var(--inline) auto var(--inline);
         background-color: var(--accent);
         padding-block: var(--size-3);
@@ -50,11 +52,14 @@ Rezepte
     }
 
     .logo {
-        font-size: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: var(--size-2);
+    }
+
+    .logo svg {
+        aspect-ratio: 1;
     }
 
     .search {
@@ -64,6 +69,11 @@ Rezepte
 
     .logo:hover {
         color: hsl(228 95.8% 72.2%);
+    }
+
+    .logo svg {
+        height: 1.5rem;
+        width: 1.5rem;
     }
 
     .tags {
@@ -109,6 +119,19 @@ Rezepte
             gap: var(--size-4);
             align-items: center;
             padding-inline: var(--inline);
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .logo span {
+            display: inline;
+        }
+
+        .nav {
+            flex-direction: column;
+            align-items: start;
+            gap: var(--size-2);
         }
     }
 </style>
