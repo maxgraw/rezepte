@@ -1,43 +1,30 @@
 ---
 import { getCollection } from "astro:content";
 import Search from "./search.astro";
+import { get_unique_tags } from "src/utils/tags";
 
-type TagData = {
-	original: string;
-	lowercase: string;
-	count: number;
-};
+interface Props {
+	active?: string;
+}
 
 const recipes = await getCollection("recipes");
 
-const tag_count = recipes
-	.flatMap((recipe) => recipe.data.tags || [])
-	.map((tag) => ({ original: tag, lowercase: tag.toLowerCase() }))
-	.reduce<Record<string, TagData>>((count, tag) => {
-		const tagKey = tag.lowercase;
-		if (!count[tagKey]) {
-			count[tagKey] = {
-				original: tag.original,
-				lowercase: tag.lowercase,
-				count: 0,
-			};
-		}
-		count[tagKey].count += 1;
-		return count;
-	}, {});
-
-const top_tags = Object.values(tag_count)
+const tags = get_unique_tags(recipes)
 	.sort((a, b) => b.count - a.count)
 	.slice(0, 10);
+
+const { active } = Astro.props;
 ---
 
 <header>
 <div class="nav">
-<a class="logo" href="/">Rezepte</a>
+<a class="logo" href="/">
+Rezepte
+</a>
 <Search class="search" />
 </div>
     <ul class="tags">
-    {top_tags.map(item => <li>
+    {tags.map(item => <li data-type={`${item.lowercase === active ? "active" : ""}`}>
         <a href={`/tags/${item.lowercase}`}>{item.original}</a>
     </li>)}
     </ul>
@@ -47,31 +34,44 @@ const top_tags = Object.values(tag_count)
     header {
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
-        position: sticky;
-        top: 0;
-        z-index: 5;
+        gap: var(--size-3);
         background-color: white;
+        margin-block-end: var(--size-2);
     }
 
     .nav {
-        display: flex;
-        align-items: center;
+        display: grid;
+        place-items: start;
+        grid-template-columns: var(--inline) auto var(--inline);
         background-color: var(--accent);
-        padding-inline: max((100% - 70rem) /2, 2rem);
-        padding-block: var(--size-2);
-        border-block-end: solid 1px var(--border);
+        padding-block: var(--size-3);
+        padding-inline: var(--size-3);
+        position: relative;
     }
 
     .logo {
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--size-2);
+    }
+
+    .search {
+        width: 100%;
+        z-index: 20;
+    }
+
+    .logo:hover {
+        color: hsl(228 95.8% 72.2%);
     }
 
     .tags {
+        overflow: auto;
         gap: 1rem;
         display: flex;
         align-items: center;
-        padding-inline: max((100% - 70rem) /2, 2rem);
-        overflow: scroll;
+        margin-inline: var(--inline);
         padding-block-end: var(--size-3);
     }
 
@@ -79,16 +79,21 @@ const top_tags = Object.values(tag_count)
         background-color: var(--accent);
         padding-block: var(--size-1);
         padding-inline: var(--size-3);
-        border-radius: 0.5rem;
+        border-radius: var(--radius);
         position: relative;
+
+    }
+
+    .tags li[data-type="active"] {
+        background-color: var(--focus);
+    }
+
+    .tags li[data-type="active"]:hover {
+        background-color: var(--accent);
     }
 
     .tags li:hover {
-        background-color: var(--hover);
-    }
-
-    .tags li a {
-        font-size: var(--size-3);
+        background-color: var(--focus);
     }
 
     .tags li a::before {
@@ -97,16 +102,13 @@ const top_tags = Object.values(tag_count)
         inset: 0;
     }
 
-    .search {
-        z-index: 10;
-        margin-inline-start: auto;
-    }
-
-    @media only screen and (max-width: 1200px) {
-            .nav {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
+    @media only screen and (max-width: 1400px) {
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            gap: var(--size-4);
+            align-items: center;
+            padding-inline: var(--inline);
         }
+    }
 </style>

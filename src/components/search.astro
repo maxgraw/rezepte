@@ -13,29 +13,29 @@ const { class: className, ...rest } = Astro.props;
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        id="mobile_search_icon"
+        id="mobile_search_open"
         ><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"
         ></path></svg
     >
     <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="17"
-        height="17"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        id="mobile_close_icon"
-        data-visible="false"
-        ><circle cx="12" cy="12" r="10"></circle><path d="m15 9-6 6"
-        ></path><path d="m9 9 6 6"></path></svg
-    >
+            xmlns="http://www.w3.org/2000/svg"
+            width="17"
+            height="17"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            id="mobile_search_close"
+            data-visible="false"
+            ><circle cx="12" cy="12" r="10"></circle><path d="m15 9-6 6"
+            ></path><path d="m9 9 6 6"></path></svg
+        >
 </button>
 
-<form id="search_form" class={className} {...rest}>
-    <div class="search_container">
+<div id="search_container" class={`search ${className}`} {...rest}>
+    <form action="">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="15"
@@ -50,8 +50,8 @@ const { class: className, ...rest } = Astro.props;
             ><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"
             ></path></svg
         >
-        <input id="search" />
-        <button id="reset" data-visible="false">
+        <input id="search" type="search" placeholder="Suche ..." />
+        <button id="clear" class="clear">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="15"
@@ -62,24 +62,25 @@ const { class: className, ...rest } = Astro.props;
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-x"
+                class="clear_icon"
                 ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
             >
         </button>
-    </div>
-    <ul id="result"></ul>
-</form>
+    </form>
+    <ul class="result" id="result"></ul>
+</div>
 
 <script is:inline>
     let pagefind;
 
+    const search_container = document.getElementById("search_container");
     const search_input = document.getElementById("search");
     const result_output = document.getElementById("result");
-    const reset_button = document.getElementById("reset");
+    const clear_button = document.getElementById("clear");
     const mobile_button = document.getElementById("mobile_button");
-    const search_form = document.getElementById("search_form");
-    const mobile_search_icon = document.getElementById("mobile_search_icon");
-    const mobile_close_icon = document.getElementById("mobile_close_icon");
+
+    const mobile_search_open_icon = document.getElementById("mobile_search_open");
+    const mobile_search_close_icon = document.getElementById("mobile_search_close");
 
     search_input.addEventListener("focus", async (e) => {
         if (!pagefind) {
@@ -98,13 +99,13 @@ const { class: className, ...rest } = Astro.props;
 
         if (data === null) {
             return;
-        } else {
-            reset_button.dataset.visible = "true";
-            result_output.innerHTML = "";
         }
 
+        clear_button.style.opacity = 1
+        result_output.innerHTML = "";
+
         if (e.target.value == "") {
-            reset_button.dataset.visible = "false";
+            clear_button.style.opacity = 0
             result_output.innerHTML = "";
             return;
         }
@@ -125,113 +126,117 @@ const { class: className, ...rest } = Astro.props;
         }
     });
 
-    reset_button.addEventListener("click", (e) => {
+    clear_button.addEventListener("click", (e) => {
         e.preventDefault();
         search_input.value = "";
         result_output.innerHTML = "";
-
-        reset_button.dataset.visible = "false";
+        clear_button.style.opacity = 0
     });
 
     mobile_button.addEventListener("click", (e) => {
-        const toggle =
-            search_form.dataset.visible === "true" ? "false" : "true";
-        search_form.dataset.visible = toggle;
+            const current_style = getComputedStyle(search_container);
 
-        if (toggle == "true") {
+            if (current_style.display === "flex") {
+                mobile_search_close_icon.style.display = "none";
+                mobile_search_open_icon.style.display = "inline";
+                document.body.classList.toggle("overflow");
+                search_container.style.display = "none"
+                search_input.value = "";
+                result_output.innerHTML = "";
+                clear_button.style.opacity = 0
+                return;
+            }
+
+            mobile_search_close_icon.style.display = "inline";
+            mobile_search_open_icon.style.display = "none";
+            search_container.style.display = "flex";
             search_input.focus();
             document.body.classList.toggle("overflow");
-            mobile_search_icon.dataset.visible = "false";
-            mobile_close_icon.dataset.visible = "true";
-            return;
-        }
-
-        document.body.classList.toggle("overflow");
-        mobile_search_icon.dataset.visible = "true";
-        mobile_close_icon.dataset.visible = "false";
-
-        search_input.value = "";
-        result_output.innerHTML = "";
-
-        reset_button.dataset.visible = "false";
-    });
+        });
 </script>
 
 <style>
-    #search_form {
+    .search  {
         position: relative;
     }
 
-    .search_container {
-        border: solid 1px var(--border);
+    .search form {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-
-        gap: var(--size-2);
-
         background-color: white;
+        justify-content: flex-start;
+        gap: 1rem;
+        width: 100%;
         border-radius: var(--radius);
-
-        padding-inline: var(--size-2);
+        border: solid 1px var(--border);
         padding-block: var(--size-1);
+        padding-inline: var(--size-2);
     }
 
-    #search {
-        border: none;
+    .search form:focus-within {
+        outline: solid var(--focus);
+    }
+
+    .search input {
         flex: 1;
+        font-size: 1rem;
+        border: none;
+        width: 100%;
+    }
+
+    .search input:focus-within {
         outline: none;
+    }
+
+    .search input::placeholder {
         font-size: 1rem;
     }
 
-    .search_icon {
-        opacity: 0.5;
+    .search .clear {
+        margin-inline-start: auto;
     }
 
-    #reset:hover {
-        color: blue;
-    }
-
-    #reset[data-visible="false"] {
-        opacity: 0;
-    }
-
-    #result {
+    .result {
         display: none;
         position: absolute;
         background-color: white;
         border-radius: var(--radius);
-
         padding-inline: var(--size-2);
         padding-block: var(--size-2);
-
         border: solid 1px var(--border);
-
         width: 100%;
-
         flex-direction: column;
+        gap: var(--size-3);
 
-        gap: var(--size-2);
-
-        margin-block-start: var(--size-1);
+        margin-block-start: var(--size-2);
     }
 
-    #result:has(li) {
+    .result:has(li) {
         display: flex;
     }
 
-    #result :global(li) {
+    .result :global(li) {
         position: relative;
     }
 
-    #result :global(li:hover) {
+    .result :global(li:hover) {
         text-decoration: underline;
     }
 
-    #result :global(a::before) {
+    .result :global(a::before) {
         content: "";
         position: absolute;
         inset: 0;
+    }
+
+    .clear {
+        opacity: 0;
+        padding: var(--size-2);
+    }
+
+    .clear:hover {
+        background-color: var(--focus);
+        border-radius: var(--radius);
     }
 
     #mobile_button {
@@ -242,14 +247,15 @@ const { class: className, ...rest } = Astro.props;
     @media only screen and (max-width: 1200px) {
         #mobile_button {
             display: flex;
+            padding: var(--size-2);
         }
 
-        #search_form {
+        #mobile_search_close {
             display: none;
         }
 
-        #search_form[data-visible="true"] {
-            display: flex;
+        .search {
+            display: none;
             flex-direction: column;
             position: absolute;
             left: 0;
@@ -263,22 +269,12 @@ const { class: className, ...rest } = Astro.props;
             padding-block-start: var(--size-2);
         }
 
-        #search {
-            font-size: 1.25rem;
-        }
-
-        #result {
+        .result {
             position: relative;
             background-color: transparent;
             border: none;
+            overflow: scroll;
         }
 
-        *[data-visible="true"] {
-            display: flex;
-        }
-
-        *[data-visible="false"] {
-            display: none;
-        }
     }
 </style>

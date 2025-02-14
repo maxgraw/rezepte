@@ -3,39 +3,32 @@ import { getCollection } from "astro:content";
 
 import BaseLayout from "@layouts/base_layout.astro";
 import Card from "@components/card.astro";
+import { get_unique_tags } from "src/utils/tags";
 
 export async function getStaticPaths() {
 	const recipes = await getCollection("recipes");
 
-	const unique_tags = [
-		...new Set(
-			recipes.flatMap((recipe) =>
-				(recipe.data.tags || []).map((tag) => tag.toLowerCase()),
-			),
-		),
-	];
+	const data = get_unique_tags(recipes);
 
-	console.log(unique_tags);
-
-	return unique_tags.map((tag) => {
+	return data.map((tag) => {
 		const filtered_recipes = recipes.filter((recipe) => {
 			if (recipe.data.tags) {
-				return recipe.data.tags.some((t) => t.toLowerCase() === tag);
+				return recipe.data.tags.some((t) => t.toLowerCase() === tag.lowercase);
 			}
 		});
 
 		return {
-			params: { tag: tag },
-			props: { recipes: filtered_recipes },
+			params: { tag: tag.lowercase },
+			props: { tag_original: tag.original, recipes: filtered_recipes },
 		};
 	});
 }
 
+const { recipes, tag_original } = Astro.props;
 const { tag } = Astro.params;
-const { recipes } = Astro.props;
 ---
 
-<BaseLayout title={`Rezepte ${tag}`}>
+<BaseLayout title={`Rezepte - ${tag_original}`} active={tag}>
 	<ul>
 		{recipes.map(recipe => (
 			<Card href={`/${recipe.id}`} title={recipe.data.title}/>
