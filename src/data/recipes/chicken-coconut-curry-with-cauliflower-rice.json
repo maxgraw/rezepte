@@ -1,0 +1,81 @@
+{
+	"title": "Hähnchen-Kokos-Curry mit Blumenkohlreis",
+	"people": 4,
+	"tags": ["Hähnchen"],
+	"ingredients": [
+		{
+			"name": "rote Paprikaschote",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Zuckerschoten",
+			"amount": "75 g"
+		},
+		{
+			"name": "braune Champignons",
+			"amount": "100 g"
+		},
+		{
+			"name": "Hähnchenfilet",
+			"amount": "500 g"
+		},
+		{
+			"name": "Sonnenblumenöl",
+			"amount": "2 EL"
+		},
+		{
+			"name": "Salz",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Pfeffer",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "gelbes Currypulver",
+			"amount": "1 TL"
+		},
+		{
+			"name": "Gemüsebrühe",
+			"amount": "150 ml"
+		},
+		{
+			"name": "cremige Kokosmilch",
+			"amount": "1 Dose (400 ml)"
+		},
+		{
+			"name": "gesalzene Erdnusskerne",
+			"amount": "50 g"
+		},
+		{
+			"name": "Reis",
+			"amount": "nach Bedarf"
+		}
+	],
+	"steps": [
+		{
+			"content": "Paprika halbieren, putzen, waschen und in feine Streifen schneiden. Zuckerschoten waschen, putzen und schräg halbieren. Pilze putzen, säubern und vierteln. Hähnchenfilet waschen, trocken tupfen und in grobe Würfel schneiden."
+		},
+		{
+			"content": "Öl in einer Pfanne erhitzen. Hähnchenfleisch darin unter Wenden anbraten."
+		},
+		{
+			"content": "Paprika, Pilze und Zuckerschoten zugeben und weitere ca. 3 Minuten braten."
+		},
+		{
+			"content": "Mit Salz, Pfeffer und Currypulver würzen."
+		},
+		{
+			"content": "Gemüsebrühe und Kokosmilch zugießen und ca. 5 Minuten köcheln lassen."
+		},
+		{
+			"content": "Erdnüsse grob hacken, in einer Pfanne ohne Fett goldbraun rösten und herausnehmen."
+		},
+		{
+			"content": "Reis nach Packungsanweisung kochen."
+		},
+		{
+			"content": "Das Curry mit den gerösteten Erdnüssen bestreuen und servieren."
+		}
+	]
+}

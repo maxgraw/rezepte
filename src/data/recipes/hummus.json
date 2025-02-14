@@ -1,0 +1,68 @@
+{
+	"title": "Hummus",
+	"people": 4,
+	"tags": ["Dip", "Vegetarisch"],
+	"ingredients": [
+		{
+			"name": "Kichererbsen (Abtropfgewicht)",
+			"amount": "2 Dosen (je 250 g)"
+		},
+		{
+			"name": "Abtropfwasser der Kichererbsen",
+			"amount": "nach Bedarf"
+		},
+		{
+			"name": "Olivenöl",
+			"amount": "ca. 150 ml (mit 75 ml beginnen)"
+		},
+		{
+			"name": "Sesampaste (Tahin)",
+			"amount": "1 - 2 EL"
+		},
+		{
+			"name": "Kreuzkümmel",
+			"amount": "Prise"
+		},
+		{
+			"name": "Paprikapulver, edelsüß",
+			"amount": "1 TL"
+		},
+		{
+			"name": "Zitronensaft",
+			"amount": "3 - 6 EL"
+		},
+		{
+			"name": "Knoblauchzehen",
+			"amount": "2 Stück (klein geschnitten)"
+		},
+		{
+			"name": "Salz",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Pfeffer",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Petersilie und/oder Minze",
+			"amount": "zum Dekorieren"
+		}
+	],
+	"steps": [
+		{
+			"content": "Kichererbsen abtropfen lassen, dabei das Abtropfwasser auffangen. Einige Kichererbsen für die Garnitur zurückbehalten."
+		},
+		{
+			"content": "Kichererbsen mit der Hälfte des Olivenöls pürieren. Falls das Mus zu fest ist, etwas von dem aufgefangenen Kichererbsenwasser hinzufügen."
+		},
+		{
+			"content": "Knoblauch, Gewürze, Tahin und Zitronensaft hinzufügen. Zunächst sparsam würzen und bei Bedarf nachwürzen."
+		},
+		{
+			"content": "Hummus im Kühlschrank kühlen."
+		},
+		{
+			"content": "Mit Kräutern, ganzen Kichererbsen, Paprikapulver und Olivenöl dekorieren."
+		}
+	]
+}

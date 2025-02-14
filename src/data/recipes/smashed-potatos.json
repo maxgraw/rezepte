@@ -1,0 +1,69 @@
+{
+	"title": "Smashed Potatoes",
+	"people": 2,
+	"tags": ["Kartoffeln", "Vegetarisch"],
+	"ingredients": [
+		{
+			"name": "Drillinge (kleine Kartoffeln, idealerweise mehligkochend oder vorwiegend festkochend)",
+			"amount": "1,5 kg"
+		},
+		{
+			"name": "Knoblauchzehen",
+			"amount": "4 Stück"
+		},
+		{
+			"name": "Olivenöl",
+			"amount": "10-11 Esslöffel"
+		},
+		{
+			"name": "Naturjoghurt",
+			"amount": "4 Esslöffel"
+		},
+		{
+			"name": "Frischkäse",
+			"amount": "4 Esslöffel"
+		},
+		{
+			"name": "Biozitrone (Zeste)",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Petersilie",
+			"amount": "eine Handvoll"
+		},
+		{
+			"name": "Salz",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Pfeffer",
+			"amount": "nach Geschmack"
+		}
+	],
+	"steps": [
+		{
+			"content": "Ofen auf 200 Grad Ober-/Unterhitze oder 180 Grad Umluft vorheizen."
+		},
+		{
+			"content": "Die ungeschälten Kartoffeln für ca. 10 Minuten in kochendem Salzwasser garen, bis sie fast widerstandslos mit einem Schälmesser durchstochen werden können."
+		},
+		{
+			"content": "Währenddessen den Knoblauch hacken und 2-3 Minuten in Olivenöl anbraten, bis er leicht golden ist. Die Hitze abstellen und das Öl durch ein Sieb in eine Schale gießen."
+		},
+		{
+			"content": "Die Kartoffeln abgießen und 2 Minuten abkühlen lassen, damit der Dampf entweichen kann."
+		},
+		{
+			"content": "Kartoffeln auf Backblechen verteilen und mit einem Marmeladenglas oder ähnlichem zerdrücken. Kartoffeln sollten noch ca. 1-1,5 cm dick bleiben."
+		},
+		{
+			"content": "Das aromatisierte Olivenöl gleichmäßig auf den Kartoffeln verteilen, kräftig salzen und pfeffern. Im Ofen für 25-40 Minuten goldbraun backen."
+		},
+		{
+			"content": "Während die Kartoffeln backen, den Dip anrühren: Joghurt und Frischkäse vermengen, Petersilie hacken und zusammen mit der Zitronenzeste unterrühren. Mit Salz und Pfeffer abschmecken."
+		},
+		{
+			"content": "Kartoffeln aus dem Ofen holen und nach Wunsch weiter knusprig backen lassen. Mit Knoblauch, Petersilie und dem Dip servieren."
+		}
+	]
+}

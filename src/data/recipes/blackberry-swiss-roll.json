@@ -1,0 +1,104 @@
+{
+	"title": "Brombeer-Biskuitrolle",
+	"people": 4,
+	"tags": ["Nachttisch", "Vegetarisch", "Teig"],
+	"ingredients": [
+		{
+			"name": "Zucker",
+			"amount": "90 g"
+		},
+		{
+			"name": "Salz",
+			"amount": "1 Prise"
+		},
+		{
+			"name": "Bio-Eier",
+			"amount": "3 Stück"
+		},
+		{
+			"name": "Mehl",
+			"amount": "60 g"
+		},
+		{
+			"name": "Speisestärke",
+			"amount": "45 g"
+		},
+		{
+			"name": "Weinsteinbackpulver",
+			"amount": "1,5 TL"
+		},
+		{
+			"name": "Öl",
+			"amount": "zum Einfetten des Backblechs"
+		},
+		{
+			"name": "Zucker",
+			"amount": "1,5 EL (zum Stürzen)"
+		},
+		{
+			"name": "Brombeeren",
+			"amount": "250 g"
+		},
+		{
+			"name": "Limette",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Konditorsahne (35 % Fett)",
+			"amount": "400 g"
+		},
+		{
+			"name": "Zucker",
+			"amount": "1 EL"
+		},
+		{
+			"name": "Sahnesteif",
+			"amount": "1 Päckchen"
+		},
+		{
+			"name": "Brombeer-Cassis Fruchtaufstrich",
+			"amount": "5 EL"
+		}
+	],
+	"steps": [
+		{
+			"content": "Zucker, Salz und Eier mit dem Schneebesen einer Küchenmaschine mindestens 8 Minuten cremig-weiß aufschlagen."
+		},
+		{
+			"content": "Mehl, Stärke und Backpulver mischen. Die Mischung in 3-4 Portionen auf die Eimasse sieben und locker unterheben."
+		},
+		{
+			"content": "Backofen auf 190°C (Umluft 170°C, Gas Stufe 3-4) vorheizen."
+		},
+		{
+			"content": "Ein Backblech mit wenig Öl fetten und mit Backpapier auslegen. Den Biskuit-Teig darauf verteilen und glattstreichen."
+		},
+		{
+			"content": "Biskuit auf der zweiten Schiene von unten etwa 9-10 Minuten hellbraun backen."
+		},
+		{
+			"content": "Ein sauberes Geschirrtuch mit Zucker bestreuen. Den Biskuit mit Backpapier aus dem Ofen nehmen und aufs Tuch stürzen."
+		},
+		{
+			"content": "Backpapier mit kaltem Wasser bestreichen, nach 20 Sekunden abziehen. Den Biskuit mit dem Tuch aufrollen und abkühlen lassen."
+		},
+		{
+			"content": "Brombeeren waschen, größere halbieren. Limette abwaschen, trocknen und Schale fein abreiben."
+		},
+		{
+			"content": "Sahne mit Zucker und Sahnesteif steif schlagen. Hälfte der Limettenschale unterrühren."
+		},
+		{
+			"content": "Biskuit entrollen, mit 2 EL Brombeeraufstrich bestreichen, Hälfte der Sahne daraufstreichen. 150 g Brombeeren im unteren Drittel verteilen."
+		},
+		{
+			"content": "Biskuit mit Hilfe des Tuchs vorsichtig aufrollen, sodass die Nahtstelle unten liegt."
+		},
+		{
+			"content": "Restliche Sahne mit 1 EL Brombeeraufstrich verrühren, die Rolle rundherum bestreichen und 1 Stunde kaltstellen."
+		},
+		{
+			"content": "Übrige Brombeeren und Brombeeraufstrich verrühren, auf der Rolle verteilen. Mit restlicher Limettenschale bestreuen, in Scheiben schneiden und servieren."
+		}
+	]
+}

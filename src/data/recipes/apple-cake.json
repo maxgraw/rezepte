@@ -1,0 +1,90 @@
+{
+	"title": "Apfelkuchen",
+	"people": 4,
+	"tags": ["Nachttisch", "Kuchen", "Apfel", "Teig"],
+	"ingredients": [
+		{
+			"name": "Kalte Süßrahmbutter",
+			"amount": "125 g"
+		},
+		{
+			"name": "Ei",
+			"amount": "1"
+		},
+		{
+			"name": "Rübenzucker",
+			"amount": "80 g"
+		},
+		{
+			"name": "Dinkelmehl",
+			"amount": "250 g"
+		},
+		{
+			"name": "Abgeriebene Zitronenschale",
+			"amount": "1 Prise"
+		},
+		{
+			"name": "Kaltes Süßrahmbutter (für Streusel)",
+			"amount": "100 g"
+		},
+		{
+			"name": "Gehackte Mandeln",
+			"amount": "80 g"
+		},
+		{
+			"name": "Rübenzucker (für Streusel)",
+			"amount": "125 g"
+		},
+		{
+			"name": "Dinkelmehl 1050",
+			"amount": "120 g"
+		},
+		{
+			"name": "Milch (ungesüßt)",
+			"amount": "1/2 l"
+		},
+		{
+			"name": "Vanillepuddingpulver oder Speisestärke mit Vanillemark",
+			"amount": "36 g"
+		},
+		{
+			"name": "Agaven- oder Apfeldicksaft",
+			"amount": "2 EL"
+		},
+		{
+			"name": "Äpfel (z.B. Gravensteiner, Boskoop, Holsteiner Cox)",
+			"amount": "700 g"
+		},
+		{
+			"name": "Zimt",
+			"amount": "1 Prise"
+		},
+		{
+			"name": "Zitronensaft",
+			"amount": "1 EL"
+		}
+	],
+	"steps": [
+		{
+			"content": "Die Äpfel vom Kerngehäuse befreien und kleinschneiden."
+		},
+		{
+			"content": "Alle Zutaten für den Boden zu einem Mürbeteig verarbeiten. Den Teig ausrollen und eine 26er Springform damit auslegen. Den Rand etwa 4 cm hoch stehen lassen. Anschließend für ca. 15-20 Minuten kaltstellen."
+		},
+		{
+			"content": "Die gehackten Mandeln in einer Pfanne ohne Fett leicht anrösten. Aus kalter Butter und den übrigen Zutaten zügig Streusel bereiten. Die Streusel in eine Schüssel umfüllen und zusammen mit dem Boden kaltstellen."
+		},
+		{
+			"content": "Einen Teil der Milch mit der Stärke und der Vanille verrühren, bis sich alle Klümpchen gelöst haben, und anschließend in der restlichen Milch unter Rühren aufkochen."
+		},
+		{
+			"content": "Den Pudding auf dem Teig verteilen und mit den vorbereiteten Äpfeln belegen. Mit einer Prise Zimt und Zucker bestreuen und mit dem Zitronensaft beträufeln."
+		},
+		{
+			"content": "Zum Schluss die kalten Dinkel-Mandelstreusel darüber geben."
+		},
+		{
+			"content": "Den Kuchen bei 180° backen, bis eine hellbraune Färbung der Streusel erreicht ist. Nach dem Abkühlen auf einer Tortenplatte anrichten. Dazu schmeckt eine Zimtsahne."
+		}
+	]
+}

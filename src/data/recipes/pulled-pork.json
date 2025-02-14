@@ -1,6 +1,7 @@
 {
 	"title": "Pulled Pork",
 	"people": 4,
+	"tags": ["Schweinefleisch"],
 	"ingredients": [
 		{
 			"name": "Schweineschulter (ohne Knochen)",

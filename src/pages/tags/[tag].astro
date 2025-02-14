@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "@layouts/base_layout.astro";
+import Card from "@components/card.astro";
+
+export async function getStaticPaths() {
+	const recipes = await getCollection("recipes");
+
+	const unique_tags = [
+		...new Set(
+			recipes.flatMap((recipe) =>
+				(recipe.data.tags || []).map((tag) => tag.toLowerCase()),
+			),
+		),
+	];
+
+	console.log(unique_tags);
+
+	return unique_tags.map((tag) => {
+		const filtered_recipes = recipes.filter((recipe) => {
+			if (recipe.data.tags) {
+				return recipe.data.tags.some((t) => t.toLowerCase() === tag);
+			}
+		});
+
+		return {
+			params: { tag: tag },
+			props: { recipes: filtered_recipes },
+		};
+	});
+}
+
+const { tag } = Astro.params;
+const { recipes } = Astro.props;
+---
+
+<BaseLayout title={`Rezepte ${tag}`}>
+	<ul>
+		{recipes.map(recipe => (
+			<Card href={`/${recipe.id}`} title={recipe.data.title}/>
+		))}
+	  </ul>
+</BaseLayout>
+
+<style>
+	ul {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+		gap: var(--size-4);
+	}
+</style>

@@ -1,0 +1,16 @@
+{
+	"title": "Naan Brot",
+	"people": 4,
+	"tags": ["Teig", "Vegetarisch"],
+	"ingredients": [
+		{
+			"name": "",
+			"amount": ""
+		}
+	],
+	"steps": [
+		{
+			"content": "TODO"
+		}
+	]
+}

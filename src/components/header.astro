@@ -1,45 +1,112 @@
 ---
+import { getCollection } from "astro:content";
 import Search from "./search.astro";
+
+type TagData = {
+	original: string;
+	lowercase: string;
+	count: number;
+};
+
+const recipes = await getCollection("recipes");
+
+const tag_count = recipes
+	.flatMap((recipe) => recipe.data.tags || [])
+	.map((tag) => ({ original: tag, lowercase: tag.toLowerCase() }))
+	.reduce<Record<string, TagData>>((count, tag) => {
+		const tagKey = tag.lowercase;
+		if (!count[tagKey]) {
+			count[tagKey] = {
+				original: tag.original,
+				lowercase: tag.lowercase,
+				count: 0,
+			};
+		}
+		count[tagKey].count += 1;
+		return count;
+	}, {});
+
+const top_tags = Object.values(tag_count)
+	.sort((a, b) => b.count - a.count)
+	.slice(0, 10);
 ---
 
 <header>
-    <a href="/">Rezepte</a>
-    <Search />
+<div class="nav">
+<a class="logo" href="/">Rezepte</a>
+<Search class="search" />
+</div>
+    <ul class="tags">
+    {top_tags.map(item => <li>
+        <a href={`/tags/${item.lowercase}`}>{item.original}</a>
+    </li>)}
+    </ul>
 </header>
 
 <style>
     header {
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding-block: var(--size-2);
-        align-items: center;
-
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
         position: sticky;
         top: 0;
-
-        background-color: var(--accent);
-
         z-index: 5;
+        background-color: white;
+    }
 
+    .nav {
+        display: flex;
+        align-items: center;
+        background-color: var(--accent);
         padding-inline: max((100% - 70rem) /2, 2rem);
-
+        padding-block: var(--size-2);
         border-block-end: solid 1px var(--border);
     }
 
-    a {
-        font-size: 1.5rem;
+    .logo {
     }
 
-    a:hover {
-        text-decoration: underline;
+    .tags {
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        padding-inline: max((100% - 70rem) /2, 2rem);
+        overflow: scroll;
+        padding-block-end: var(--size-3);
+    }
+
+    .tags li {
+        background-color: var(--accent);
+        padding-block: var(--size-1);
+        padding-inline: var(--size-3);
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .tags li:hover {
+        background-color: var(--hover);
+    }
+
+    .tags li a {
+        font-size: var(--size-3);
+    }
+
+    .tags li a::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+    }
+
+    .search {
+        z-index: 10;
+        margin-inline-start: auto;
     }
 
     @media only screen and (max-width: 1200px) {
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            .nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
         }
-    }
 </style>

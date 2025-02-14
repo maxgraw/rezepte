@@ -26,6 +26,11 @@ const { recipe } = Astro.props;
       <Steps data={recipe.data.steps} />
     </div>
   </article>
+
+  <div>
+
+  </div>
+  {JSON.stringify(recipe.data.tags)}
 </BaseLayout>
 
 <style>

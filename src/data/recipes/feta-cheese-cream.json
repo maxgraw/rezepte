@@ -1,0 +1,45 @@
+{
+	"title": "Schafskäsecreme",
+	"people": 4,
+	"tags": ["Dip", "Vegetarisch"],
+	"ingredients": [
+		{
+			"name": "Schafskäse",
+			"amount": "300 g"
+		},
+		{
+			"name": "Naturjoghurt",
+			"amount": "125 g"
+		},
+		{
+			"name": "Schmand",
+			"amount": "125 g"
+		},
+		{
+			"name": "Öl",
+			"amount": "2 EL"
+		},
+		{
+			"name": "Frühlingszwiebeln",
+			"amount": "4 Stangen"
+		},
+		{
+			"name": "Knoblauchzehen",
+			"amount": "2"
+		}
+	],
+	"steps": [
+		{
+			"content": "Schafskäse zerstampfen."
+		},
+		{
+			"content": "Frühlingszwiebeln waschen und fein hacken."
+		},
+		{
+			"content": "Knoblauch schälen und fein hacken oder pressen."
+		},
+		{
+			"content": "Alle Zutaten in einer Schüssel vermischen."
+		}
+	]
+}

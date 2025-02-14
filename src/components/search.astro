@@ -1,3 +1,7 @@
+---
+const { class: className, ...rest } = Astro.props;
+---
+
 <button id="mobile_button">
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +34,7 @@
     >
 </button>
 
-<form id="search_form">
+<form id="search_form" class={className} {...rest}>
     <div class="search_container">
         <svg
             xmlns="http://www.w3.org/2000/svg"

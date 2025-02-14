@@ -1,0 +1,98 @@
+{
+	"title": "Chicken Curry",
+	"people": 6,
+	"tags": ["Hähnchen"],
+	"ingredients": [
+		{
+			"name": "Blumenkohl",
+			"amount": "½ Kopf"
+		},
+		{
+			"name": "Zucchini",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "rote Paprika",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Möhre",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Champignons oder Spinat (optional)",
+			"amount": "nach Belieben"
+		},
+		{
+			"name": "Zwiebel",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Knoblauchzehe",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Kichererbsen (kleine Dose)",
+			"amount": "1 Dose"
+		},
+		{
+			"name": "Hähnchenbrustfilet",
+			"amount": "300 – 500 g"
+		},
+		{
+			"name": "rote Currypaste",
+			"amount": "1 – 2 TL"
+		},
+		{
+			"name": "Currypulver",
+			"amount": "2 – 3 TL"
+		},
+		{
+			"name": "schärferes Currypulver",
+			"amount": "1 TL"
+		},
+		{
+			"name": "Limettensaft",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Kreuzkümmel",
+			"amount": "etwas"
+		},
+		{
+			"name": "Salz und Pfeffer",
+			"amount": "nach Geschmack"
+		},
+		{
+			"name": "Kokosmilch",
+			"amount": "500 ml"
+		},
+		{
+			"name": "Reis",
+			"amount": "3 – 4 Beutel"
+		}
+	],
+	"steps": [
+		{
+			"content": "Hähnchenbrustfilet in mundgerechte Würfel schneiden, salzen und in einer Pfanne von allen Seiten ca. 10 Minuten braten."
+		},
+		{
+			"content": "Zwiebel und Knoblauch klein schneiden, hinzufügen und weitere 2–3 Minuten garen."
+		},
+		{
+			"content": "Das Gemüse hinzufügen und kurz anrösten."
+		},
+		{
+			"content": "Hitze reduzieren und Currypaste sowie Kokosmilch einrühren. Das Curry sämig einköcheln lassen."
+		},
+		{
+			"content": "Nach 5 Minuten Kichererbsen und restliche Gewürze hinzufügen und nochmals ca. 5–10 Minuten köcheln lassen."
+		},
+		{
+			"content": "Währenddessen den Reis nach Packungsanweisung kochen."
+		},
+		{
+			"content": "Das fertige Curry mit Limettensaft abschmecken und mit dem Reis servieren."
+		}
+	]
+}

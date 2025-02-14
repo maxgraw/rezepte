@@ -1,0 +1,78 @@
+{
+	"title": "Waffeln",
+	"people": 4,
+	"tags": ["Nachttisch", "Teig", "Vegetarisch"],
+	"ingredients": [
+		{
+			"name": "Vanilleschote",
+			"amount": "1 Stück"
+		},
+		{
+			"name": "Eier (Größe L)",
+			"amount": "4 Stück"
+		},
+		{
+			"name": "Salz",
+			"amount": "Prise"
+		},
+		{
+			"name": "Zucker",
+			"amount": "75 g"
+		},
+		{
+			"name": "Butter",
+			"amount": "50 g"
+		},
+		{
+			"name": "Mehl",
+			"amount": "175 g"
+		},
+		{
+			"name": "Backpulver",
+			"amount": "1 TL"
+		},
+		{
+			"name": "Sahne",
+			"amount": "175 ml"
+		},
+		{
+			"name": "Butterschmalz oder neutrales Pflanzenöl",
+			"amount": "für das Waffeleisen"
+		}
+	],
+	"steps": [
+		{
+			"content": "Alle Zutaten abwiegen und bereitstellen."
+		},
+		{
+			"content": "Vanilleschote längs aufschneiden und das Mark mit dem Messerrücken herauskratzen."
+		},
+		{
+			"content": "Eier trennen. Eiweiße und Eigelbe jeweils in eine extra Schüssel geben."
+		},
+		{
+			"content": "Eiweiße und Salz mit den Quirlen des Handrührgeräts steif schlagen, dabei nach und nach den Zucker einrieseln lassen und weiterschlagen."
+		},
+		{
+			"content": "Butter zerlassen. Mehl in ein feines Sieb geben und in eine Schüssel sieben."
+		},
+		{
+			"content": "Backpulver, Eigelbe, Sahne und Vanillemark hinzufügen. Die flüssige Butter ebenfalls dazugeben."
+		},
+		{
+			"content": "Alle Zutaten zu einem glatten Teig verrühren."
+		},
+		{
+			"content": "Eischnee zum Waffelteig geben und behutsam unter den Teig heben."
+		},
+		{
+			"content": "Waffeleisen vorheizen. Butterschmalz zerlassen und das Waffeleisen damit oder mit Öl bepinseln."
+		},
+		{
+			"content": "Teig portionsweise auf die Unterseite des Waffeleisens geben. Waffeleisen schließen und den Teig in 4–5 Minuten goldbraun backen."
+		},
+		{
+			"content": "Waffeln kurz auf einem Kuchengitter abkühlen lassen und lauwarm servieren."
+		}
+	]
+}

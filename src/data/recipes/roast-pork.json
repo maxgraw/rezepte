@@ -1,0 +1,54 @@
+{
+	"title": "Schweinebraten",
+	"people": 4,
+	"tags": ["Schweinefleisch"],
+	"ingredients": [
+		{
+			"name": "Schweineschulter (ohne Knochen)",
+			"amount": "1kg"
+		},
+		{
+			"name": "Suppengemüse",
+			"amount": "1"
+		},
+		{
+			"name": "Zwiebeln",
+			"amount": "2"
+		},
+		{
+			"name": "Rinderbrühe",
+			"amount": "1 Liter"
+		},
+		{
+			"name": "Salz",
+			"amount": ""
+		},
+		{
+			"name": "Pfeffer",
+			"amount": ""
+		}
+	],
+	"steps": [
+		{
+			"content": "Backofen auf 170 Grad Umluft vorheizen."
+		},
+		{
+			"content": "Fleisch trocken tupfen und mit etwas Salz einreiben."
+		},
+		{
+			"content": "Rapsöl in einem ofenfesten Schmortopf erhitzen. Das Fleisch darin etwa 10 Minuten von allen Seiten scharf anbraten, bis es braun ist. Anschließend das Fleisch herausnehmen und beiseitestellen."
+		},
+		{
+			"content": "Suppengemüse und Zwiebeln grob schneiden. Suppengemüse und Zwiebeln im Schmortopf anrösten."
+		},
+		{
+			"content": "Rinderbrühe angießen."
+		},
+		{
+			"content": "Das Fleisch zurück in den Topf geben."
+		},
+		{
+			"content": "Den Schmortopf ohne Deckel in den vorgeheizten Backofen stellen und das Gericht etwa 2 Stunden garen. Nach einer Stunde den Braten im Topf vorsichtig wenden, damit er gleichmäßig durchzieht."
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"title": "Basilikum-Pesto",
+	"people": 4,
+	"tags": ["Vegetarisch", "Pesto"],
+	"ingredients": [
+		{
+			"name": "Pinienkerne",
+			"amount": "40 g"
+		},
+		{
+			"name": "Basilikum",
+			"amount": "100 g"
+		},
+		{
+			"name": "Knoblauchzehen",
+			"amount": "1–2 (je nach Größe)"
+		},
+		{
+			"name": "Olivenöl",
+			"amount": "ca. 125 ml"
+		},
+		{
+			"name": "frisch geriebener Parmesankäse (oder vegetarische Alternative) oder vegetarischer Hartkäse",
+			"amount": "ca. 50 g"
+		},
+		{
+			"name": "Meersalz",
+			"amount": "nach Geschmack"
+		}
+	],
+	"steps": [
+		{
+			"content": "Pinienkerne in einer Pfanne ohne Fett rösten. Sofort herausnehmen und auskühlen lassen."
+		},
+		{
+			"content": "Basilikum kurz in kaltem Wasser waschen, gut trocken tupfen und Blättchen abzupfen. Knoblauch schälen und grob würfeln."
+		},
+		{
+			"content": "Basilikum, Knoblauch, Pinienkerne und Öl in einen hohen Rührbecher geben und mit einem Schneidstab pürieren."
+		},
+		{
+			"content": "Käse unterrühren und mit Salz würzen."
+		},
+		{
+			"content": "Anschließend zu Pasta oder Brot genießen."
+		}
+	]
+}
