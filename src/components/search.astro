@@ -41,7 +41,6 @@ const { class: className, ...rest } = Astro.props;
 <script is:inline>
     let pagefind;
 
-    const search_container = document.getElementById("search_container");
     const search_input = document.getElementById("search");
     const result_output = document.getElementById("result");
     const clear_button = document.getElementById("clear");
@@ -96,27 +95,6 @@ const { class: className, ...rest } = Astro.props;
         result_output.innerHTML = "";
         clear_button.style.opacity = 0
     });
-
-    mobile_button.addEventListener("click", (e) => {
-            const current_style = getComputedStyle(search_container);
-
-            if (current_style.display === "flex") {
-                mobile_search_close_icon.style.display = "none";
-                mobile_search_open_icon.style.display = "inline";
-                document.body.classList.toggle("overflow");
-                search_container.style.display = "none"
-                search_input.value = "";
-                result_output.innerHTML = "";
-                clear_button.style.opacity = 0
-                return;
-            }
-
-            mobile_search_close_icon.style.display = "inline";
-            mobile_search_open_icon.style.display = "none";
-            search_container.style.display = "flex";
-            search_input.focus();
-            document.body.classList.toggle("overflow");
-        });
 </script>
 
 <style>

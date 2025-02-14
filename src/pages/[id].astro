@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import Ingredients from "@components/ingredients.astro";
 import Steps from "@components/steps.astro";
 import BaseLayout from "@layouts/base_layout.astro";
+import Tags from "@components/tags.astro";
 
 export async function getStaticPaths() {
 	const recipes = await getCollection("recipes");
@@ -25,6 +26,9 @@ const { recipe } = Astro.props;
       <Ingredients data={recipe.data.ingredients}/>
       <Steps data={recipe.data.steps} />
     </div>
+    <div class="tags">
+    {JSON.stringify(recipe.data.tags)}
+    </div>
   </article>
 </BaseLayout>
 
@@ -38,6 +42,10 @@ const { recipe } = Astro.props;
   h1 {
     font-size: clamp(1.5rem, 2.5vw + 1rem, 2.5rem);
     font-weight: bold;
+  }
+
+  .tags {
+      display: none;
   }
 
   .content {
