@@ -7,60 +7,67 @@
 			"title": "",
 			"items": [
 				{
-					"name": "Hackfleisch",
-					"amount": ""
+					"name": "Hackfleisch"
 				},
 				{
-					"name": "Mett",
-					"amount": ""
+					"name": "Mett"
 				},
 				{
-					"name": "Pilze",
-					"amount": ""
+					"name": "Pilze"
 				},
 				{
-					"name": "Zwiebeln",
-					"amount": ""
+					"name": "Zwiebeln"
 				},
 				{
-					"name": "Mais",
-					"amount": ""
+					"name": "Mais"
 				},
 				{
-					"name": "Kidneybohne",
-					"amount": ""
+					"name": "Kidneybohne"
 				},
 				{
-					"name": "Schafskäse",
-					"amount": ""
+					"name": "Schafskäse"
 				},
 				{
-					"name": "Oliven",
-					"amount": ""
+					"name": "Oliven"
 				},
 				{
-					"name": "Gambas",
-					"amount": ""
+					"name": "Gambas"
 				},
 				{
-					"name": "Bacon",
-					"amount": ""
+					"name": "Bacon"
 				},
 				{
-					"name": "Speck",
-					"amount": ""
+					"name": "Speck"
 				},
 				{
-					"name": "Kochschinken",
-					"amount": ""
+					"name": "Kochschinken"
 				},
 				{
-					"name": "Zuchini",
-					"amount": ""
+					"name": "Zuchini"
 				},
 				{
-					"name": "Aubergine",
-					"amount": ""
+					"name": "Aubergine"
+				},
+				{
+					"name": "Speckwürfel"
+				},
+				{
+					"name": "Tunfisch"
+				},
+				{
+					"name": "Kartoffeln"
+				},
+				{
+					"name": "Feta"
+				},
+				{
+					"name": "Spinat"
+				},
+				{
+					"name": "Tomaten"
+				},
+				{
+					"name": "Paprika"
 				}
 			]
 		}

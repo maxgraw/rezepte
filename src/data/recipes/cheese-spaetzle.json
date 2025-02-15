@@ -1,0 +1,82 @@
+{
+	"title": "Schwäbische Käsespätzle",
+	"tags": ["Vegetarisch", "Schwäbisch"],
+	"ingredients": [
+		{
+			"title": "Für den Teig",
+			"items": [
+				{
+					"name": "Eier",
+					"amount": "6"
+				},
+				{
+					"name": "Mehl",
+					"amount": "550g"
+				},
+				{
+					"name": "Milch",
+					"amount": "200ml"
+				},
+				{
+					"name": "Wasser"
+				},
+				{
+					"name": "Salz"
+				},
+				{
+					"name": "Schwarzer Pfeffer"
+				},
+				{
+					"name": "Metzgerzwiebeln",
+					"amount": "2"
+				},
+				{
+					"name": "Butter",
+					"amount": "80g"
+				},
+				{
+					"name": "Appenzeller",
+					"amount": "200g"
+				},
+				{
+					"name": "Gouda",
+					"amount": "200g"
+				},
+				{
+					"name": "Sahne",
+					"amount": "50ml"
+				},
+				{
+					"name": "Butter"
+				},
+				{
+					"name": "Öl"
+				},
+				{
+					"name": "Schnittlauch",
+					"amount": "1 Bund"
+				}
+			]
+		}
+	],
+	"steps": [
+		{
+			"content": "Eier, Mehl, Milch und lauwarmes Wasser zu einem glatten Teig verrühren und mit Salz und Pfeffer würzen."
+		},
+		{
+			"content": "Einen Topf mit Salzwasser aufsetzen und zum Kochen bringen. Mit einem Spätzlehobel den Teig ins Wasser einlaufen lassen. Die Spätzle kochen lassen, bis sie an die Wasseroberfläche steigen. Aus dem Wasser nehmen und mit kaltem Wasser abkühlen."
+		},
+		{
+			"content": "Zwiebeln schälen, in feine Streifen schneiden und in einer Pfanne mit Butter zu Schmelzzwiebeln anbraten. Mit Salz und Pfeffer würzen."
+		},
+		{
+			"content": "Spätzle in einer Pfanne mit etwas Öl und Butter anbraten. Die geriebenen Käsesorten nach und nach unterrühren und die Sahne hinzufügen, bis eine schlotzige Masse entsteht."
+		},
+		{
+			"content": "Schnittlauch abbrausen, trocken tupfen und fein hacken."
+		},
+		{
+			"content": "Die Käsespätzle auf Tellern anrichten und mit den Schmelzzwiebeln und dem Schnittlauch garnieren."
+		}
+	]
+}

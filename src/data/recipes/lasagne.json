@@ -1,0 +1,118 @@
+{
+	"title": "Lasagne",
+	"tags": ["Hauptgericht", "Italienisch"],
+	"ingredients": [
+		{
+			"title": "",
+			"items": [
+				{
+					"name": "Gehäutete oder passierte Tomaten",
+					"amount": "1 Dose"
+				},
+				{
+					"name": "Gemischtes Hackfleisch",
+					"amount": "500g"
+				},
+				{
+					"name": "Tomaten (Impwild Forma)",
+					"amount": "nach Bedarf"
+				},
+				{
+					"name": "Zwiebel",
+					"amount": "1"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "2"
+				},
+				{
+					"name": "Paprikapulver"
+				},
+				{
+					"name": "Schmand",
+					"amount": "2 EL"
+				},
+				{
+					"name": "Mozzarella",
+					"amount": "250g"
+				},
+				{
+					"name": "Lasagne-Nudelplatten (ohne Vorkochen)",
+					"amount": "250g"
+				},
+				{
+					"name": "Parmesan (frisch gerieben)",
+					"amount": "100g"
+				},
+				{
+					"name": "Junger Gouda (frisch gerieben)",
+					"amount": "200g"
+				},
+				{
+					"name": "Kalte Butter",
+					"amount": "2-4 EL"
+				},
+				{
+					"name": "Butter",
+					"amount": "50g"
+				},
+				{
+					"name": "Mehl",
+					"amount": "50g"
+				},
+				{
+					"name": "Milch",
+					"amount": "750ml"
+				},
+				{
+					"name": "Salz"
+				},
+				{
+					"name": "Pfeffer"
+				},
+				{
+					"name": "Muskatnuss"
+				},
+				{
+					"name": "Zitronensaft",
+					"amount": "1 TL"
+				}
+			]
+		}
+	],
+	"steps": [
+		{
+			"content": "Knoblauch und Zwiebel klein schneiden. In etwas Öl oder Margarine kurz andünsten, dann herausnehmen."
+		},
+		{
+			"content": "Hackfleisch anbraten und mit Paprikapulver, Salz und Pfeffer würzen."
+		},
+		{
+			"content": "Knoblauch, Zwiebeln, Tomaten und Sauce zum Hackfleisch geben, etwas köcheln lassen und Schmand unterrühren."
+		},
+		{
+			"content": "Für die Béchamelsauce Butter in einem Topf erhitzen, Mehl einrühren und kurz anschwitzen."
+		},
+		{
+			"content": "Milch unter ständigem Rühren dazugießen und Sauce 10 Minuten köcheln lassen. Mit Salz, Pfeffer, Muskatnuss und Zitronensaft abschmecken."
+		},
+		{
+			"content": "Backofen auf 200°C vorheizen."
+		},
+		{
+			"content": "Mozzarella würfeln."
+		},
+		{
+			"content": "In eine große ofenfeste Form etwas Béchamelsauce geben. Abwechselnd Nudelplatten, Bolognesesauce, Béchamelsauce, Mozzarella, Gouda und weitere Nudelplatten schichten."
+		},
+		{
+			"content": "Mit einer Schicht Béchamelsauce abschließen, dann Parmesan und etwas Gouda darüberstreuen."
+		},
+		{
+			"content": "Butter in kleinen Flöckchen auf der Lasagne verteilen."
+		},
+		{
+			"content": "Lasagne bei 180°C (Ober-/Unterhitze) für 30-40 Minuten goldbraun backen."
+		}
+	]
+}
