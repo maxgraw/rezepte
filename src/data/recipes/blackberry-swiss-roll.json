@@ -1,63 +1,71 @@
 {
 	"title": "Brombeer-Biskuitrolle",
-	"people": 4,
 	"tags": ["Nachtisch", "Vegetarisch", "Teig"],
 	"ingredients": [
 		{
-			"name": "Zucker",
-			"amount": "90 g"
+			"title": "Biskuit",
+			"items": [
+				{
+					"name": "Zucker",
+					"amount": "90 g"
+				},
+				{
+					"name": "Salz",
+					"amount": "1 Prise"
+				},
+				{
+					"name": "Bio-Eier",
+					"amount": "3 Stück"
+				},
+				{
+					"name": "Mehl",
+					"amount": "60 g"
+				},
+				{
+					"name": "Speisestärke",
+					"amount": "45 g"
+				},
+				{
+					"name": "Weinsteinbackpulver",
+					"amount": "1,5 TL"
+				},
+				{
+					"name": "Öl"
+				},
+				{
+					"name": "Zucker",
+					"amount": "1,5 EL (zum Stürzen)"
+				}
+			]
 		},
 		{
-			"name": "Salz",
-			"amount": "1 Prise"
-		},
-		{
-			"name": "Bio-Eier",
-			"amount": "3 Stück"
-		},
-		{
-			"name": "Mehl",
-			"amount": "60 g"
-		},
-		{
-			"name": "Speisestärke",
-			"amount": "45 g"
-		},
-		{
-			"name": "Weinsteinbackpulver",
-			"amount": "1,5 TL"
-		},
-		{
-			"name": "Öl",
-			"amount": "zum Einfetten des Backblechs"
-		},
-		{
-			"name": "Zucker",
-			"amount": "1,5 EL (zum Stürzen)"
-		},
-		{
-			"name": "Brombeeren",
-			"amount": "250 g"
-		},
-		{
-			"name": "Limette",
-			"amount": "1 Stück"
-		},
-		{
-			"name": "Konditorsahne (35 % Fett)",
-			"amount": "400 g"
-		},
-		{
-			"name": "Zucker",
-			"amount": "1 EL"
-		},
-		{
-			"name": "Sahnesteif",
-			"amount": "1 Päckchen"
-		},
-		{
-			"name": "Brombeer-Cassis Fruchtaufstrich",
-			"amount": "5 EL"
+			"title": "Füllung und Deko",
+			"items": [
+				{
+					"name": "Brombeeren",
+					"amount": "250 g"
+				},
+				{
+					"name": "Limette",
+					"amount": "1 Stück"
+				},
+				{
+					"name": "Konditorsahne (35 % Fett)",
+					"amount": "400 g"
+				},
+				{
+					"name": "Zucker",
+					"amount": "1 EL"
+				},
+				{
+					"name": "Sahnesteif",
+					"amount": "1 Päckchen"
+				},
+				{
+					"name": "Brombeer-Cassis Fruchtaufstrich",
+					"amount": "5 EL"
+				}
+			]
 		}
 	],
 	"steps": [

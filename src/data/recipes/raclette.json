@@ -4,60 +4,65 @@
 	"tags": [],
 	"ingredients": [
 		{
-			"name": "Hackfleisch",
-			"amount": ""
-		},
-		{
-			"name": "Mett",
-			"amount": ""
-		},
-		{
-			"name": "Pilze",
-			"amount": ""
-		},
-		{
-			"name": "Zwiebeln",
-			"amount": ""
-		},
-		{
-			"name": "Mais",
-			"amount": ""
-		},
-		{
-			"name": "Kidneybohne",
-			"amount": ""
-		},
-		{
-			"name": "Schafskäse",
-			"amount": ""
-		},
-		{
-			"name": "Oliven",
-			"amount": ""
-		},
-		{
-			"name": "Gambas",
-			"amount": ""
-		},
-		{
-			"name": "Bacon",
-			"amount": ""
-		},
-		{
-			"name": "Speck",
-			"amount": ""
-		},
-		{
-			"name": "Kochschinken",
-			"amount": ""
-		},
-		{
-			"name": "Zuchini",
-			"amount": ""
-		},
-		{
-			"name": "Aubergine",
-			"amount": ""
+			"title": "",
+			"items": [
+				{
+					"name": "Hackfleisch",
+					"amount": ""
+				},
+				{
+					"name": "Mett",
+					"amount": ""
+				},
+				{
+					"name": "Pilze",
+					"amount": ""
+				},
+				{
+					"name": "Zwiebeln",
+					"amount": ""
+				},
+				{
+					"name": "Mais",
+					"amount": ""
+				},
+				{
+					"name": "Kidneybohne",
+					"amount": ""
+				},
+				{
+					"name": "Schafskäse",
+					"amount": ""
+				},
+				{
+					"name": "Oliven",
+					"amount": ""
+				},
+				{
+					"name": "Gambas",
+					"amount": ""
+				},
+				{
+					"name": "Bacon",
+					"amount": ""
+				},
+				{
+					"name": "Speck",
+					"amount": ""
+				},
+				{
+					"name": "Kochschinken",
+					"amount": ""
+				},
+				{
+					"name": "Zuchini",
+					"amount": ""
+				},
+				{
+					"name": "Aubergine",
+					"amount": ""
+				}
+			]
 		}
 	],
 	"steps": [

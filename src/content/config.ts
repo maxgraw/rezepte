@@ -6,14 +6,27 @@ const recipes = defineCollection({
 	loader: glob({ pattern: "**/*.json", base: "./src/data/recipes" }),
 	schema: z.object({
 		title: z.string(),
-		people: z.number(),
+		people: z.optional(z.number()),
 		tags: z.optional(z.array(z.string())),
-		ingredients: z.array(
-			z.object({
-				name: z.string(),
-				amount: z.string().optional(),
-			}),
-		),
+		ingredients: z.union([
+			z.array(
+				z.object({
+					title: z.string(),
+					items: z.array(
+						z.object({
+							name: z.string(),
+							amount: z.string().optional(),
+						}),
+					),
+				}),
+			),
+			z.array(
+				z.object({
+					name: z.string(),
+					amount: z.string().optional(),
+				}),
+			),
+		]),
 		steps: z.array(
 			z.object({
 				content: z.string(),

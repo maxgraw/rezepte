@@ -1,0 +1,105 @@
+{
+	"title": "Nussecken",
+	"tags": [
+		"Gebäck",
+		"Haselnüsse",
+		"Schokolade",
+		"Backen",
+		"Snack",
+		"Teig",
+		"Mürbeteig",
+		"Zartbitter"
+	],
+	"ingredients": [
+		{
+			"title": "Teig",
+			"items": [
+				{
+					"name": "Mehl",
+					"amount": "300g"
+				},
+				{
+					"name": "Butter",
+					"amount": "140g"
+				},
+				{
+					"name": "Zucker",
+					"amount": "140g"
+				},
+				{
+					"name": "Backpulver",
+					"amount": "2 Messerspitzen"
+				},
+				{
+					"name": "Eier",
+					"amount": "3"
+				}
+			]
+		},
+		{
+			"title": "Belag",
+			"items": [
+				{
+					"name": "Butter",
+					"amount": "200g"
+				},
+				{
+					"name": "Zucker",
+					"amount": "250g"
+				},
+				{
+					"name": "Wasser",
+					"amount": "8 EL"
+				},
+				{
+					"name": "Vanillezucker",
+					"amount": "2 Päckchen"
+				},
+				{
+					"name": "Gemahlene Haselnüsse",
+					"amount": "400g"
+				},
+				{
+					"name": "Zartbitterkuvertüre",
+					"amount": "nach Bedarf"
+				},
+				{
+					"name": "Kokosfett (optional)",
+					"amount": "1 EL"
+				}
+			]
+		}
+	],
+	"steps": [
+		{
+			"content": "Butter schaumig schlagen, Zucker hinzufügen und nach und nach die Eier unterrühren."
+		},
+		{
+			"content": "Mehl mit Backpulver mischen und unter den Teig rühren."
+		},
+		{
+			"content": "Den fertigen Teig auf ein mit Backpapier ausgelegtes Kuchenblech gleichmäßig verteilen."
+		},
+		{
+			"content": "Butter, Zucker, Vanillezucker und Wasser in einem Topf erwärmen. Nüsse zum Schluss unterheben."
+		},
+		{
+			"content": "Die Nussmasse gleichmäßig auf den Teig auftragen."
+		},
+		{
+			"content": "Bei 200° C für 20–25 Minuten backen."
+		},
+		{
+			"content": "Das fertige, heiße Gebäck direkt auf dem Blech mit einem Messer in kleine Dreiecke schneiden."
+		},
+		{
+			"content": "Auf einem Gitter auskühlen lassen."
+		},
+		{
+			"content": "Zartbitterkuvertüre schmelzen und nach Wunsch mit Kokosfett verfeinern."
+		},
+		{
+			"content": "Die Hälfte der Dreiecke oder beide Ecken mit der geschmolzenen Kuvertüre bepinseln."
+		}
+	]
+}

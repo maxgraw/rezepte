@@ -4,48 +4,53 @@
 	"tags": ["Salat", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Bulgur",
-			"amount": "200 g"
-		},
-		{
-			"name": "Glatte Petersilie",
-			"amount": "1 Bund"
-		},
-		{
-			"name": "Minze",
-			"amount": "1 Handvoll Blätter"
-		},
-		{
-			"name": "Kirschtomaten",
-			"amount": "250 g"
-		},
-		{
-			"name": "Salatgurke",
-			"amount": "200 g"
-		},
-		{
-			"name": "Rote Paprika",
-			"amount": "1"
-		},
-		{
-			"name": "Kichererbsen",
-			"amount": "1 kleine Dose"
-		},
-		{
-			"name": "Zitronensaft",
-			"amount": "4-5 EL"
-		},
-		{
-			"name": "Salz und Pfeffer",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "Kreuzkümmel",
-			"amount": "1 Prise"
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "6-8 EL"
+			"title": "",
+			"items": [
+				{
+					"name": "Bulgur",
+					"amount": "200 g"
+				},
+				{
+					"name": "Glatte Petersilie",
+					"amount": "1 Bund"
+				},
+				{
+					"name": "Minze",
+					"amount": "1 Handvoll Blätter"
+				},
+				{
+					"name": "Kirschtomaten",
+					"amount": "250 g"
+				},
+				{
+					"name": "Salatgurke",
+					"amount": "200 g"
+				},
+				{
+					"name": "Rote Paprika",
+					"amount": "1"
+				},
+				{
+					"name": "Kichererbsen",
+					"amount": "1 kleine Dose"
+				},
+				{
+					"name": "Zitronensaft",
+					"amount": "4-5 EL"
+				},
+				{
+					"name": "Salz und Pfeffer",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Kreuzkümmel",
+					"amount": "1 Prise"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "6-8 EL"
+				}
+			]
 		}
 	],
 	"steps": [

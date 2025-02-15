@@ -1,0 +1,83 @@
+{
+	"title": "Roastbeefröllchen mit Rauke und Frischkäse",
+	"tags": ["Roastbeef", "Frischkäse", "Rauke"],
+	"ingredients": [
+		{
+			"title": "Füllung",
+			"items": [
+				{
+					"name": "Schalotten",
+					"amount": "80g"
+				},
+				{
+					"name": "Knoblauch",
+					"amount": "2 Zehen"
+				},
+				{
+					"name": "Tomaten (getrocknet, in Öl eingelegt, abgetropft)",
+					"amount": "20g"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "7 EL"
+				},
+				{
+					"name": "Rauke",
+					"amount": "2 Bund"
+				},
+				{
+					"name": "Frischkäse",
+					"amount": "150g"
+				},
+				{
+					"name": "Aceto balsamico",
+					"amount": "3 EL"
+				},
+				{
+					"name": "Zucker",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Salz und Pfeffer",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Wasser",
+					"amount": "1 EL"
+				}
+			]
+		},
+		{
+			"title": "Hauptzutaten",
+			"items": [
+				{
+					"name": "Roastbeef",
+					"amount": "20 Scheiben"
+				}
+			]
+		}
+	],
+	"steps": [
+		{
+			"content": "Die Schalotten schälen und fein würfeln. Den Knoblauch abziehen und fein hacken. Die Tomaten waschen und fein würfeln."
+		},
+		{
+			"content": "In einer Pfanne 3 EL Öl erhitzen. Darin Schalotten und Knoblauch bei mittlerer Hitze 2 Minuten glasig anschwitzen. Die Tomaten dazu geben und 1 Minute mit anschwitzen. Die Schalottenmischung erkalten lassen."
+		},
+		{
+			"content": "Die Rauke putzen, waschen und gut abtropfen lassen. 20 g von der Rauke fein schneiden, mit Frischkäse und der Schalottenmischung verrühren. Dann salzen und pfeffern und die Masse über Nacht kalt stellen."
+		},
+		{
+			"content": "Am Tag der Party die Roastbeefscheiben auf die Arbeitsfläche legen. Jeweils 1 TL der Frischkäsemischung und 2-3 Raukeblätter auf das untere Ende legen, dann zusammenrollen und kalt stellen."
+		},
+		{
+			"content": "Zum Servieren das restliche Öl in einer Schüssel mit Aceto balsamico und 1 EL Wasser verrühren. Dann mit Salz, Pfeffer und 1 Prise Zucker würzen. Die restliche Rauke mit der Vinaigrette vermischen."
+		},
+		{
+			"content": "Alles auf einer Platte anrichten und servieren."
+		}
+	],
+	"tips": [
+		"Die Frischkäsemischung am besten über Nacht ziehen lassen, damit die Aromen gut durchziehen."
+	]
+}

@@ -1,43 +1,46 @@
 {
 	"title": "Waffeln",
-	"people": 4,
 	"tags": ["Nachtisch", "Teig", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Vanilleschote",
-			"amount": "1 Stück"
-		},
-		{
-			"name": "Eier (Größe L)",
-			"amount": "4 Stück"
-		},
-		{
-			"name": "Salz",
-			"amount": "Prise"
-		},
-		{
-			"name": "Zucker",
-			"amount": "75 g"
-		},
-		{
-			"name": "Butter",
-			"amount": "50 g"
-		},
-		{
-			"name": "Mehl",
-			"amount": "175 g"
-		},
-		{
-			"name": "Backpulver",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Sahne",
-			"amount": "175 ml"
-		},
-		{
-			"name": "Butterschmalz oder neutrales Pflanzenöl",
-			"amount": "für das Waffeleisen"
+			"title": "",
+			"items": [
+				{
+					"name": "Vanilleschote",
+					"amount": "1 Stück"
+				},
+				{
+					"name": "Eier (Größe L)",
+					"amount": "4 Stück"
+				},
+				{
+					"name": "Salz",
+					"amount": "Prise"
+				},
+				{
+					"name": "Zucker",
+					"amount": "75 g"
+				},
+				{
+					"name": "Butter",
+					"amount": "50 g"
+				},
+				{
+					"name": "Mehl",
+					"amount": "175 g"
+				},
+				{
+					"name": "Backpulver",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Sahne",
+					"amount": "175 ml"
+				},
+				{
+					"name": "Butterschmalz oder neutrales Pflanzenöl"
+				}
+			]
 		}
 	],
 	"steps": [

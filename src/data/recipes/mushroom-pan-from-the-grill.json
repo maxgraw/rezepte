@@ -4,36 +4,41 @@
 	"tags": ["Pilze", "Grill", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Champignons",
-			"amount": "1kg"
-		},
-		{
-			"name": "Zwiebeln",
-			"amount": "2"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "2"
-		},
-		{
-			"name": "Zweige Thymian",
-			"amount": "4"
-		},
-		{
-			"name": "Salz",
-			"amount": ""
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
-		},
-		{
-			"name": "Chili",
-			"amount": ""
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "40g"
+			"title": "",
+			"items": [
+				{
+					"name": "Champignons",
+					"amount": "1kg"
+				},
+				{
+					"name": "Zwiebeln",
+					"amount": "2"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "2"
+				},
+				{
+					"name": "Zweige Thymian",
+					"amount": "4"
+				},
+				{
+					"name": "Salz",
+					"amount": ""
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				},
+				{
+					"name": "Chili",
+					"amount": ""
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "40g"
+				}
+			]
 		}
 	],
 	"steps": [

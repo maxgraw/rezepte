@@ -20,7 +20,7 @@ const { recipe } = Astro.props;
   <article data-pagefind-body>
     <header>
       <h1 data-pagefind-meta="title">{recipe.data.title}</h1>
-      <div>Für {recipe.data.people} Personen</div>
+      {recipe.data.people && <div>Für {recipe.data.people} Personen</div>}
     </header>
     <div class="content">
       <Ingredients data={recipe.data.ingredients}/>
@@ -55,7 +55,7 @@ const { recipe } = Astro.props;
   }
 
   .content > :global(:first-child)  {
-    flex: 1 0 15rem;
+    flex: 1 0 20rem;
   }
 
   .content > :global(:last-child)  {

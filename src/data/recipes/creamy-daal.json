@@ -4,84 +4,89 @@
 	"tags": ["Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "rote Linsen",
-			"amount": "500g"
-		},
-		{
-			"name": "Apfelsaft",
-			"amount": "350ml"
-		},
-		{
-			"name": "Rapsöl",
-			"amount": "6 EL"
-		},
-		{
-			"name": "Salz",
-			"amount": ""
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
-		},
-		{
-			"name": "Zwiebeln",
-			"amount": "2"
-		},
-		{
-			"name": "Chilischote",
-			"amount": "1"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "2"
-		},
-		{
-			"name": "Tomatenmark",
-			"amount": "1/2 Tube"
-		},
-		{
-			"name": "brauner Zucker",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "Currypulver",
-			"amount": "2 EL"
-		},
-		{
-			"name": "Garam Masala",
-			"amount": "1 EL"
-		},
-		{
-			"name": "gemahlener Kreuzkümmel",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "gemahlener Koriander",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "edelsüß Paprikapulver",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Ingwershot",
-			"amount": "2 EL"
-		},
-		{
-			"name": "passierte Tomaten",
-			"amount": "200 ml"
-		},
-		{
-			"name": "Limettensaft",
-			"amount": "1 Spritzer"
-		},
-		{
-			"name": "Kokosmilch",
-			"amount": "250 g"
-		},
-		{
-			"name": "Sahne",
-			"amount": "250 g"
+			"title": "",
+			"items": [
+				{
+					"name": "rote Linsen",
+					"amount": "500g"
+				},
+				{
+					"name": "Apfelsaft",
+					"amount": "350ml"
+				},
+				{
+					"name": "Rapsöl",
+					"amount": "6 EL"
+				},
+				{
+					"name": "Salz",
+					"amount": ""
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				},
+				{
+					"name": "Zwiebeln",
+					"amount": "2"
+				},
+				{
+					"name": "Chilischote",
+					"amount": "1"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "2"
+				},
+				{
+					"name": "Tomatenmark",
+					"amount": "1/2 Tube"
+				},
+				{
+					"name": "brauner Zucker",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "Currypulver",
+					"amount": "2 EL"
+				},
+				{
+					"name": "Garam Masala",
+					"amount": "1 EL"
+				},
+				{
+					"name": "gemahlener Kreuzkümmel",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "gemahlener Koriander",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "edelsüß Paprikapulver",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Ingwershot",
+					"amount": "2 EL"
+				},
+				{
+					"name": "passierte Tomaten",
+					"amount": "200ml"
+				},
+				{
+					"name": "Limettensaft",
+					"amount": "1 Spritzer"
+				},
+				{
+					"name": "Kokosmilch",
+					"amount": "250g"
+				},
+				{
+					"name": "Sahne",
+					"amount": "250g"
+				}
+			]
 		}
 	],
 	"steps": [

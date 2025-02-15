@@ -4,48 +4,53 @@
 	"tags": ["Fisch", "Lachs"],
 	"ingredients": [
 		{
-			"name": "kleine Kartoffeln (Drillinge)",
-			"amount": "1kg"
-		},
-		{
-			"name": "Honig",
-			"amount": "2 TL"
-		},
-		{
-			"name": "grober Senf",
-			"amount": "2 TL"
-		},
-		{
-			"name": "mittelscharf Senf",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Kreuzkümmel",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Edelsüßpaprika",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Salz",
-			"amount": ""
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
-		},
-		{
-			"name": "Öl",
-			"amount": ""
-		},
-		{
-			"name": "Lachsfilet",
-			"amount": "1kg"
-		},
-		{
-			"name": "Zitronensaft",
-			"amount": ""
+			"title": "",
+			"items": [
+				{
+					"name": "kleine Kartoffeln (Drillinge)",
+					"amount": "1kg"
+				},
+				{
+					"name": "Honig",
+					"amount": "2 TL"
+				},
+				{
+					"name": "grober Senf",
+					"amount": "2 TL"
+				},
+				{
+					"name": "mittelscharf Senf",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Kreuzkümmel",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Edelsüßpaprika",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Salz",
+					"amount": ""
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				},
+				{
+					"name": "Öl",
+					"amount": ""
+				},
+				{
+					"name": "Lachsfilet",
+					"amount": "1kg"
+				},
+				{
+					"name": "Zitronensaft",
+					"amount": ""
+				}
+			]
 		}
 	],
 	"steps": [

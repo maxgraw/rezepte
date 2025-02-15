@@ -1,43 +1,47 @@
 {
 	"title": "Smashed Potatoes",
-	"people": 2,
 	"tags": ["Kartoffeln", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Drillinge (kleine Kartoffeln, idealerweise mehligkochend oder vorwiegend festkochend)",
-			"amount": "1,5 kg"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "4 Stück"
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "10-11 Esslöffel"
-		},
-		{
-			"name": "Naturjoghurt",
-			"amount": "4 Esslöffel"
-		},
-		{
-			"name": "Frischkäse",
-			"amount": "4 Esslöffel"
-		},
-		{
-			"name": "Biozitrone (Zeste)",
-			"amount": "1 Stück"
-		},
-		{
-			"name": "Petersilie",
-			"amount": "eine Handvoll"
-		},
-		{
-			"name": "Salz",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "Pfeffer",
-			"amount": "nach Geschmack"
+			"title": "",
+			"items": [
+				{
+					"name": "Drillinge (kleine Kartoffeln, idealerweise mehligkochend oder vorwiegend festkochend)",
+					"amount": "1,5 kg"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "4 Stück"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "10-11 Esslöffel"
+				},
+				{
+					"name": "Naturjoghurt",
+					"amount": "4 Esslöffel"
+				},
+				{
+					"name": "Frischkäse",
+					"amount": "4 Esslöffel"
+				},
+				{
+					"name": "Biozitrone (Zeste)",
+					"amount": "1 Stück"
+				},
+				{
+					"name": "Petersilie",
+					"amount": "eine Handvoll"
+				},
+				{
+					"name": "Salz",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Pfeffer",
+					"amount": "nach Geschmack"
+				}
+			]
 		}
 	],
 	"steps": [

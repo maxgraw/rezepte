@@ -4,28 +4,33 @@
 	"tags": ["Fisch", "Lachs", "Dip"],
 	"ingredients": [
 		{
-			"name": "Räucherlachs",
-			"amount": "200g"
-		},
-		{
-			"name": "Frühlingszwiebeln",
-			"amount": "2"
-		},
-		{
-			"name": "Doppel Rahm Frischkäse",
-			"amount": "200g"
-		},
-		{
-			"name": "flüssiger Honig",
-			"amount": "1 EL"
-		},
-		{
-			"name": "mittelscharfer Senf",
-			"amount": "1 EL"
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
+			"title": "",
+			"items": [
+				{
+					"name": "Räucherlachs",
+					"amount": "200g"
+				},
+				{
+					"name": "Frühlingszwiebeln",
+					"amount": "2"
+				},
+				{
+					"name": "Doppel Rahm Frischkäse",
+					"amount": "200g"
+				},
+				{
+					"name": "flüssiger Honig",
+					"amount": "1 EL"
+				},
+				{
+					"name": "mittelscharfer Senf",
+					"amount": "1 EL"
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				}
+			]
 		}
 	],
 	"steps": [

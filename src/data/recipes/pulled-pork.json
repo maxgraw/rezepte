@@ -4,64 +4,69 @@
 	"tags": ["Schweinefleisch"],
 	"ingredients": [
 		{
-			"name": "Schweineschulter (ohne Knochen)",
-			"amount": "1kg"
-		},
-		{
-			"name": "Salz",
-			"amount": ""
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
-		},
-		{
-			"name": "Rapsöl",
-			"amount": "2 EL"
-		},
-		{
-			"name": "Schalotten",
-			"amount": "6"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "2"
-		},
-		{
-			"name": "Ingwer",
-			"amount": "15g"
-		},
-		{
-			"name": "Tomatenmark",
-			"amount": "2 TL"
-		},
-		{
-			"name": "Zimptpulver",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "Anispulver",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "Chilipulver",
-			"amount": "1/2 TL"
-		},
-		{
-			"name": "gemahlener Kreuzkümmel",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Weißweinessig",
-			"amount": "50ml"
-		},
-		{
-			"name": "Kokosmilch",
-			"amount": "100g"
-		},
-		{
-			"name": "Apfelsaft",
-			"amount": "200ml"
+			"title": "",
+			"items": [
+				{
+					"name": "Schweineschulter (ohne Knochen)",
+					"amount": "1kg"
+				},
+				{
+					"name": "Salz",
+					"amount": ""
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				},
+				{
+					"name": "Rapsöl",
+					"amount": "2 EL"
+				},
+				{
+					"name": "Schalotten",
+					"amount": "6"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "2"
+				},
+				{
+					"name": "Ingwer",
+					"amount": "15g"
+				},
+				{
+					"name": "Tomatenmark",
+					"amount": "2 TL"
+				},
+				{
+					"name": "Zimptpulver",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "Anispulver",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "Chilipulver",
+					"amount": "1/2 TL"
+				},
+				{
+					"name": "gemahlener Kreuzkümmel",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Weißweinessig",
+					"amount": "50ml"
+				},
+				{
+					"name": "Kokosmilch",
+					"amount": "100g"
+				},
+				{
+					"name": "Apfelsaft",
+					"amount": "200ml"
+				}
+			]
 		}
 	],
 	"steps": [

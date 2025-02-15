@@ -1,0 +1,81 @@
+{
+	"title": "Knusperkekse",
+	"tags": ["Teig", "Keks"],
+	"ingredients": [
+		{
+			"title": "",
+			"items": [
+				{
+					"name": "Mehl",
+					"amount": "300 g"
+				},
+				{
+					"name": "Salz",
+					"amount": "1 Prise"
+				},
+				{
+					"name": "Backpulver",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Vollmilchschokolade (in ½ cm große Würfel schneiden)",
+					"amount": "200g"
+				},
+				{
+					"name": "Gehackte Mandeln und Haselnüsse (oder andere Nüsse nach Geschmack)",
+					"amount": "300g"
+				},
+				{
+					"name": "Weiche Butter",
+					"amount": "275g"
+				},
+				{
+					"name": "Vanillinzucker",
+					"amount": "1 Pk."
+				},
+				{
+					"name": "Rohrzucker (oder weißer Zucker)",
+					"amount": "175g"
+				},
+				{
+					"name": "Ei",
+					"amount": "1 Stück"
+				},
+				{
+					"name": "Schokoladentröpfchen (Zartbitter oder Vollmilch)",
+					"amount": "1 Packung"
+				},
+				{
+					"name": "Puderzucker",
+					"amount": "nach Geschmack"
+				}
+			]
+		}
+	],
+	"steps": [
+		{
+			"content": "Butter cremig schlagen. Vanillinzucker und Zucker zugeben und alles 3 Minuten schlagen."
+		},
+		{
+			"content": "Ei hinzufügen und unterrühren."
+		},
+		{
+			"content": "Mehl mit Backpulver mischen, Salz dazugeben und kurz unterrühren."
+		},
+		{
+			"content": "Schokolade, die Hälfte der Schokoladentröpfchen und die Nussmischung unterheben."
+		},
+		{
+			"content": "Mit 2 Teelöffeln oder einem kleinen Eisportionierer Häufchen im Abstand von ca. 4 cm auf mit Backpapier belegte Backbleche setzen (ca. 3 Bleche), dabei die Häufchen etwas auseinanderstreichen."
+		},
+		{
+			"content": "Die restlichen Schokoladentröpfchen auf den Keksen verteilen."
+		},
+		{
+			"content": "Im vorgeheizten Backofen bei 170° C für 12–15 Minuten backen."
+		},
+		{
+			"content": "Nach Geschmack mit Puderzucker bestäuben."
+		}
+	]
+}

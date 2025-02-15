@@ -1,31 +1,35 @@
 {
 	"title": "Tzatziki",
-	"people": 4,
 	"tags": ["Dip", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Salatgurke",
-			"amount": "1"
-		},
-		{
-			"name": "Griechischer Joghurt",
-			"amount": "300-500 g"
-		},
-		{
-			"name": "Sahnequark (40%)",
-			"amount": "150-200 g"
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "wenig"
-		},
-		{
-			"name": "Salz",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "3"
+			"title": "",
+			"items": [
+				{
+					"name": "Salatgurke",
+					"amount": "1"
+				},
+				{
+					"name": "Griechischer Joghurt",
+					"amount": "300-500 g"
+				},
+				{
+					"name": "Sahnequark (40%)",
+					"amount": "150-200 g"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "wenig"
+				},
+				{
+					"name": "Salz",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "3"
+				}
+			]
 		}
 	],
 	"steps": [

@@ -1,67 +1,91 @@
 {
 	"title": "Apfelkuchen",
-	"people": 4,
-	"tags": ["Nachtisch", "Kuchen", "Apfel", "Teig"],
+	"tags": [
+		"Kuchen",
+		"Backen",
+		"Gebäck",
+		"Apfel",
+		"Obstkuchen",
+		"Teig",
+		"Vegetarisch",
+		"Mürbeteig",
+		"Streuselkuchen"
+	],
 	"ingredients": [
 		{
-			"name": "Kalte Süßrahmbutter",
-			"amount": "125 g"
+			"title": "Boden",
+			"items": [
+				{
+					"name": "Kalte Süßrahmbutter",
+					"amount": "125g"
+				},
+				{
+					"name": "Ei",
+					"amount": "1"
+				},
+				{
+					"name": "Rübenzucker",
+					"amount": "80g"
+				},
+				{
+					"name": "Dinkelmehl",
+					"amount": "250g"
+				},
+				{
+					"name": "Abgeriebene Zitronenschale",
+					"amount": "1 Prise"
+				}
+			]
 		},
 		{
-			"name": "Ei",
-			"amount": "1"
+			"title": "Streusel",
+			"items": [
+				{
+					"name": "Kaltes Süßrahmbutter (für Streusel)",
+					"amount": "100g"
+				},
+				{
+					"name": "Gehackte Mandeln",
+					"amount": "80g"
+				},
+				{
+					"name": "Rübenzucker (für Streusel)",
+					"amount": "125g"
+				},
+				{
+					"name": "Dinkelmehl 1050",
+					"amount": "120g"
+				}
+			]
 		},
 		{
-			"name": "Rübenzucker",
-			"amount": "80 g"
-		},
-		{
-			"name": "Dinkelmehl",
-			"amount": "250 g"
-		},
-		{
-			"name": "Abgeriebene Zitronenschale",
-			"amount": "1 Prise"
-		},
-		{
-			"name": "Kaltes Süßrahmbutter (für Streusel)",
-			"amount": "100 g"
-		},
-		{
-			"name": "Gehackte Mandeln",
-			"amount": "80 g"
-		},
-		{
-			"name": "Rübenzucker (für Streusel)",
-			"amount": "125 g"
-		},
-		{
-			"name": "Dinkelmehl 1050",
-			"amount": "120 g"
-		},
-		{
-			"name": "Milch (ungesüßt)",
-			"amount": "1/2 l"
-		},
-		{
-			"name": "Vanillepuddingpulver oder Speisestärke mit Vanillemark",
-			"amount": "36 g"
-		},
-		{
-			"name": "Agaven- oder Apfeldicksaft",
-			"amount": "2 EL"
-		},
-		{
-			"name": "Äpfel (z.B. Gravensteiner, Boskoop, Holsteiner Cox)",
-			"amount": "700 g"
-		},
-		{
-			"name": "Zimt",
-			"amount": "1 Prise"
-		},
-		{
-			"name": "Zitronensaft",
-			"amount": "1 EL"
+			"title": "Vanillepudding",
+			"items": [
+				{
+					"name": "Milch (ungesüßt)",
+					"amount": "1/2 l"
+				},
+				{
+					"name": "Vanillepuddingpulver oder Speisestärke mit Vanillemark",
+					"amount": "36g"
+				},
+				{
+					"name": "Agaven- oder Apfeldicksaft",
+					"amount": "2 EL"
+				},
+				{
+					"name": "Äpfel (z.B. Gravensteiner, Boskoop, Holsteiner Cox)",
+					"amount": "700g"
+				},
+				{
+					"name": "Zimt",
+					"amount": "1 Prise"
+				},
+				{
+					"name": "Zitronensaft",
+					"amount": "1 EL"
+				}
+			]
 		}
 	],
 	"steps": [

@@ -4,52 +4,57 @@
 	"tags": ["Hähnchen"],
 	"ingredients": [
 		{
-			"name": "rote Paprikaschote",
-			"amount": "1 Stück"
-		},
-		{
-			"name": "Zuckerschoten",
-			"amount": "75 g"
-		},
-		{
-			"name": "braune Champignons",
-			"amount": "100 g"
-		},
-		{
-			"name": "Hähnchenfilet",
-			"amount": "500 g"
-		},
-		{
-			"name": "Sonnenblumenöl",
-			"amount": "2 EL"
-		},
-		{
-			"name": "Salz",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "Pfeffer",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "gelbes Currypulver",
-			"amount": "1 TL"
-		},
-		{
-			"name": "Gemüsebrühe",
-			"amount": "150 ml"
-		},
-		{
-			"name": "cremige Kokosmilch",
-			"amount": "1 Dose (400 ml)"
-		},
-		{
-			"name": "gesalzene Erdnusskerne",
-			"amount": "50 g"
-		},
-		{
-			"name": "Reis",
-			"amount": "nach Bedarf"
+			"title": "",
+			"items": [
+				{
+					"name": "rote Paprikaschote",
+					"amount": "1 Stück"
+				},
+				{
+					"name": "Zuckerschoten",
+					"amount": "75g"
+				},
+				{
+					"name": "braune Champignons",
+					"amount": "100g"
+				},
+				{
+					"name": "Hähnchenfilet",
+					"amount": "500g"
+				},
+				{
+					"name": "Sonnenblumenöl",
+					"amount": "2 EL"
+				},
+				{
+					"name": "Salz",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Pfeffer",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "gelbes Currypulver",
+					"amount": "1 TL"
+				},
+				{
+					"name": "Gemüsebrühe",
+					"amount": "150ml"
+				},
+				{
+					"name": "cremige Kokosmilch",
+					"amount": "1 Dose (400 ml)"
+				},
+				{
+					"name": "gesalzene Erdnusskerne",
+					"amount": "50g"
+				},
+				{
+					"name": "Reis",
+					"amount": "nach Bedarf"
+				}
+			]
 		}
 	],
 	"steps": [

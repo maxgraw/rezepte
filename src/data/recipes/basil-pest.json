@@ -1,31 +1,35 @@
 {
 	"title": "Basilikum-Pesto",
-	"people": 4,
 	"tags": ["Vegetarisch", "Pesto"],
 	"ingredients": [
 		{
-			"name": "Pinienkerne",
-			"amount": "40 g"
-		},
-		{
-			"name": "Basilikum",
-			"amount": "100 g"
-		},
-		{
-			"name": "Knoblauchzehen",
-			"amount": "1–2 (je nach Größe)"
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "ca. 125 ml"
-		},
-		{
-			"name": "frisch geriebener Parmesankäse (oder vegetarische Alternative) oder vegetarischer Hartkäse",
-			"amount": "ca. 50 g"
-		},
-		{
-			"name": "Meersalz",
-			"amount": "nach Geschmack"
+			"title": "",
+			"items": [
+				{
+					"name": "Pinienkerne",
+					"amount": "40g"
+				},
+				{
+					"name": "Basilikum",
+					"amount": "100g"
+				},
+				{
+					"name": "Knoblauchzehen",
+					"amount": "1–2 (je nach Größe)"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "ca. 125ml"
+				},
+				{
+					"name": "frisch geriebener Parmesankäse (oder vegetarische Alternative) oder vegetarischer Hartkäse",
+					"amount": "ca. 50g"
+				},
+				{
+					"name": "Meersalz",
+					"amount": "Prise"
+				}
+			]
 		}
 	],
 	"steps": [

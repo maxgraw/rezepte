@@ -1,47 +1,51 @@
 {
 	"title": "Mediterraner Bulgursalat mit getrockneten Tomaten",
-	"people": 4,
 	"tags": ["Salat", "Vegetarisch"],
 	"ingredients": [
 		{
-			"name": "Bulgur",
-			"amount": "300 g"
-		},
-		{
-			"name": "Gemüsebrühe",
-			"amount": "nach Packungsanleitung"
-		},
-		{
-			"name": "Zwiebel",
-			"amount": "1"
-		},
-		{
-			"name": "Pinienkerne",
-			"amount": "50 g"
-		},
-		{
-			"name": "Getrocknete Tomaten in Öl",
-			"amount": "50 g"
-		},
-		{
-			"name": "Basilikum oder Schnittlauch",
-			"amount": "1 Bund"
-		},
-		{
-			"name": "Rucola",
-			"amount": "50 ml"
-		},
-		{
-			"name": "Olivenöl",
-			"amount": "5 EL"
-		},
-		{
-			"name": "Balsamicoessig",
-			"amount": "nach Geschmack"
-		},
-		{
-			"name": "Salz, Pfeffer, Thymian",
-			"amount": "nach Geschmack"
+			"title": "",
+			"items": [
+				{
+					"name": "Bulgur",
+					"amount": "300g"
+				},
+				{
+					"name": "Gemüsebrühe",
+					"amount": "nach Packungsanleitung"
+				},
+				{
+					"name": "Zwiebel",
+					"amount": "1"
+				},
+				{
+					"name": "Pinienkerne",
+					"amount": "50g"
+				},
+				{
+					"name": "Getrocknete Tomaten in Öl",
+					"amount": "50g"
+				},
+				{
+					"name": "Basilikum oder Schnittlauch",
+					"amount": "1 Bund"
+				},
+				{
+					"name": "Rucola",
+					"amount": "50ml"
+				},
+				{
+					"name": "Olivenöl",
+					"amount": "5 EL"
+				},
+				{
+					"name": "Balsamicoessig",
+					"amount": "nach Geschmack"
+				},
+				{
+					"name": "Salz, Pfeffer, Thymian",
+					"amount": "nach Geschmack"
+				}
+			]
 		}
 	],
 	"steps": [

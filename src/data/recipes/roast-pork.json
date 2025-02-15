@@ -4,28 +4,33 @@
 	"tags": ["Schweinefleisch"],
 	"ingredients": [
 		{
-			"name": "Schweineschulter (ohne Knochen)",
-			"amount": "1kg"
-		},
-		{
-			"name": "Suppengemüse",
-			"amount": "1"
-		},
-		{
-			"name": "Zwiebeln",
-			"amount": "2"
-		},
-		{
-			"name": "Rinderbrühe",
-			"amount": "1 Liter"
-		},
-		{
-			"name": "Salz",
-			"amount": ""
-		},
-		{
-			"name": "Pfeffer",
-			"amount": ""
+			"title": "",
+			"items": [
+				{
+					"name": "Schweineschulter (ohne Knochen)",
+					"amount": "1kg"
+				},
+				{
+					"name": "Suppengemüse",
+					"amount": "1"
+				},
+				{
+					"name": "Zwiebeln",
+					"amount": "2"
+				},
+				{
+					"name": "Rinderbrühe",
+					"amount": "1 Liter"
+				},
+				{
+					"name": "Salz",
+					"amount": ""
+				},
+				{
+					"name": "Pfeffer",
+					"amount": ""
+				}
+			]
 		}
 	],
 	"steps": [
