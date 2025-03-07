@@ -27,14 +27,6 @@
 					"amount": "2 EL"
 				},
 				{
-					"name": "Salz",
-					"amount": "nach Geschmack"
-				},
-				{
-					"name": "Pfeffer",
-					"amount": "nach Geschmack"
-				},
-				{
 					"name": "gelbes Currypulver",
 					"amount": "1 TL"
 				},
@@ -44,7 +36,7 @@
 				},
 				{
 					"name": "cremige Kokosmilch",
-					"amount": "1 Dose (400 ml)"
+					"amount": "400 ml"
 				},
 				{
 					"name": "gesalzene Erdnusskerne",
@@ -53,6 +45,14 @@
 				{
 					"name": "Reis",
 					"amount": "nach Bedarf"
+				},
+				{
+					"name": "Salz",
+					"note": "nach Geschmack"
+				},
+				{
+					"name": "Pfeffer",
+					"note": "nach Geschmack"
 				}
 			]
 		}

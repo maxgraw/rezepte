@@ -10,8 +10,7 @@
 					"amount": "300g"
 				},
 				{
-					"name": "Gemüsebrühe",
-					"amount": "nach Packungsanleitung"
+					"name": "Gemüsebrühe"
 				},
 				{
 					"name": "Zwiebel",
@@ -39,11 +38,11 @@
 				},
 				{
 					"name": "Balsamicoessig",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Salz, Pfeffer, Thymian",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				}
 			]
 		}

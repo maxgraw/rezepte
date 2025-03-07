@@ -23,8 +23,8 @@
 					"amount": "1 Stück"
 				},
 				{
-					"name": "Champignons oder Spinat (optional)",
-					"amount": "nach Belieben"
+					"name": "Champignons oder Spinat",
+					"note": "nach Belieben"
 				},
 				{
 					"name": "Zwiebel",
@@ -56,7 +56,7 @@
 				},
 				{
 					"name": "Limettensaft",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Kreuzkümmel",
@@ -64,15 +64,11 @@
 				},
 				{
 					"name": "Salz und Pfeffer",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Kokosmilch",
 					"amount": "500ml"
-				},
-				{
-					"name": "Reis",
-					"amount": "3 – 4 Beutel"
 				}
 			]
 		}
@@ -92,9 +88,6 @@
 		},
 		{
 			"content": "Nach 5 Minuten Kichererbsen und restliche Gewürze hinzufügen und nochmals ca. 5–10 Minuten köcheln lassen."
-		},
-		{
-			"content": "Währenddessen den Reis nach Packungsanweisung kochen."
 		},
 		{
 			"content": "Das fertige Curry mit Limettensaft abschmecken und mit dem Reis servieren."

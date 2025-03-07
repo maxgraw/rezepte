@@ -14,8 +14,8 @@
 					"amount": "500g"
 				},
 				{
-					"name": "Tomaten (Impwild Forma)",
-					"amount": "nach Bedarf"
+					"name": "Tomaten",
+					"note": "Impwild Forma"
 				},
 				{
 					"name": "Zwiebel",
@@ -37,16 +37,19 @@
 					"amount": "250g"
 				},
 				{
-					"name": "Lasagne-Nudelplatten (ohne Vorkochen)",
-					"amount": "250g"
+					"name": "Lasagne-Nudelplatten",
+					"amount": "250g",
+					"note": "ohne Vorkochen"
 				},
 				{
-					"name": "Parmesan (frisch gerieben)",
-					"amount": "100g"
+					"name": "Parmesan",
+					"amount": "100g",
+					"note": "frisch gerieben"
 				},
 				{
-					"name": "Junger Gouda (frisch gerieben)",
-					"amount": "200g"
+					"name": "Junger Gouda",
+					"amount": "200g",
+					"note": "frisch gerieben"
 				},
 				{
 					"name": "Kalte Butter",

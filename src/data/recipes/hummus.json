@@ -6,8 +6,9 @@
 			"title": "",
 			"items": [
 				{
-					"name": "Kichererbsen (Abtropfgewicht)",
-					"amount": "2 Dosen (je 250 g)"
+					"name": "Kichererbsen",
+					"amount": "2 Dosen",
+					"note": "Abtropfgewicht je 250g"
 				},
 				{
 					"name": "Abtropfwasser der Kichererbsen",
@@ -15,7 +16,8 @@
 				},
 				{
 					"name": "Olivenöl",
-					"amount": "ca. 150 ml (mit 75 ml beginnen)"
+					"amount": "150 ml",
+					"note": "mit 75 ml beginnen"
 				},
 				{
 					"name": "Sesampaste (Tahin)",
@@ -35,19 +37,20 @@
 				},
 				{
 					"name": "Knoblauchzehen",
-					"amount": "2 Stück (klein geschnitten)"
+					"amount": "2 Stück",
+					"note": "klein geschnitten"
 				},
 				{
 					"name": "Salz",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Pfeffer",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Petersilie und/oder Minze",
-					"amount": "zum Dekorieren"
+					"note": "zum Dekorieren"
 				}
 			]
 		}

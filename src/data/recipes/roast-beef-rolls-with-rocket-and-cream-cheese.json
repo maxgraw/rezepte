@@ -35,11 +35,11 @@
 				},
 				{
 					"name": "Zucker",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Salz und Pfeffer",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Wasser",

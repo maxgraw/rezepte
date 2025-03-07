@@ -15,15 +15,15 @@
 				},
 				{
 					"name": "Olivenöl",
-					"amount": "10-11 Esslöffel"
+					"amount": "10-11 EL"
 				},
 				{
 					"name": "Naturjoghurt",
-					"amount": "4 Esslöffel"
+					"amount": "4 EL"
 				},
 				{
 					"name": "Frischkäse",
-					"amount": "4 Esslöffel"
+					"amount": "4 EL"
 				},
 				{
 					"name": "Biozitrone (Zeste)",
@@ -31,15 +31,15 @@
 				},
 				{
 					"name": "Petersilie",
-					"amount": "eine Handvoll"
+					"amount": "Handvoll"
 				},
 				{
 					"name": "Salz",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				},
 				{
 					"name": "Pfeffer",
-					"amount": "nach Geschmack"
+					"note": "nach Geschmack"
 				}
 			]
 		}

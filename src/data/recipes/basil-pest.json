@@ -1,6 +1,6 @@
 {
 	"title": "Basilikum-Pesto",
-	"tags": ["Vegetarisch", "Pesto"],
+	"tags": ["Pesto"],
 	"ingredients": [
 		{
 			"title": "",
@@ -15,14 +15,15 @@
 				},
 				{
 					"name": "Knoblauchzehen",
-					"amount": "1–2 (je nach Größe)"
+					"amount": "1–2",
+					"note": "je nach Größe"
 				},
 				{
 					"name": "Olivenöl",
 					"amount": "ca. 125ml"
 				},
 				{
-					"name": "frisch geriebener Parmesankäse (oder vegetarische Alternative) oder vegetarischer Hartkäse",
+					"name": "frisch geriebener Parmesankäse",
 					"amount": "ca. 50g"
 				},
 				{

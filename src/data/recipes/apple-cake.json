@@ -41,16 +41,18 @@
 			"title": "Streusel",
 			"items": [
 				{
-					"name": "Kaltes Süßrahmbutter (für Streusel)",
-					"amount": "100g"
+					"name": "Kaltes Süßrahmbutter",
+					"amount": "100g",
+					"note": "für Streusel"
 				},
 				{
 					"name": "Gehackte Mandeln",
 					"amount": "80g"
 				},
 				{
-					"name": "Rübenzucker (für Streusel)",
-					"amount": "125g"
+					"name": "Rübenzucker",
+					"amount": "125g",
+					"note": "für Streusel"
 				},
 				{
 					"name": "Dinkelmehl 1050",
@@ -62,8 +64,9 @@
 			"title": "Vanillepudding",
 			"items": [
 				{
-					"name": "Milch (ungesüßt)",
-					"amount": "1/2 l"
+					"name": "Milch",
+					"amount": "1/2 l",
+					"note": "ungesüßt"
 				},
 				{
 					"name": "Vanillepuddingpulver oder Speisestärke mit Vanillemark",
@@ -74,8 +77,9 @@
 					"amount": "2 EL"
 				},
 				{
-					"name": "Äpfel (z.B. Gravensteiner, Boskoop, Holsteiner Cox)",
-					"amount": "700g"
+					"name": "Äpfel",
+					"amount": "700g",
+					"note": "z.B. Gravensteiner, Boskoop, Holsteiner Cox"
 				},
 				{
 					"name": "Zimt",

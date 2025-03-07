@@ -8,25 +8,19 @@ const recipes = defineCollection({
 		title: z.string(),
 		people: z.optional(z.number()),
 		tags: z.optional(z.array(z.string())),
-		ingredients: z.union([
-			z.array(
-				z.object({
-					title: z.string(),
-					items: z.array(
-						z.object({
-							name: z.string(),
-							amount: z.string().optional(),
-						}),
-					),
-				}),
-			),
-			z.array(
-				z.object({
-					name: z.string(),
-					amount: z.string().optional(),
-				}),
-			),
-		]),
+		ingredients: z.array(
+			z.object({
+				title: z.string(),
+				items: z.array(
+					z.object({
+						name: z.string(),
+						amount: z.string().optional(),
+						note: z.string().optional(),
+					}),
+				),
+			}),
+		),
+
 		steps: z.array(
 			z.object({
 				content: z.string(),

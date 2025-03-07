@@ -30,11 +30,12 @@
 					"amount": "1,5 TL"
 				},
 				{
-					"name": "Öl"
+					"name": "Zucker",
+					"amount": "1,5 EL",
+					"note": "zum Stürzen"
 				},
 				{
-					"name": "Zucker",
-					"amount": "1,5 EL (zum Stürzen)"
+					"name": "Öl"
 				}
 			]
 		},
@@ -50,8 +51,9 @@
 					"amount": "1 Stück"
 				},
 				{
-					"name": "Konditorsahne (35 % Fett)",
-					"amount": "400 g"
+					"name": "Konditorsahne",
+					"amount": "400g",
+					"note": "35 % Fett"
 				},
 				{
 					"name": "Zucker",

@@ -40,7 +40,7 @@ const { recipe } = Astro.props;
   }
 
   h1 {
-    font-size: clamp(1.5rem, 2.5vw + 1rem, 2.5rem);
+    font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem);
     font-weight: bold;
   }
 
@@ -51,14 +51,14 @@ const { recipe } = Astro.props;
   .content {
     display: flex;
     flex-wrap: wrap;
-    gap: clamp(4rem, 5vw, 5rem)
+    gap: clamp(3rem, 5vw, 5rem)
   }
 
   .content > :global(:first-child)  {
-    flex: 1 0 20rem;
+    flex: 1 0 15rem;
   }
 
   .content > :global(:last-child)  {
-    flex: 1 1 30rem;
+    flex: 1 1 35rem;
   }
 </style>

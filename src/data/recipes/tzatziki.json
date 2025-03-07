@@ -11,23 +11,23 @@
 				},
 				{
 					"name": "Griechischer Joghurt",
-					"amount": "300-500 g"
+					"amount": "300 - 500g"
 				},
 				{
 					"name": "Sahnequark (40%)",
-					"amount": "150-200 g"
+					"amount": "150 - 200g"
 				},
 				{
 					"name": "Olivenöl",
 					"amount": "wenig"
 				},
 				{
-					"name": "Salz",
-					"amount": "nach Geschmack"
-				},
-				{
 					"name": "Knoblauchzehen",
 					"amount": "3"
+				},
+				{
+					"name": "Salz",
+					"note": "nach Geschmack"
 				}
 			]
 		}
