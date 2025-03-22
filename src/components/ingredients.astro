@@ -2,7 +2,7 @@
 interface Props {
 	data: {
 		title: string;
-		items: { amount?: string; name: string }[];
+		items: { amount?: string; name: string; note: string }[];
 	}[];
 }
 
@@ -17,11 +17,13 @@ const display_switch = data.length === 1;
     {
       data[0].items.map((ingredient) => (
         <li>
-          <span>{ingredient.amount}</span>
-          <div class="name">
-          {ingredient.name}
-          {ingredient.note && <span class="note">({ingredient.note})</span>}
-          </div>
+        <div>
+        {ingredient.name}
+        {ingredient.note && <span class="note">({ingredient.note})</span>}
+        </div>
+        <div>
+        {ingredient.amount}
+        </div>
         </li>
       ))
     }
@@ -31,10 +33,12 @@ const display_switch = data.length === 1;
       {
         item.items.map((ingredient) => (
           <li>
-            <span>{ingredient.amount}</span>
-            <div class="name">
+            <div>
             {ingredient.name}
             {ingredient.note && <span class="note">({ingredient.note})</span>}
+            </div>
+            <div>
+            {ingredient.amount}
             </div>
           </li>
         ))
@@ -57,36 +61,30 @@ const display_switch = data.length === 1;
 
   h3 {
       color: gray;
-  }
-
-  div {
-      display: flex;
-      flex-direction: column;
-      gap: var(--size-1);
+      padding-block-end: var(--size-1);
   }
 
   ul {
     list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-1);
   }
 
   li {
-      gap: var(--size-2);
-
       display: grid;
-      grid-template-columns: minmax(110px,auto) 1fr;
-      row-gap: 0.5rem;
-      column-gap: 1rem;
+      grid-template-columns: 1fr minmax(80px,auto);
+      border-bottom: 1px solid var(--hover);
+      padding-block: var(--size-1);
   }
 
   li >:first-child {
-      text-align: right;
+      text-align: left;
   }
 
   li >:last-child {
-  }
-
-  .name {
-      display: block;
+      text-align: right;
+      font-weight: bold;
   }
 
   .note {
