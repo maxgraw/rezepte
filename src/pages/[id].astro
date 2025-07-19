@@ -1,10 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 
-import Ingredients from "@components/ingredients.astro";
+import Ingredients from "@components/ingredients/index.astro";
 import Steps from "@components/steps.astro";
 import BaseLayout from "@layouts/base_layout.astro";
-import Tags from "@components/tags.astro";
 
 export async function getStaticPaths() {
 	const recipes = await getCollection("recipes");

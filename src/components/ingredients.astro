@@ -27,7 +27,7 @@ const display_switch = data.length === 1;
         </li>
       ))
     }
-  </ul> : data.map((item) => <div>
+  </ul> : data.map((item) => <div class="group">
     <h3>{item.title}</h3>
     <ul>
       {
@@ -60,7 +60,6 @@ const display_switch = data.length === 1;
   }
 
   h3 {
-      color: gray;
       padding-block-end: var(--size-1);
   }
 
@@ -84,7 +83,6 @@ const display_switch = data.length === 1;
 
   li >:last-child {
       text-align: right;
-      font-weight: bold;
   }
 
   .note {
