@@ -11,13 +11,13 @@
 		"lint": "biome lint ./src"
 	},
 	"dependencies": {
-		"@astrojs/sitemap": "3.5.0",
-		"astro": "5.13.2",
-		"pagefind": "1.3.0",
+		"@astrojs/sitemap": "3.6.0",
+		"astro": "5.14.1",
+		"pagefind": "1.4.0",
 		"typescript": "5.9.2"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"sirv": "3.0.1"
+		"sirv": "3.0.2"
 	}
 }
