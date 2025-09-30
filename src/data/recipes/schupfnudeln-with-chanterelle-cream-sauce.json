@@ -1,0 +1,82 @@
+{
+  "title": "Schupfnudeln mit Pfifferling-Rahmsoße",
+  "tags": ["Pfifferlinge", "Pilze", "Vegetarisch"],
+  "ingredients": [
+    {
+      "title": "",
+      "items": [
+        {
+          "name": "frische Pfifferlinge",
+          "amount": "300g"
+        },
+        {
+          "name": "Schalotte",
+          "amount": "1"
+        },
+        {
+          "name": "Knoblauchzehe",
+          "amount": "1"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": "2 EL"
+        },
+        {
+          "name": "Schupfnudeln aus dem Kühlregal",
+          "amount": "500g"
+        },
+        {
+          "name": "Butter",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Salz und Pfeffer"
+        },
+        {
+          "name": "Zweige frischer Thymian",
+          "amount": "2"
+        },
+        {
+          "name": "Weißwein trocken",
+          "amount": "100ml"
+        },
+        {
+          "name": "Sahne",
+          "amount": "200ml"
+        },
+        {
+          "name": "frische Petersilie zum Garnieren"
+        },
+        {
+          "name": "geriebener Parmesan zum Servieren"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Putze die Pfifferlinge und würfle die Schalotte und den Knoblauch fein."
+    },
+    {
+      "content": "Erhitze 1 EL Olivenöl in einer großen Pfanne und brate die Schupfnudeln darin goldbraun und knusprig an. Stelle sie zur Seite und halte sie warm."
+    },
+    {
+      "content": "Gib die Butter und den restlichen EL Olivenöl in die Pfanne und brate die Pfifferlinge bei hoher Hitze kräftig an, bis sie Röstaromen entwickelt haben. Würze sie mit Salz, Pfeffer und den Thymianzweigen."
+    },
+    {
+      "content": "Füge die Schalotten- und Knoblauchwürfel hinzu und dünste sie bei mittlerer Hitze glasig an."
+    },
+    {
+      "content": "Lösche die Mischung mit dem Weißwein ab und lass die Flüssigkeit auf etwa die Hälfte einkochen. Gib die Sahne hinzu und lass die Soße weitere 5 Minuten köcheln, bis sie schön cremig ist."
+    },
+    {
+      "content": "Entferne die Thymianzweige aus der Soße und schmecke das Ganze mit Salz und Pfeffer ab."
+    },
+    {
+      "content": "Wasche, trockne und schneide die Petersilie fein."
+    },
+    {
+      "content": "Richte die Schupfnudeln mit der Soße auf Tellern an. Garniere mit der Petersilie und optional etwas Parmesan."
+    }
+  ]
+}
