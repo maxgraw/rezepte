@@ -8,17 +8,19 @@ const recipes = await getCollection("recipes");
 ---
 
 <BaseLayout title="Rezepte">
-	<ul>
-		{recipes.map(recipe => (
-			<Card href={`/${recipe.id}`} title={recipe.data.title}/>
-		))}
-	  </ul>
+    <ul>
+        {
+            recipes.map((recipe) => (
+                <Card href={`/${recipe.id}`} title={recipe.data.title} />
+            ))
+        }
+    </ul>
 </BaseLayout>
 
 <style>
-	ul {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-		gap: var(--size-4);
-	}
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+        gap: var(--size-4);
+    }
 </style>

@@ -1,0 +1,93 @@
+{
+  "title": "Überbackene Kartoffeln mit Camembert",
+  "tags": [
+    "Kartoffeln",
+    "Auflauf",
+    "Vegetarisch",
+    "Käse",
+    "Camembert",
+    "Mozzarella",
+    "Möhren",
+    "Hauptgericht",
+    "Überbacken"
+  ],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Festkochende Kartoffeln",
+          "amount": "750g"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Kümmel",
+          "amount": "2 TL"
+        },
+        {
+          "name": "Möhren",
+          "amount": "500g"
+        },
+        {
+          "name": "Schlagsahne",
+          "amount": "200g",
+          "note": "1 Becher"
+        },
+        {
+          "name": "Edelsüß-Paprika",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "name": "Camembertkäse",
+          "amount": "125g"
+        },
+        {
+          "name": "Mozzarellakäse",
+          "amount": "125g"
+        },
+        {
+          "name": "Fett für die Form"
+        },
+        {
+          "name": "Kresse",
+          "amount": "1 Päckchen"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Kartoffeln gründlich abspülen und in Salzwasser mit einem Teelöffel Kümmel 15 Minuten kochen."
+    },
+    {
+      "content": "Inzwischen Möhren schälen und in Scheiben schneiden. In Salzwasser fünf Minuten kochen."
+    },
+    {
+      "content": "Kartoffeln schälen und in Scheiben schneiden. Möhren abtropfen lassen."
+    },
+    {
+      "content": "Sahne schaumig schlagen und mit Salz, restlichem Kümmel, Paprika und Pfeffer würzen."
+    },
+    {
+      "content": "Beide Käsesorten in Scheiben schneiden."
+    },
+    {
+      "content": "Kartoffeln, Möhren und Käse dachziegelartig in eine gefettete ofenfeste Form oder in vier Portionsförmchen schichten."
+    },
+    {
+      "content": "Mit der Sahne übergießen und in den Backofen schieben."
+    },
+    {
+      "content": "Auf 200 Grad/Gas Stufe 3 (Umluft 170 Grad) schalten und 20-30 Minuten backen."
+    },
+    {
+      "content": "Mit Kresseblättchen bestreuen."
+    }
+  ],
+  "people": 4
+}

@@ -6,58 +6,59 @@ import Steps from "@components/steps.astro";
 import BaseLayout from "@layouts/base_layout.astro";
 
 export async function getStaticPaths() {
-	const recipes = await getCollection("recipes");
-	return recipes.map((recipe) => ({
-		params: { id: recipe.id },
-		props: { recipe },
-	}));
+    const recipes = await getCollection("recipes");
+    return recipes.map((recipe) => ({
+        params: { id: recipe.id },
+        props: { recipe },
+    }));
 }
 
 const { recipe } = Astro.props;
 ---
+
 <BaseLayout title={recipe.data.title}>
-  <article data-pagefind-body>
-    <header>
-      <h1 data-pagefind-meta="title">{recipe.data.title}</h1>
-      {recipe.data.people && <div>Für {recipe.data.people} Personen</div>}
-    </header>
-    <div class="content">
-      <Ingredients data={recipe.data.ingredients}/>
-      <Steps data={recipe.data.steps} />
-    </div>
-    <div class="tags">
-    {JSON.stringify(recipe.data.tags)}
-    </div>
-  </article>
+    <article data-pagefind-body>
+        <header>
+            <h1 data-pagefind-meta="title">{recipe.data.title}</h1>
+            {recipe.data.people && <div>Für {recipe.data.people} Personen</div>}
+        </header>
+        <div class="content">
+            <Ingredients data={recipe.data.ingredients} />
+            <Steps data={recipe.data.steps} />
+        </div>
+        <div class="tags">
+            {JSON.stringify(recipe.data.tags)}
+        </div>
+    </article>
 </BaseLayout>
 
 <style>
-  article {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-4);
-  }
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-4);
+    }
 
-  h1 {
-    font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem);
-    font-weight: bold;
-  }
+    h1 {
+        font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem);
+        font-weight: bold;
+    }
 
-  .tags {
-      display: none;
-  }
+    .tags {
+        display: none;
+    }
 
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: clamp(3rem, 5vw, 5rem)
-  }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: clamp(3rem, 5vw, 5rem);
+    }
 
-  .content > :global(:first-child)  {
-    flex: 1 0 15rem;
-  }
+    .content > :global(:first-child) {
+        flex: 1 0 15rem;
+    }
 
-  .content > :global(:last-child)  {
-    flex: 1 1 35rem;
-  }
+    .content > :global(:last-child) {
+        flex: 1 1 35rem;
+    }
 </style>

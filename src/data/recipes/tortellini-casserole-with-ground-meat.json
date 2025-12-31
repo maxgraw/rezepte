@@ -1,0 +1,129 @@
+{
+  "title": "Der Üppige mit Hackfleisch",
+  "tags": [
+    "Auflauf",
+    "Hackfleisch",
+    "Tortellini",
+    "Spinat",
+    "Käse",
+    "Hauptgericht",
+    "Überbacken"
+  ],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Frische Tortellini aus dem Kühlregal",
+          "amount": "250g",
+          "note": "ersatzweise getrocknete"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Gemischtes Hackfleisch",
+          "amount": "250g"
+        },
+        {
+          "name": "Kleine Zwiebel",
+          "amount": "1"
+        },
+        {
+          "name": "Knoblauchzehen",
+          "amount": "2"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": "2 EL"
+        },
+        {
+          "name": "Frisch gemahlener Pfeffer"
+        },
+        {
+          "name": "Kräuter der Provence",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Tomaten-Ketchup",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Blattspinat",
+          "amount": "500g",
+          "note": "ersatzweise TK-Blattspinat"
+        },
+        {
+          "name": "Butter oder Margarine",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Fett für die Form"
+        }
+      ]
+    },
+    {
+      "title": "Guss",
+      "items": [
+        {
+          "name": "Saure Sahne",
+          "amount": "150g",
+          "note": "1 Becher"
+        },
+        {
+          "name": "Milch",
+          "amount": "200ml"
+        },
+        {
+          "name": "Mittelalter Goudakäse",
+          "amount": "60g"
+        },
+        {
+          "name": "Schafkäse (60% Fett)",
+          "amount": "50g"
+        },
+        {
+          "name": "Eier",
+          "amount": "3"
+        },
+        {
+          "name": "Muskatnuss"
+        },
+        {
+          "name": "Pinienkerne",
+          "amount": "1 EL"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tortellini nach Packungsanweisung in Salzwasser kochen."
+    },
+    {
+      "content": "Zwiebeln und Knoblauchzehen würfeln. Hackfleisch und Knoblauch in heißem Fett anbraten, dabei das Fleisch mit einer Gabel zerdrücken, bis es krümelig ist."
+    },
+    {
+      "content": "Mit Salz, Pfeffer, Kräutermischung und Ketchup abschmecken."
+    },
+    {
+      "content": "Spinat verlesen und abspülen. Tropfnass in eine Pfanne mit heißem Fett geben und kurz zusammenfallen lassen oder TK-Spinat auftauen lassen."
+    },
+    {
+      "content": "Abgetropfte Nudeln, Spinat und Hackfleisch in eine gefettete, ofenfeste Form schichten."
+    },
+    {
+      "content": "Schafkäse raffeln und darüberstreuen."
+    },
+    {
+      "content": "Sahne, Milch, Eier und geriebenen Goudakäse verrühren. Mit Salz, Pfeffer und Muskat würzen."
+    },
+    {
+      "content": "Eier-Sahne über den Auflauf gießen und mit Pinienkernen bestreuen."
+    },
+    {
+      "content": "Auflauf in den Backofen schieben, auf 200 Grad/Gas Stufe 3 (Umluft 170 Grad) schalten und 30 bis 40 Minuten backen."
+    }
+  ],
+  "people": 6
+}

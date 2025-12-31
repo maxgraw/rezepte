@@ -4,8 +4,8 @@ import Header from "@components/header.astro";
 import "../styles/reset.css";
 
 interface Props {
-	title: string;
-	active?: string;
+    title: string;
+    active?: string;
 }
 
 const { title, active } = Astro.props;
@@ -13,62 +13,62 @@ const { title, active } = Astro.props;
 
 <!doctype html>
 <html lang="de">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Rezeptesammlung" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Rezeptesammlung" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
 
-		<link rel="sitemap" href="/sitemap-index.xml" />
-	</head>
-	<body>
-		<Header active={active} />
-		<main>
-			<slot />
-		</main>
-	</body>
+        <link rel="sitemap" href="/sitemap-index.xml" />
+    </head>
+    <body>
+        <Header active={active} />
+        <main>
+            <slot />
+        </main>
+    </body>
 </html>
 
 <style is:global>
-	:where(html) {
-		--size-1: 0.25rem;
-		--size-2: 0.5rem;
-		--size-3: 1rem;
-		--size-4: 2rem;
+    :where(html) {
+        --size-1: 0.25rem;
+        --size-2: 0.5rem;
+        --size-3: 1rem;
+        --size-4: 2rem;
 
-		--radius: 0.5rem;
+        --radius: 0.5rem;
 
-		--font-size-1: 1.25rem;
+        --font-size-1: 1.25rem;
 
-		--accent: hsl(0, 0%, 95%);
-		--hover: hsl(0, 0%, 90%);
-		--border: hsl(0, 0%, 80%);
-		--focus: hsl(228 100% 86.5%);
+        --accent: hsl(0, 0%, 95%);
+        --hover: hsl(0, 0%, 90%);
+        --border: hsl(0, 0%, 80%);
+        --focus: hsl(228 100% 86.5%);
 
-		--inline: max((100% - 80rem) /2, 1rem);
-	}
+        --inline: max((100% - 80rem) /2, 1rem);
+    }
 
-	h1,
-	h2,
-	h3 {
-		line-height: 1.3;
-	}
+    h1,
+    h2,
+    h3 {
+        line-height: 1.3;
+    }
 
-	.overflow {
-	    overflow: hidden;
-	}
+    .overflow {
+        overflow: hidden;
+    }
 </style>
 
 <style>
-	body {
-		font-family: system-ui;
-		font-size: var(--font-size-1);
-	}
+    body {
+        font-family: system-ui;
+        font-size: var(--font-size-1);
+    }
 
-	main {
-	   margin-inline: var(--inline);
-	   padding-block-end: var(--size-4);
-	}
+    main {
+        margin-inline: var(--inline);
+        padding-block-end: var(--size-4);
+    }
 </style>

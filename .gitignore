@@ -24,3 +24,6 @@ pnpm-debug.log*
 .idea/
 
 pagefind/
+
+save.txt
+instruction.md

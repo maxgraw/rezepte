@@ -1,0 +1,93 @@
+{
+  "title": "Gemüseauflauf mit Grünkernkruste",
+  "tags": [
+    "Auflauf",
+    "Gemüse",
+    "Grünkern",
+    "Vegetarisch",
+    "Tontopf",
+    "Möhren",
+    "Kartoffeln",
+    "Hauptgericht"
+  ],
+  "ingredients": [
+    {
+      "title": "Grünkernkruste",
+      "items": [
+        {
+          "name": "Crème fraîche",
+          "amount": "2 Becher à 150g"
+        },
+        {
+          "name": "Schlagsahne",
+          "amount": "150ml"
+        },
+        {
+          "name": "Parmesankäse",
+          "amount": "50g"
+        },
+        {
+          "name": "Knoblauchzehen",
+          "amount": "2"
+        },
+        {
+          "name": "Grünkernschrot",
+          "amount": "200g"
+        },
+        {
+          "name": "Meersalz"
+        },
+        {
+          "name": "Frisch gemahlener Pfeffer"
+        }
+      ]
+    },
+    {
+      "title": "Auflauf",
+      "items": [
+        {
+          "name": "Möhren",
+          "amount": "600g"
+        },
+        {
+          "name": "Kartoffeln",
+          "amount": "500g"
+        },
+        {
+          "name": "Bund Lauchzwiebeln",
+          "amount": "1"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Für die Grünkernkruste einen Becher Crème fraîche, Sahne, grob geriebenen Parmesankäse, eine zerdrückte Knoblauchzehe und Grünkernschrot verrühren. Mit Salz und Pfeffer würzen und 30 Minuten quellen lassen."
+    },
+    {
+      "content": "Für den Auflauf Möhren und Kartoffeln abspülen, schälen und in dünne Scheiben schneiden."
+    },
+    {
+      "content": "Lauchzwiebeln putzen, abspülen und in Stücke schneiden."
+    },
+    {
+      "content": "Möhren, Kartoffeln und Lauchzwiebeln in den Tontopf schichten. Zwischendurch die Schichten mit Salz und Pfeffer würzen."
+    },
+    {
+      "content": "Restliche Crème fraîche und zerdrückte Knoblauchzehe, Salz und Pfeffer verrühren, über das Gemüse geben."
+    },
+    {
+      "content": "Grünkernmasse daraufstreichen."
+    },
+    {
+      "content": "Deckel kurz mit kaltem Wasser abspülen, damit sich die Poren voll Wasser saugen können. Deckel auflegen."
+    },
+    {
+      "content": "Topf in den kalten Backofen schieben. Auf 220 Grad/Gas Stufe 4 (Umluft 190 Grad) schalten. Etwa 50 Minuten garen."
+    },
+    {
+      "content": "Deckel abnehmen und zehn Minuten weitergaren."
+    }
+  ],
+  "people": 6
+}

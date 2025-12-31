@@ -1,0 +1,70 @@
+{
+  "title": "Apfelkuchen sehr fein",
+  "tags": [
+    "Kuchen",
+    "Backen",
+    "Apfel",
+    "Obstkuchen",
+    "Vegetarisch",
+    "Rührkuchen"
+  ],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Butter",
+          "amount": "125g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "125g"
+        },
+        {
+          "name": "Eier",
+          "amount": "3"
+        },
+        {
+          "name": "Aroma Zitrone",
+          "amount": "1 Fläschchen"
+        },
+        {
+          "name": "Weizenmehl",
+          "amount": "200g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Milch",
+          "amount": "3 EL"
+        },
+        {
+          "name": "Geschälte Äpfel",
+          "amount": "1 Pfund"
+        },
+        {
+          "name": "Puderzucker"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Butter zu Sahne rühren, Zucker, Eigelb und Gewürz hinzufügen, schaumig rühren."
+    },
+    {
+      "content": "Das gesiebte Mehl und Backpulver abwechselnd mit der Milch unter die Masse rühren."
+    },
+    {
+      "content": "Dann den Eierschnee unterheben."
+    },
+    {
+      "content": "Man bäckt den Kuchen 3/4 bis 1 Stunde bei 175°."
+    },
+    {
+      "content": "Mit Puderzucker bestäuben."
+    }
+  ]
+}

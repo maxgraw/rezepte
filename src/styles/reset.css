@@ -3,22 +3,22 @@
 ::before,
 ::backdrop,
 ::file-selector-button {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0 solid;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
 }
 
 html,
 :host {
-	line-height: 1.5;
-	-webkit-text-size-adjust: 100%;
-	tab-size: 4;
-	-webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
-	line-height: inherit;
+    line-height: inherit;
 }
 
 h1,
@@ -27,18 +27,18 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: inherit;
+    font-weight: inherit;
 }
 
 a {
-	color: inherit;
-	-webkit-text-decoration: inherit;
-	text-decoration: inherit;
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
 }
 
 b,
 strong {
-	font-weight: bolder;
+    font-weight: bolder;
 }
 
 button,
@@ -47,64 +47,64 @@ optgroup,
 select,
 textarea,
 ::file-selector-button {
-	font: inherit;
-	font-feature-settings: inherit;
-	font-variation-settings: inherit;
-	letter-spacing: inherit;
-	color: inherit;
-	background: transparent;
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    background: transparent;
 }
 
 input:where(:not([type="button"], [type="reset"], [type="submit"])),
 select,
 textarea {
-	border-width: 1px;
+    border-width: 1px;
 }
 
 button,
 input:where([type="button"], [type="reset"], [type="submit"]),
 ::file-selector-button {
-	appearance: button;
+    appearance: button;
 }
 
 :-moz-focusring {
-	outline: auto;
+    outline: auto;
 }
 
 :-moz-ui-invalid {
-	box-shadow: none;
+    box-shadow: none;
 }
 
 progress {
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-	height: auto;
+    height: auto;
 }
 
 ::-webkit-search-decoration {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 summary {
-	display: list-item;
+    display: list-item;
 }
 
 ol,
 ul,
 menu {
-	list-style: none;
+    list-style: none;
 }
 
 textarea {
-	resize: vertical;
+    resize: vertical;
 }
 
 ::placeholder {
-	opacity: 1;
-	color: color-mix(in oklch, currentColor 50%, transparent); /* 2 */
+    opacity: 1;
+    color: color-mix(in oklch, currentColor 50%, transparent); /* 2 */
 }
 
 img,
@@ -115,12 +115,12 @@ audio,
 iframe,
 embed,
 object {
-	display: block;
-	vertical-align: middle;
+    display: block;
+    vertical-align: middle;
 }
 
 img,
 video {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }

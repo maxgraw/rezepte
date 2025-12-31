@@ -6,22 +6,26 @@ import Card from "@components/card.astro";
 import { get_unique_tags } from "src/utils/tags";
 
 export async function getStaticPaths() {
-	const recipes = await getCollection("recipes");
+    const recipes = await getCollection("recipes");
 
-	const data = get_unique_tags(recipes);
+    const data = get_unique_tags(recipes);
 
-	return data.map((tag) => {
-		const filtered_recipes = recipes.filter((recipe) => {
-			if (recipe.data.tags) {
-				return recipe.data.tags.some((t) => t.toLowerCase() === tag.lowercase);
-			}
-		});
+    return data.map((tag) => {
+        const filtered_recipes = recipes.filter((recipe) => {
+            if (recipe.data.tags) {
+                return recipe.data.tags.some(
+                    (t) => t.toLowerCase() === tag.lowercase,
+                );
+            }
 
-		return {
-			params: { tag: tag.lowercase },
-			props: { tag_original: tag.original, recipes: filtered_recipes },
-		};
-	});
+            return null;
+        });
+
+        return {
+            params: { tag: tag.lowercase },
+            props: { tag_original: tag.original, recipes: filtered_recipes },
+        };
+    });
 }
 
 const { recipes, tag_original } = Astro.props;
@@ -29,17 +33,19 @@ const { tag } = Astro.params;
 ---
 
 <BaseLayout title={`Rezepte - ${tag_original}`} active={tag}>
-	<ul>
-		{recipes.map(recipe => (
-			<Card href={`/${recipe.id}`} title={recipe.data.title}/>
-		))}
-	  </ul>
+    <ul>
+        {
+            recipes.map((recipe) => (
+                <Card href={`/${recipe.id}`} title={recipe.data.title} />
+            ))
+        }
+    </ul>
 </BaseLayout>
 
 <style>
-	ul {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-		gap: var(--size-4);
-	}
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+        gap: var(--size-4);
+    }
 </style>
