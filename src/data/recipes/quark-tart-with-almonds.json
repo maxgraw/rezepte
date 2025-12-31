@@ -1,0 +1,103 @@
+{
+  "title": "Quarktorte mit Mandeln",
+  "tags": ["Torte", "Quark", "Mandeln", "Backen", "Dessert"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Mehl",
+          "amount": "200g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Ei",
+          "amount": "1"
+        },
+        {
+          "name": "Zucker",
+          "amount": "70g"
+        },
+        {
+          "name": "Margarine",
+          "amount": "125g"
+        }
+      ]
+    },
+    {
+      "title": "Füllung",
+      "items": [
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Zucker",
+          "amount": "250g"
+        },
+        {
+          "name": "Magerquark",
+          "amount": "500g"
+        },
+        {
+          "name": "Margarine",
+          "amount": "100g"
+        },
+        {
+          "name": "Orange",
+          "amount": "1",
+          "note": "unbehandelt"
+        },
+        {
+          "name": "Puddingpulver Vanille",
+          "amount": "1 Päckchen"
+        }
+      ]
+    },
+    {
+      "title": "Belag",
+      "items": [
+        {
+          "name": "Margarine",
+          "amount": "50g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "50g"
+        },
+        {
+          "name": "Mandeln",
+          "amount": "100g"
+        },
+        {
+          "name": "Puderzucker",
+          "amount": "1 TL",
+          "note": "zum Bestäuben"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Mehl und Backpulver mischen und in eine Rührschüssel geben. In die Mitte eine Mulde drücken. 1 Ei und 70g Zucker zugeben. 125g Fett in Flöckchen auf den Rand setzen. Alles zu einem glatten Teig kneten. In Plastikfolie wickeln und kühl stellen."
+    },
+    {
+      "content": "4 Eier und 250g Zucker schaumig schlagen. Quark, 100g Fett, Orangensaft und Schale, sowie Puddingpulver portionsweise unterrühren."
+    },
+    {
+      "content": "Den Teig in eine Backform füllen."
+    },
+    {
+      "content": "50g Fett erhitzen. Mandeln und den restlichen Zucker zugeben und unter Rühren goldbraun rösten. Abkühlen lassen."
+    },
+    {
+      "content": "Im Backofen bei 175° ca. 1¼ Stunden backen."
+    },
+    {
+      "content": "Torte mit Mandeln und Puderzucker bestreuen."
+    }
+  ]
+}

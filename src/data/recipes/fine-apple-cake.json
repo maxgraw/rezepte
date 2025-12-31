@@ -1,0 +1,65 @@
+{
+  "title": "Feiner Apfelkuchen",
+  "tags": ["Kuchen", "Apfel", "Backen", "Dessert"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Butter",
+          "amount": "125g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "125g"
+        },
+        {
+          "name": "Eier",
+          "amount": "3"
+        },
+        {
+          "name": "Zitronenaroma",
+          "amount": "1 Fläschchen"
+        },
+        {
+          "name": "Weizenmehl",
+          "amount": "200g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Milch",
+          "amount": "3 EL"
+        },
+        {
+          "name": "Äpfel",
+          "amount": "1 Pfund",
+          "note": "geschält"
+        },
+        {
+          "name": "Puderzucker",
+          "note": "zum Bestäuben"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Butter zu Sahne rühren, Zucker, Eigelb und Gewürz hinzufügen, schaumig rühren."
+    },
+    {
+      "content": "Das gesiebte Mehl und Backpulver abwechselnd mit der Milch unter die Masse rühren. Dann den Eischnee unterheben."
+    },
+    {
+      "content": "Äpfel auf den Teig legen."
+    },
+    {
+      "content": "Den Kuchen 3/4 bis 1 Stunde bei 175° backen."
+    },
+    {
+      "content": "Mit Puderzucker bestäuben."
+    }
+  ]
+}

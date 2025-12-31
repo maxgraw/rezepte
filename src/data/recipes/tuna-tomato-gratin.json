@@ -1,0 +1,65 @@
+{
+  "title": "Thunfisch-Tomaten-Gratin",
+  "tags": ["Auflauf", "Fisch", "Thunfisch", "Tomaten", "Überbacken"],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Kleine Tomaten",
+          "amount": "750g"
+        },
+        {
+          "name": "Butter",
+          "amount": "20g"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Thunfisch naturell",
+          "amount": "2 Dosen",
+          "note": "à ca. 140g Abtropfgewicht"
+        },
+        {
+          "name": "Schwarzer Pfeffer",
+          "note": "grob"
+        },
+        {
+          "name": "Rosmarin",
+          "note": "einige Nadeln"
+        },
+        {
+          "name": "Schwarze Oliven",
+          "amount": "50g"
+        },
+        {
+          "name": "Mittelalter Gouda",
+          "amount": "150g",
+          "note": "Pikantje"
+        },
+        {
+          "name": "Schnittlauchröllchen",
+          "amount": "1 EL"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tomaten mit kochendem Wasser überbrühen, häuten und in eine hitzebeständige Gratinform setzen."
+    },
+    {
+      "content": "Abgetropften, zerpflückten Thunfisch zwischen den Tomaten verteilen."
+    },
+    {
+      "content": "Mit grobem Pfeffer, Salz und Rosmarin würzen. Oliven darauf verteilen."
+    },
+    {
+      "content": "Mit geriebenem Käse bestreuen und ca. 15-20 Minuten im 200 Grad heißen Backofen gratinieren."
+    },
+    {
+      "content": "Vor dem Servieren mit Schnittlauchröllchen bestreuen. Dazu schmeckt knuspriges Baguette."
+    }
+  ]
+}

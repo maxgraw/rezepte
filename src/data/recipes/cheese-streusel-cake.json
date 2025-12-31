@@ -1,0 +1,97 @@
+{
+  "title": "Käsestreuselkuchen",
+  "tags": ["Kuchen", "Käsekuchen", "Backen", "Streusel", "Pfirsich", "Quark"],
+  "ingredients": [
+    {
+      "title": "Streusel",
+      "items": [
+        {
+          "name": "Mehl",
+          "amount": "300g"
+        },
+        {
+          "name": "Butter oder Margarine",
+          "amount": "150g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "150g"
+        },
+        {
+          "name": "Vanillin-Zucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Fett für die Form"
+        }
+      ]
+    },
+    {
+      "title": "Füllung",
+      "items": [
+        {
+          "name": "Pfirsichhälften",
+          "amount": "1 Dose",
+          "note": "850ml"
+        },
+        {
+          "name": "Butter oder Margarine",
+          "amount": "150g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "125g"
+        },
+        {
+          "name": "Vanillin-Zucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Zitronenschale",
+          "note": "abgerieben von 1 unbehandelten Zitrone"
+        },
+        {
+          "name": "Zitronensaft",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Eier",
+          "amount": "2",
+          "note": "Gewichtsklasse 3"
+        },
+        {
+          "name": "Magerquark",
+          "amount": "500g"
+        },
+        {
+          "name": "Puddingpulver Vanille-Geschmack",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Puderzucker",
+          "amount": "1 EL"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Mehl, Fett, Zucker und Vanillin-Zucker so lange verkneten, bis Streusel entstehen. Die Springform (26 cm Durchmesser) fetten, ¾ der Streusel einfüllen und als Boden fest andrücken."
+    },
+    {
+      "content": "Pfirsiche abtropfen lassen und auf dem Streusel-Boden verteilen. Saft anderweitig verwenden."
+    },
+    {
+      "content": "Für die Füllung Fett schaumig rühren, Zucker, Vanillin-Zucker, Zitronenschale und -saft zugeben und verrühren. Eier zufügen."
+    },
+    {
+      "content": "Quark abtropfen lassen und mit dem Puddingpulver unterrühren. Quarkmasse auf den Pfirsichen verteilen, glattstreichen und die restlichen Streusel darüberbröseln."
+    },
+    {
+      "content": "Im vorgeheizten Backofen (E-Herd: 200°C/Gasherd: Stufe 3) ca. 50 Minuten goldgelb backen."
+    },
+    {
+      "content": "Herausnehmen und auf einem Kuchengitter etwas abkühlen lassen. Dann aus der Form lösen. Vor dem Servieren mit Puderzucker bestäuben."
+    }
+  ]
+}

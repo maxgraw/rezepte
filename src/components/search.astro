@@ -40,13 +40,16 @@ const { class: className, ...rest } = Astro.props;
 
 <script is:inline>
     let pagefind;
+    let currentSearchId = 0;
 
     const search_input = document.getElementById("search");
     const result_output = document.getElementById("result");
     const clear_button = document.getElementById("clear");
 
-    search_input.addEventListener("focus", async (e) => {
-        if (!pagefind) {
+    async function initializePagefind() {
+        if (pagefind) return;
+
+        try {
             pagefind = await import("/pagefind/pagefind.js");
             await pagefind.options({
                 ranking: {
@@ -54,88 +57,109 @@ const { class: className, ...rest } = Astro.props;
                 },
             });
             pagefind.init();
+        } catch (error) {
+            console.error("Failed to initialize pagefind:", error);
         }
-    });
+    }
 
-    search_input.addEventListener("input", async (e) => {
-        const data = await pagefind.debouncedSearch(e.target.value);
+    function clearResults() {
+        result_output.innerHTML = "";
+        clear_button.style.opacity = 0;
+    }
 
-        if (data === null) {
+    function showClearButton() {
+        clear_button.style.opacity = 1;
+    }
+
+    async function performSearch(query) {
+        const searchId = ++currentSearchId;
+        const trimmedQuery = query.trim();
+
+        if (!trimmedQuery) {
+            clearResults();
             return;
         }
 
-        clear_button.style.opacity = 1;
-        result_output.innerHTML = "";
-
-        if (e.target.value == "") {
-            clear_button.style.opacity = 0;
+        if (trimmedQuery.length < 2) {
+            showClearButton();
             result_output.innerHTML = "";
             return;
         }
 
-        for (const result of data.results) {
-            const data = await result.data();
+        try {
+            const data = await pagefind.debouncedSearch(query);
 
-            const li = document.createElement("li");
-            const link = document.createElement("a");
+            if (searchId !== currentSearchId || data === null) {
+                return;
+            }
 
-            const url = data.url.replace(".html", "");
+            result_output.innerHTML = "";
+            showClearButton();
 
-            link.setAttribute("href", url);
-            link.innerHTML = data.meta.title;
+            const fragment = document.createDocumentFragment();
 
-            li.appendChild(link);
-            result_output.appendChild(li);
+            for (const result of data.results) {
+                const resultData = await result.data();
+
+                const li = document.createElement("li");
+                const link = document.createElement("a");
+
+                link.href = resultData.url.replace(".html", "");
+                link.textContent = resultData.meta.title;
+
+                li.appendChild(link);
+                fragment.appendChild(li);
+            }
+
+            result_output.appendChild(fragment);
+        } catch (error) {
+            console.error("Search failed:", error);
+        }
+    }
+
+    search_input.addEventListener("focus", initializePagefind);
+
+    search_input.addEventListener("input", (e) => {
+        if (pagefind) {
+            performSearch(e.target.value);
         }
     });
 
     clear_button.addEventListener("click", (e) => {
         e.preventDefault();
         search_input.value = "";
-        result_output.innerHTML = "";
-        clear_button.style.opacity = 0;
+        clearResults();
     });
 </script>
 
 <style>
     .search {
         position: relative;
-    }
 
-    .search form {
-        display: flex;
-        align-items: center;
-        background-color: white;
-        justify-content: flex-start;
-        gap: 1rem;
-        width: 100%;
-        border-radius: var(--radius);
-        border: solid 1px var(--border);
-        padding-block: var(--size-1);
-        padding-inline: var(--size-2);
-    }
+        & form {
+            display: flex;
+            align-items: center;
+            gap: var(--size-2);
+            width: 100%;
+            border-radius: var(--radius);
+            border: solid 1px var(--border);
+            padding-block: var(--size-1);
+            padding-inline: var(--size-2);
+        }
 
-    .search form:focus-within {
-        outline: solid var(--focus);
-    }
+        form:focus-within {
+            outline: solid var(--focus);
+        }
 
-    .search input {
-        flex: 1;
-        font-size: 1rem;
-        border: none;
-        width: 100%;
-    }
+        input {
+            flex: 1;
+            font-size: var(--size-3);
+            border: none;
+        }
 
-    .search input:focus-within {
-        outline: none;
-    }
-
-    .search input::placeholder {
-        font-size: 1rem;
-    }
-
-    .search .clear {
-        margin-inline-start: auto;
+        input:focus-within {
+            outline: none;
+        }
     }
 
     .result {
@@ -179,11 +203,6 @@ const { class: className, ...rest } = Astro.props;
     .clear:hover {
         background-color: var(--focus);
         border-radius: var(--radius);
-    }
-
-    #mobile_button {
-        display: none;
-        padding: var(--size-1);
     }
 
     @media only screen and (max-width: 500px) {

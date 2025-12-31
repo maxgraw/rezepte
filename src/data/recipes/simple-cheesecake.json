@@ -1,0 +1,80 @@
+{
+  "title": "Käsekuchen",
+  "tags": ["Kuchen", "Käsekuchen", "Backen", "Dessert", "Quark"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Mehl",
+          "amount": "300g"
+        },
+        {
+          "name": "Margarine",
+          "amount": "200g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "150g"
+        },
+        {
+          "name": "Vanillezucker",
+          "amount": "1 Päckchen"
+        }
+      ]
+    },
+    {
+      "title": "Belag",
+      "items": [
+        {
+          "name": "Quark",
+          "amount": "500g"
+        },
+        {
+          "name": "Margarine",
+          "amount": "50g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "75g"
+        },
+        {
+          "name": "Saft einer Zitrone"
+        },
+        {
+          "name": "Vanillezucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Eier",
+          "amount": "2"
+        },
+        {
+          "name": "Salz",
+          "note": "Prise"
+        },
+        {
+          "name": "Grieß",
+          "amount": "3 EL"
+        },
+        {
+          "name": "Milch"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Margarine schaumig rühren. Zucker, Eigelb und Salz dazugeben."
+    },
+    {
+      "content": "Mehl, Quark, Grieß und Milch (3-4 EL) hinzugeben."
+    },
+    {
+      "content": "Eiweiß unterheben."
+    },
+    {
+      "content": "In eine Springform füllen und backen."
+    }
+  ]
+}

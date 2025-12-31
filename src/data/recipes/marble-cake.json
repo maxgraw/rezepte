@@ -1,0 +1,77 @@
+{
+  "title": "Marmorkuchen",
+  "tags": ["Kuchen", "Marmorkuchen", "Backen", "Kakao"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Margarine",
+          "amount": "250g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "300g"
+        },
+        {
+          "name": "Mehl",
+          "amount": "500g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Milch",
+          "amount": "200ml"
+        },
+        {
+          "name": "Vanillezucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Zitronenaroma"
+        },
+        {
+          "name": "Kakaopulver",
+          "amount": "2 EL"
+        },
+        {
+          "name": "Rum",
+          "amount": "2 EL"
+        },
+        {
+          "name": "Puderzucker",
+          "note": "zum Bestäuben"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Margarine schaumig rühren, Zucker, Vanillezucker und Eier dazugeben."
+    },
+    {
+      "content": "Das mit Backpulver vermischte Mehl unterrühren und die Milch hinzufügen."
+    },
+    {
+      "content": "Die Hälfte des Teiges in eine gefettete Form einfüllen."
+    },
+    {
+      "content": "Kakaopulver und Rum mit dem restlichen Teig verrühren und auf den hellen Teig füllen."
+    },
+    {
+      "content": "Mit einer Gabel spiralförmig den dunklen Teig unter den hellen ziehen."
+    },
+    {
+      "content": "Im vorgeheizten Backofen bei ca. 180° etwa 60 Minuten backen."
+    },
+    {
+      "content": "Mit Puderzucker bestreuen."
+    }
+  ]
+}

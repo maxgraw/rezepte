@@ -1,0 +1,63 @@
+{
+  "title": "Rotweinkuchen",
+  "tags": ["Kuchen", "Backen", "Schokolade", "Rotwein"],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Margarine",
+          "amount": "250g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "250g"
+        },
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Vanillezucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Mehl",
+          "amount": "250g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Kakao",
+          "amount": "1 TL",
+          "note": "oder mehr"
+        },
+        {
+          "name": "Zimt",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Schokostreusel",
+          "amount": "200g"
+        },
+        {
+          "name": "Rotwein",
+          "amount": "nach Gefühl"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Margarine und Zucker zusammen rühren."
+    },
+    {
+      "content": "Eier, Vanillezucker, Mehl, Backpulver, Kakao, Zimt, Schokostreusel und Rotwein nach und nach hinzufügen und gut verrühren."
+    },
+    {
+      "content": "Etwa 1 Stunde bei 175°C backen."
+    }
+  ]
+}

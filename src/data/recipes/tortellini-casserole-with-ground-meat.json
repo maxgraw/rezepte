@@ -14,9 +14,8 @@
       "title": "Hauptzutaten",
       "items": [
         {
-          "name": "Frische Tortellini aus dem Kühlregal",
-          "amount": "250g",
-          "note": "ersatzweise getrocknete"
+          "name": "Frische Tortellini",
+          "amount": "250g"
         },
         {
           "name": "Salz"
@@ -50,8 +49,7 @@
         },
         {
           "name": "Blattspinat",
-          "amount": "500g",
-          "note": "ersatzweise TK-Blattspinat"
+          "amount": "500g"
         },
         {
           "name": "Butter oder Margarine",

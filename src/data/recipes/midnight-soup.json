@@ -1,0 +1,68 @@
+{
+  "title": "Mitternachtssuppe",
+  "tags": ["Suppe", "Hauptgericht", "Hackfleisch", "Zwiebeln", "Paprika"],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Zwiebeln",
+          "amount": "500g"
+        },
+        {
+          "name": "Hackfleisch",
+          "amount": "600g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2-3"
+        },
+        {
+          "name": "Pilze",
+          "amount": "2 Dosen"
+        },
+        {
+          "name": "Brühwürfel"
+        },
+        {
+          "name": "Tomatenmark",
+          "amount": "2 Dosen"
+        },
+        {
+          "name": "Saure Sahne",
+          "amount": "1 Becher"
+        },
+        {
+          "name": "Wasser",
+          "amount": "1,5-2l"
+        },
+        {
+          "name": "Paprikapulver"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Pfeffer"
+        },
+        {
+          "name": "Kräuter"
+        },
+        {
+          "name": "Mehlschwitze"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Zwiebeln dünsten und das Hackfleisch anbraten. Würzen und ca. 10 Minuten vor dem Ende der Bratzeit die Pilze und die in Streifen geschnittene Paprika hinzugeben."
+    },
+    {
+      "content": "Brühe vorbereiten (1,5-2l Wasser), Tomatenmark einrühren und den Inhalt der Pfanne in den Topf geben. Aufkochen lassen und nachwürzen."
+    },
+    {
+      "content": "Mit Mehlschwitze andicken und zum Schluss die Sahne hinzufügen."
+    }
+  ]
+}

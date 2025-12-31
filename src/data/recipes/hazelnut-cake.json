@@ -1,0 +1,72 @@
+{
+  "title": "Nußkuchen",
+  "tags": ["Kuchen", "Haselnüsse", "Backen", "Amaretto"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Margarine",
+          "amount": "250g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "200g"
+        },
+        {
+          "name": "Vanillinzucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Haselnüsse",
+          "amount": "200g",
+          "note": "ungeschält, gemahlen"
+        },
+        {
+          "name": "Mehl",
+          "amount": "250g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "3 TL"
+        },
+        {
+          "name": "Amaretto",
+          "amount": "1 Schnapsglas"
+        },
+        {
+          "name": "Puderzucker",
+          "amount": "1 Tasse",
+          "note": "zum Bestäuben"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Die Margarine mit dem Zucker und dem Vanillinzucker schaumig rühren."
+    },
+    {
+      "content": "Nacheinander die Eier unterrühren, dann die Haselnüsse."
+    },
+    {
+      "content": "Das Mehl mit dem Backpulver sieben und nach und nach unter den Teig rühren."
+    },
+    {
+      "content": "Zuletzt den Weinbrand unterziehen."
+    },
+    {
+      "content": "Den Teig in die Kastenkuchenform (gefettet) füllen."
+    },
+    {
+      "content": "Den Kuchen auf der unteren Schiene bei 175° etwa 70 Minuten backen."
+    },
+    {
+      "content": "Mit Puderzucker besieben."
+    }
+  ]
+}

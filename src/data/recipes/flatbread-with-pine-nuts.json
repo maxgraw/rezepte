@@ -1,0 +1,87 @@
+{
+  "title": "Fladenbrote mit Pinienkernen",
+  "tags": ["Brot", "Fladenbrot", "Backen", "Pinienkerne", "Kräuter"],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Roggenmehl",
+          "amount": "150g"
+        },
+        {
+          "name": "Weizenmehl",
+          "amount": "250g"
+        },
+        {
+          "name": "Getrockneter Rosmarin",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Getrockneter Thymian",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Getrockneter Oregano",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Vollrohrzucker",
+          "amount": "2 TL"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Pfeffer",
+          "note": "grob gemahlen"
+        },
+        {
+          "name": "Trockenhefe",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Pinienkerne",
+          "amount": "60g"
+        },
+        {
+          "name": "Knoblauchzehen",
+          "amount": "4"
+        },
+        {
+          "name": "Olivenöl",
+          "amount": "4 EL"
+        },
+        {
+          "name": "Grobes Salz"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Beide Mehlsorten mit der Hälfte der getrockneten Kräuter, Zucker, Salz, Pfeffer und Trockenhefe gut mischen. Einen Viertelliter lauwarmes Wasser zugießen und erst mit den Knethaken des Handrührers, dann mit den Händen zu einem glatten Teig verkneten."
+    },
+    {
+      "content": "Zugedeckt an einem warmen Ort zehn Minuten gehen lassen."
+    },
+    {
+      "content": "Inzwischen Pinienkerne und zerdrückten Knoblauch in zwei Esslöffel heißem Olivenöl kurz andünsten. Etwas abkühlen lassen und unter den Teig kneten."
+    },
+    {
+      "content": "Teig zugedeckt nochmals 30 Minuten gehen lassen."
+    },
+    {
+      "content": "Den Teig durchkneten, in acht Stücke teilen und zu Kugeln formen. Die Kugeln fladenförmig flach drücken und auf mit Backtrennpapier ausgelegte Backbleche legen."
+    },
+    {
+      "content": "Die Fladen mehrmals mit einer Gabel einstechen. Mit restlichem Öl bestreichen und mit restlichen Kräutern und grobem Salz bestreuen."
+    },
+    {
+      "content": "Fladenbrote bei 200°C/Gas Stufe 3 (Umluft 175°C) 20-25 Minuten goldbraun backen."
+    },
+    {
+      "content": "Die Fladenbrote passen mit oder ohne Butter zu Wein, Bier und Käse."
+    }
+  ]
+}

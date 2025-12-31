@@ -1,0 +1,98 @@
+{
+  "title": "Käsekuchen Hilfe",
+  "tags": ["Kuchen", "Käsekuchen", "Backen", "Dessert", "Quark"],
+  "ingredients": [
+    {
+      "title": "Boden",
+      "items": [
+        {
+          "name": "Weizenmehl",
+          "amount": "200g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "3g",
+          "note": "1 gestr. TL"
+        },
+        {
+          "name": "Zucker",
+          "amount": "75g"
+        },
+        {
+          "name": "Vanillin-Zucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Ei",
+          "amount": "1"
+        },
+        {
+          "name": "Margarine",
+          "amount": "75g"
+        }
+      ]
+    },
+    {
+      "title": "Käsemasse",
+      "items": [
+        {
+          "name": "Käsekuchen-Hilfe",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Zucker",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Magerer Speisequark",
+          "amount": "750g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "150g"
+        },
+        {
+          "name": "Vanillin-Zucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Back-Öl Zitrone",
+          "amount": "3-4 Tropfen"
+        },
+        {
+          "name": "Milch",
+          "amount": "250ml"
+        },
+        {
+          "name": "Rosinen oder Mandeln",
+          "amount": "100g",
+          "note": "optional"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Tortenboden bereiten: Die Zutaten der Reihenfolge nach zu einem Knetteig verarbeiten. 2/3 des Teiges auf den Boden einer Springform ausrollen. Teigreste zu einer Rolle formen und so an den Rand drücken, dass ein etwa 3 cm hoher Rand entsteht."
+    },
+    {
+      "content": "Käsemasse bereiten: Das Eiweiß mit dem Zucker steif schlagen."
+    },
+    {
+      "content": "Käsekuchen-Hilfe, Quark, Zucker, Vanillin-Zucker, Eigelb, Back-Öl und Milch in einer Rührschüssel mit einem Handrührgerät auf höchster Stufe etwa 1 Minute glatt rühren."
+    },
+    {
+      "content": "Den Eischnee unter die Quarkmasse ziehen. Diese gleichmäßig auf dem Teigboden verteilen."
+    },
+    {
+      "content": "Backen: Mittlere Schiene, 175°C (vorgeheizt), 60-70 Minuten."
+    },
+    {
+      "content": "Kuchen etwa 10 Minuten in der Form stehen lassen."
+    }
+  ]
+}

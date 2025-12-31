@@ -1,11 +1,11 @@
 ---
-import Item from "./item.astro"
+import Item from "./item.astro";
 
 interface Props {
-	data: {
-		title: string;
-		items: { amount?: string; name: string; note: string }[];
-	}[];
+    data: {
+        title: string;
+        items: { amount?: string; name: string; note?: string }[];
+    }[];
 }
 
 const { data } = Astro.props;
@@ -14,42 +14,55 @@ const display_switch = data.length === 1;
 ---
 
 <section>
-  <h2>Zutaten</h2>
+    <h2>Zutaten</h2>
 
-  {display_switch && <ul>
     {
-      data[0].items.map((ingredient) => (
-        <Item name={ingredient.name} amount={ingredient.amount} note={ingredient.note} />
-      ))
+        display_switch && (
+            <ul>
+                {data[0].items.map((ingredient) => (
+                    <Item
+                        name={ingredient.name}
+                        amount={ingredient.amount}
+                        note={ingredient.note}
+                    />
+                ))}
+            </ul>
+        )
     }
-  </ul>}
 
-  {!display_switch && data.map((item) => <div class="group">
-    <h3>{item.title}</h3>
-    <ul>
-      {
-        item.items.map((ingredient) => (
-        <Item name={ingredient.name} amount={ingredient.amount} note={ingredient.note} />
-        ))
-      }
-    </ul>
-  </div>)}
+    {
+        !display_switch &&
+            data.map((item) => (
+                <div class="group">
+                    <h3>{item.title}</h3>
+                    <ul>
+                        {item.items.map((ingredient) => (
+                            <Item
+                                name={ingredient.name}
+                                amount={ingredient.amount}
+                                note={ingredient.note}
+                            />
+                        ))}
+                    </ul>
+                </div>
+            ))
+    }
 </section>
 
 <style>
-section {
-  display: flex;
-  flex-direction: column;
-  gap: var(--size-3);
-}
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-3);
+    }
 
-h2 {
-  font-size: clamp(1rem, 2.5vw + 1rem, 1.75rem);
-}
+    h2 {
+        font-size: clamp(1rem, 2.5vw + 1rem, 1.75rem);
+    }
 
-.group {
-    display: flex;
-    flex-direction: column;
-    padding-block: var(--size-1);
-}
+    .group {
+        display: flex;
+        flex-direction: column;
+        padding-block: var(--size-1);
+    }
 </style>

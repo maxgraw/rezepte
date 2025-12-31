@@ -1,0 +1,76 @@
+{
+  "title": "Bunte Gemüsepfanne",
+  "people": 2,
+  "tags": ["Gemüse", "Vegetarisch", "Hauptgericht", "Pfanne", "Eier"],
+  "ingredients": [
+    {
+      "title": "Hauptzutaten",
+      "items": [
+        {
+          "name": "Rote Paprikaschote",
+          "amount": "1",
+          "note": "etwa 150g"
+        },
+        {
+          "name": "Lauch",
+          "amount": "1 kleine Stange",
+          "note": "etwa 100g"
+        },
+        {
+          "name": "Tomate",
+          "amount": "1",
+          "note": "abgezogen"
+        },
+        {
+          "name": "Mazola Keimöl",
+          "amount": "1-2 EL"
+        },
+        {
+          "name": "Eier",
+          "amount": "3"
+        },
+        {
+          "name": "Milch",
+          "amount": "3 EL"
+        },
+        {
+          "name": "Schnittlauch",
+          "amount": "1 Bund"
+        },
+        {
+          "name": "Salz"
+        },
+        {
+          "name": "Pfeffer"
+        },
+        {
+          "name": "Oregano"
+        },
+        {
+          "name": "Thymian"
+        },
+        {
+          "name": "Knorr Aromat"
+        },
+        {
+          "name": "Schmelzkäse Adler Edelcreme Sahne",
+          "amount": "1 Ecke"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Paprikaschote in feine Streifen, Lauch in feine Ringe und Tomate in Würfel schneiden."
+    },
+    {
+      "content": "Mazola Keimöl in dem Bräter im vorgeheizten Mini-Backofen erhitzen (Roststellung: Kröpfung nach unten, Stufe 4), Gemüse dazugeben und etwa 5 Minuten garen."
+    },
+    {
+      "content": "Eier, Milch und feingeschnittenen Schnittlauch verrühren, mit Salz und Gewürzen abschmecken und über das Gemüse geben."
+    },
+    {
+      "content": "Schmelzkäse in Flocken darüber verteilen. Im vorgeheizten Mini-Backofen etwa 10 Minuten stocken lassen (Roststellung: Kröpfung nach oben)."
+    }
+  ]
+}

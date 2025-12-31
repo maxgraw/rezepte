@@ -1,37 +1,35 @@
 ---
 interface Props {
-    amount?: string,
-    name: string,
-    note: string,
+    amount?: string;
+    name: string;
+    note?: string;
 }
 
 const { amount, name, note } = Astro.props;
-
 ---
 
 <li>
-  {name}
-  {note && <span class="note">({note})</span>}
-  <span class="amount">{amount}</span>
+    {name}
+    {note && <span class="note">({note})</span>}
+    <span class="amount">{amount}</span>
 </li>
 
 <style>
+    li {
+        display: flex;
+        gap: var(--size-1);
+        align-items: center;
+        border-bottom: 1px solid gray;
+        padding-block: var(--size-1);
+    }
 
-li {
-    display: flex;
-    gap: var(--size-1);
-    align-items: center;
-    border-bottom: 1px solid var(--hover);
-    padding-block: var(--size-1);
-}
+    .note {
+        color: gray;
+        font-size: var(--size-3);
+    }
 
-.note {
-    color: gray;
-    font-size: var(--size-3);
-}
-
-.amount {
-    margin-inline-start: auto;
-    text-align: right;
-}
+    .amount {
+        margin-inline-start: auto;
+        text-align: right;
+    }
 </style>

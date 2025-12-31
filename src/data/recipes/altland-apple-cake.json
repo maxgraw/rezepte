@@ -1,0 +1,79 @@
+{
+  "title": "Altländer Apfelkuchen",
+  "tags": ["Kuchen", "Apfel", "Backen", "Dessert"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Butter oder Margarine",
+          "amount": "75g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "50g"
+        },
+        {
+          "name": "Ei",
+          "amount": "1"
+        },
+        {
+          "name": "Mondamin",
+          "amount": "25g"
+        },
+        {
+          "name": "Mehl",
+          "amount": "75g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "1/2 TL",
+          "note": "gestrichen"
+        },
+        {
+          "name": "Milch",
+          "amount": "1 EL"
+        }
+      ]
+    },
+    {
+      "title": "Belag",
+      "items": [
+        {
+          "name": "Äpfel",
+          "amount": "400g",
+          "note": "geschält, in Spalten geschnitten"
+        },
+        {
+          "name": "Zucker",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Zimt",
+          "amount": "1/2 TL"
+        },
+        {
+          "name": "Gehackte Mandeln",
+          "amount": "1 EL"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Weiches Fett in eine Schüssel geben. Zucker, Ei, Mondamin, Mehl, Backpulver und Milch daraufgeben und alles mit dem Handrührgerät auf der höchsten Schaltstufe gut verrühren. Gesamtrührdauer etwa 2 Minuten."
+    },
+    {
+      "content": "Den Teig in den gefetteten Bräter füllen, gleichmäßig verstreichen und mit Apfelspalten belegen."
+    },
+    {
+      "content": "Zucker, Zimt und Mandeln vermischen und darüberstreuen."
+    },
+    {
+      "content": "Den Apfelkuchen im vorgeheizten Mini-Backofen backen (Roststellung: Wölbung nach unten, Stufe 4, etwa 40 Minuten)."
+    },
+    {
+      "content": "Nach dem Backen den Kuchen im Bräter auf einem Kuchengitter auskühlen lassen."
+    }
+  ]
+}

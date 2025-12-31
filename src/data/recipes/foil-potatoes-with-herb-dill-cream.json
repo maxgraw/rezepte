@@ -1,0 +1,46 @@
+{
+  "title": "Folienkartoffeln mit Kräuter-Dill-Sahne",
+  "people": 1,
+  "tags": ["Kartoffeln", "Beilage", "Vegetarisch", "Backofen"],
+  "ingredients": [
+    {
+      "title": "Kartoffeln",
+      "items": [
+        {
+          "name": "Neue, kleine Kartoffeln",
+          "amount": "4-6"
+        },
+        {
+          "name": "Alufolie"
+        }
+      ]
+    },
+    {
+      "title": "Kräuter-Dill-Sahne",
+      "items": [
+        {
+          "name": "Saure Sahne",
+          "amount": "3 EL"
+        },
+        {
+          "name": "Knorr Salatkrönung für feine Kräuter-Dill-Sauce",
+          "amount": "1/2 Päckchen"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Kartoffeln gründlich waschen und oben ein Kreuz einschneiden."
+    },
+    {
+      "content": "Kartoffeln einzeln in Alufolie einwickeln und auf dem Rost im vorgeheizten Mini-Backofen bei Stufe Maxi etwa 40 Minuten garen (Roststellung: Kröpfung nach oben)."
+    },
+    {
+      "content": "Für die Kräuter-Dill-Sahne die saure Sahne mit der Salatkrönung verrühren."
+    },
+    {
+      "content": "Folie öffnen und auf jede Kartoffel etwas Kräuter-Dill-Sahne geben."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Vollkorn-Rohrnudeln mit Käsefüllung",
+  "people": 6,
+  "tags": ["Hauptgericht", "Vegetarisch", "Vollkorn", "Käse", "Backen", "Hefeteig"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Vollkornweizenmehl",
+          "amount": "300g"
+        },
+        {
+          "name": "Salz",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Getrockneter Majoran",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Trockenhefe",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Honig",
+          "amount": "1 TL"
+        },
+        {
+          "name": "Öl",
+          "amount": "2 EL"
+        },
+        {
+          "name": "Ei",
+          "amount": "1"
+        },
+        {
+          "name": "Buttermilch",
+          "amount": "1/8l",
+          "note": "lauwarm"
+        },
+        {
+          "name": "Mehl zum Formen"
+        },
+        {
+          "name": "Butter für die Form"
+        }
+      ]
+    },
+    {
+      "title": "Füllung",
+      "items": [
+        {
+          "name": "Emmentaler Käse",
+          "amount": "80g"
+        },
+        {
+          "name": "Mittelalter Goudakäse",
+          "amount": "80g"
+        },
+        {
+          "name": "Kräuterfrischkäse",
+          "amount": "80g"
+        },
+        {
+          "name": "Zucchino",
+          "amount": "1 kleiner"
+        },
+        {
+          "name": "Kresse",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Schlagsahne",
+          "amount": "125g",
+          "note": "1 Becher"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Mehl, Salz, Majoran und Hefe vermischen. Honig, Öl, Ei und lauwarme Buttermilch zugeben. Zuerst mit den Knethaken des Handrührers, danach mit den Händen zu einem glatten Hefeteig verkneten."
+    },
+    {
+      "content": "Zugedeckt an einem warmen Ort gehen lassen, bis sich das Volumen des Teiges etwa verdoppelt hat."
+    },
+    {
+      "content": "Inzwischen Schnittkäse grob raffeln und mit dem Frischkäse vermischen. Zucchino raffeln und untermischen."
+    },
+    {
+      "content": "Eine ofenfeste Form mit Butter ausfetten. Teig nochmals durchkneten und in sechs Stücke teilen."
+    },
+    {
+      "content": "Jedes Stück zu Fladen formen, mit Käse-Zucchini-Mischung und etwas Kresse füllen und zu kleinen Brötchen formen. Mit der Nahtstelle nach unten in die Form setzen."
+    },
+    {
+      "content": "Sahne zugießen. Form in den Backofen schieben, auf 200°C/Gas Stufe 3 (Umluft 170°C) schalten und etwa 45 Minuten backen."
+    },
+    {
+      "content": "Dazu passen Kräuter- oder Tomatensoße und grüner Salat."
+    }
+  ]
+}

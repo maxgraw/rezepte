@@ -1,0 +1,101 @@
+{
+  "title": "Schwarzwälder Kirschtorte",
+  "tags": ["Kuchen", "Torte", "Schokolade", "Kirschen", "Sahne", "Backen"],
+  "ingredients": [
+    {
+      "title": "Teig",
+      "items": [
+        {
+          "name": "Butter",
+          "amount": "100g"
+        },
+        {
+          "name": "Zucker",
+          "amount": "100g"
+        },
+        {
+          "name": "Vanillinzucker",
+          "amount": "1 Päckchen"
+        },
+        {
+          "name": "Eier",
+          "amount": "4"
+        },
+        {
+          "name": "Geschälte, geriebene Mandeln",
+          "amount": "70g"
+        },
+        {
+          "name": "Geriebene halbbittere Schokolade",
+          "amount": "100g"
+        },
+        {
+          "name": "Mehl",
+          "amount": "50g"
+        },
+        {
+          "name": "Speisestärke",
+          "amount": "50g"
+        },
+        {
+          "name": "Backpulver",
+          "amount": "2 TL"
+        }
+      ]
+    },
+    {
+      "title": "Füllung und Dekoration",
+      "items": [
+        {
+          "name": "Kirschwasser",
+          "amount": "7 EL"
+        },
+        {
+          "name": "Sahne",
+          "amount": "750ml"
+        },
+        {
+          "name": "Sauerkirschen",
+          "amount": "750g"
+        },
+        {
+          "name": "Schokoladenstreusel",
+          "amount": "1 EL"
+        },
+        {
+          "name": "Zucker",
+          "note": "für Sahne"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "content": "Die Butter mit dem Zucker und dem Vanillinzucker schaumig rühren, nach und nach die Eier, die Mandeln und die Schokolade zufügen."
+    },
+    {
+      "content": "Das Mehl mit der Speisestärke und dem Backpulver sieben und unterziehen."
+    },
+    {
+      "content": "Den Teig in die Springform füllen und auf der zweiten Schiene von unten 30-40 Minuten backen."
+    },
+    {
+      "content": "Den Kuchen abkühlen lassen, zweimal durchschneiden."
+    },
+    {
+      "content": "Die unterste Platte mit dem Kirschwasser beträufeln."
+    },
+    {
+      "content": "Die Sahne mit etwas Zucker steif schlagen. Die Kirschen abtropfen lassen."
+    },
+    {
+      "content": "Auf zwei Böden etwa 2 cm hoch Sahne streichen und die Kirschen darauf verteilen."
+    },
+    {
+      "content": "Die oberste Platte nur mit Sahne bestreichen und die Torte mit Schokoladenstreusel bestreuen."
+    },
+    {
+      "content": "Mit der restlichen Sahne Rosetten auf die Torte spritzen."
+    }
+  ]
+}
