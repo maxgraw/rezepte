@@ -1,31 +1,30 @@
 ---
 interface Props {
-	title: string;
-	href: string;
+    title: string;
+    href: string;
 }
 
 const { title, href } = Astro.props;
 ---
 
 <li>
-    <div class="img"></div>
     <a href={href}>
         {title}
     </a>
 </li>
 
 <style>
-    .img {
-        background-color: var(--accent);
-        aspect-ratio: 8 / 3;
-        border-radius: var(--radius);
-    }
-
     li {
+        aspect-ratio: 8 / 2;
         position: relative;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         gap: var(--size-1);
+        border: solid 1px var(--border);
+        border-radius: var(--radius);
+        padding: var(--size-3);
+        background-color: white;
     }
 
     li:hover {

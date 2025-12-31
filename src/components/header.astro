@@ -4,30 +4,31 @@ import Search from "./search.astro";
 import { get_unique_tags } from "src/utils/tags";
 
 interface Props {
-	active?: string;
+    active?: string;
 }
 
 const recipes = await getCollection("recipes");
 
 const tags = get_unique_tags(recipes)
-	.sort((a, b) => b.count - a.count)
-	.slice(0, 10);
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
 
 const { active } = Astro.props;
 ---
 
 <header>
-<div class="nav">
-<a class="logo" href="/">
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-album"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><polyline points="11 3 11 11 14 8 17 11 17 3"/></svg>
-<span>Rezepte</span>
-</a>
-<Search class="search" />
-</div>
+    <Search class="search" />
     <ul class="tags">
-    {tags.map(item => <li data-type={`${item.lowercase === active ? "active" : ""}`}>
-        <a href={`/tags/${item.lowercase}`}>{item.original}</a>
-    </li>)}
+        <li>
+            <a href={"/"}>Alle</a>
+        </li>
+        {
+            tags.map((item) => (
+                <li data-type={`${item.lowercase === active ? "active" : ""}`}>
+                    <a href={`/tags/${item.lowercase}`}>{item.original}</a>
+                </li>
+            ))
+        }
     </ul>
 </header>
 
@@ -38,42 +39,12 @@ const { active } = Astro.props;
         gap: var(--size-3);
         background-color: white;
         margin-block-end: var(--size-4);
-    }
-
-    .nav {
-        display: grid;
-        place-items: start;
-        align-items: center;
-        grid-template-columns: var(--inline) auto var(--inline);
-        background-color: var(--accent);
-        padding-block: var(--size-3);
-        padding-inline: var(--size-3);
-        position: relative;
-    }
-
-    .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: var(--size-2);
-    }
-
-    .logo svg {
-        aspect-ratio: 1;
+        padding-block: var(--size-2);
     }
 
     .search {
-        width: 100%;
         z-index: 20;
-    }
-
-    .logo:hover {
-        color: hsl(228 95.8% 72.2%);
-    }
-
-    .logo svg {
-        height: 1.5rem;
-        width: 1.5rem;
+        margin-inline: var(--inline);
     }
 
     .tags {
@@ -86,12 +57,11 @@ const { active } = Astro.props;
     }
 
     .tags li {
-        background-color: var(--accent);
         padding-block: var(--size-1);
         padding-inline: var(--size-3);
         border-radius: var(--radius);
         position: relative;
-
+        border: solid 1px var(--border);
     }
 
     .tags li[data-type="active"] {
@@ -110,28 +80,5 @@ const { active } = Astro.props;
         content: "";
         position: absolute;
         inset: 0;
-    }
-
-    @media only screen and (max-width: 1600px) {
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            gap: var(--size-4);
-            align-items: center;
-            padding-inline: var(--inline);
-        }
-    }
-
-    @media only screen and (max-width: 600px) {
-
-        .logo span {
-            display: inline;
-        }
-
-        .nav {
-            flex-direction: column;
-            align-items: start;
-            gap: var(--size-2);
-        }
     }
 </style>
