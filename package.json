@@ -11,8 +11,8 @@
     "lint": "biome lint ./src"
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.6.1",
-    "astro": "5.16.9",
+    "@astrojs/sitemap": "3.7.0",
+    "astro": "5.16.11",
     "pagefind": "1.4.0",
     "typescript": "5.9.3"
   },
