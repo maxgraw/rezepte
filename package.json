@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.0",
-    "astro": "5.17.3",
+    "astro": "5.18.0",
     "pagefind": "1.4.0",
     "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.2",
+    "@biomejs/biome": "2.4.6",
     "sirv": "3.0.2"
   }
 }
